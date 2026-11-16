@@ -1,8 +1,31 @@
 # Minecraft Animator
 
+![LTezla con los gólems de hierro y los lobos, en "La noche en que llegaron"](docs/img/portada.jpg)
+
 Plataforma para animar personajes de Minecraft: poses con codos y rodillas que se doblan, capa
 exterior de la skin en 3D, ojos HD rigeados por personaje, mundo de bloques para construir,
 render "de cine" y exportación a video.
+
+## Hecho con el programa
+
+Cuadros sacados de los videos terminados (todo se anima y se renderiza aquí, en el navegador).
+
+| | |
+|---|---|
+| ![LTezla rodeado de mobs](docs/img/mobs.jpg) | ![LTezla sorprendido en la pradera](docs/img/creeper-ltezla.jpg) |
+| **La noche en que llegaron**: una historia con 92 mobs | **El creeper era un cerdo**: corto con voz, datos verificados y ronda de críticos ([`agente/creeper/`](agente/creeper/)) |
+| ![Diagrama ancho y alto sobre un cerdo](docs/img/creeper-diagrama.jpg) | ![Fuerzas de succión y peso sobre el auto](docs/img/auto-fisica.jpg) |
+| Diagramas y textos 3D sobre la escena | **El auto que vuela**: la física del Roadster explicada en Minecraft |
+| ![El auto despega con humo](docs/img/auto-vuela.jpg) | ![Título ¿Están listos? con ovejas y cerezos](docs/img/trailer.jpg) |
+| Efectos: humo, partículas, destellos | **Tráiler**: réplica de 25 tomas con títulos 3D en Minecraft Ten |
+
+![Vlog en un pasillo con marco REC y LTezla con ojos de estrella](docs/img/vlog.jpg)
+*Plantilla **Vlog**: cámara en mano, marco REC y ojos HD con expresiones (aquí, ojos de estrella).*
+
+<table><tr>
+<td width="50%"><img src="docs/img/cancan.jpg" alt="LTezla bailando entre bloques musicales"><br><b>Can-can en bloques</b>: video musical vertical, cada nota es un bloque musical.</td>
+<td width="50%"><img src="docs/img/rush.jpg" alt="LTezla frente a una pared de bloques musicales con el contador de notas"><br><b>Rush E en bloques</b>: 34.961 notas, cada una un bloque que suena (<a href="agente/orquesta/README.md">cómo se hace</a>).</td>
+</tr></table>
 
 **Abrir:** doble clic en el acceso directo **Minecraft Animator** del escritorio (o en `lanzador.vbs`).
 Arranca el servidor local sin ventana y abre http://127.0.0.1:8790/. También funciona `abrir.bat`
@@ -128,6 +151,8 @@ Guía completa en `AGENTE.md`. Hay un ejemplo de video completo, desde los hecho
 (código en `js/agente.js`; el puente vive en `servidor.py`, solo en 127.0.0.1 y con encabezado propio).
 
 ## Línea de tiempo
+
+![Línea de tiempo con pistas de escenarios, poses, ojos, matices, cámara, audio y títulos](docs/img/linea-de-tiempo.png)
 
 Poses, ojos y cámara van en secuencia (arrastra para reordenar, el borde cambia la duración); los
 matices (hablar, asentir, reír, temblar…) se encima libres. Tomas de cámara: frente, tres cuartos,
