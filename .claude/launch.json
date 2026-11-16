@@ -1,0 +1,33 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "animator",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "servidor.py",
+        "8790"
+      ],
+      "port": 8790
+    },
+    {
+      "name": "animator-8791",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "servidor.py",
+        "8791"
+      ],
+      "port": 8791
+    },
+    {
+      "name": "animator-8793",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "servidor.py",
+        "8793"
+      ],
+      "port": 8793,
+      "autoPort": false
+    }
+  ]
+}

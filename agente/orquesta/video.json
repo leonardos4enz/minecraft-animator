@@ -1,0 +1,39 @@
+{
+ "_nota": "Todo lo propio de ESTE video. Lo leen midi.py, partitura.py, rollo.py, textos.py, borrador.py, final.py y secciones.py (con video.py). Rutas relativas a esta carpeta, salvo destino (relativo a la raíz del programa).",
+ "titulo": "Rush E en bloques",
+ "cancion": "Rush E 3",
+ "duracion": 169.4667,
+ "_duracion": "segundos en la rejilla de 30 fps: CUADROS = round(duracion·30). Si se quita, sale de la partitura (*_eventos.json) redondeada hacia arriba al cuadro.",
+ "base": "rush_e3",
+ "_base": "nombre de los archivos de la canción: <base>.json (midi.py), <base>.wav, <base>_eventos.json y <base>_escuchar.mp3 (partitura.py)",
+ "midi": {"archivo": "rush_e3.mid", "tramos": null, "velocidad": 1.0},
+ "proyecto": {"archivo": "orquesta", "nombre": "Orquesta de bloques · Rush E 3 (v5)"},
+ "destino": "Videos/Rush E en bloques (LTezla).mp4",
+ "mundo": {"set": "real:orquesta", "ancla_z": -364},
+ "rio": {"vel": 4.0, "x0": {"bajo": -37, "arpa": -12, "campana": 13}, "pasillo": 13.5},
+ "ecualizador": {"desde": 136.63, "z": 552, "alto_medio": 9, "max": 26, "congelar": 160.4},
+ "_ecualizador": "desde: segundo en que las notas dejan de construir el río y mueven el ecualizador (en Rush E, el fin de la pausa). z: fila de adelante, un poco después de la orilla (≈ vel·desde + 5). congelar: segundo de la ola que queda quieta en el final.",
+ "textos": {
+  "gancho": {"hasta": 1.8, "lineas": ["RUSH E", "EN BLOQUES"]},
+  "contador": {"hasta": 165.5},
+  "faltan": {"desde": 132.0, "hasta": 136.4},
+  "cierre": {"desde": 165.5, "palabra": "NOTAS"}
+ },
+ "_secciones": "Las tomas del video, una detrás de otra de 0 a la duración (\"hasta\": \"fin\" = la duración). camara: plan (el planificador la parte en tomas cortas), dron, fija o claves. Lo demás: tc (segundo de la canción que muestra), ltezla (corre | mira | orilla | final), musicos, climax, luz [exposición, calidez]. Propuesta inicial: python secciones.py",
+ "secciones": [
+  {"desde": 0.0, "hasta": 1.6, "nombre": "adelanto (la ola)", "camara": {"dron": {"az": 205, "amp": 0, "el": 16, "zoom": 1, "dmin": 76, "dmax": 76, "ty": 11, "giro": 4}}, "tc": 158.4, "climax": true},
+  {"desde": 1.6, "hasta": 15.06, "nombre": "entrada", "camara": {"plan": {"estilos": ["ras", "fpv", "orbita"], "corto": 3.6, "largo": 5.0, "ty": 1.2}}, "ltezla": "corre"},
+  {"desde": 15.06, "hasta": 35.2, "nombre": "sin campana", "camara": {"plan": {"estilos": ["orbita", "fpv", "lateral", "alto"]}}, "musicos": true},
+  {"desde": 35.2, "hasta": 44.0, "nombre": "gatos", "camara": {"plan": {"estilos": ["lateral", "ras"], "musicos": "gatos"}}, "musicos": true},
+  {"desde": 44.0, "hasta": 55.23, "nombre": "primer tema", "camara": {"plan": {"estilos": ["fpv", "orbita", "alto"]}}, "musicos": true},
+  {"desde": 55.23, "hasta": 63.0, "nombre": "lobos", "camara": {"plan": {"estilos": ["lateral", "ras"], "musicos": "lobos"}}, "musicos": true, "luz": [0.98, 1]},
+  {"desde": 63.0, "hasta": 80.0, "nombre": "cuerpo 1", "camara": {"plan": {"estilos": ["orbita", "fpv", "lateral", "alto", "ras"]}}, "musicos": true, "luz": [0.97, 1]},
+  {"desde": 80.0, "hasta": 100.0, "nombre": "cuerpo 2", "camara": {"plan": {"estilos": ["fpv", "alto", "orbita", "ras", "lateral"]}}, "musicos": true, "luz": [0.95, 2]},
+  {"desde": 100.0, "hasta": 116.45, "nombre": "cuerpo 3", "camara": {"plan": {"estilos": ["lateral", "fpv", "orbita", "alto"]}}, "musicos": true, "luz": [0.92, 3]},
+  {"desde": 116.45, "hasta": 125.0, "nombre": "lento", "camara": {"fija": [{"az": 214, "el": 4, "dist": 9, "ty": 1.6, "fov": 40, "tilt": 6}, {"az": 222, "el": 5, "dist": 7.5, "ty": 1.6, "fov": 40, "tilt": 6}]}, "ltezla": "mira", "luz": [0.9, 4]},
+  {"desde": 125.0, "hasta": 131.73, "nombre": "explosion", "camara": {"plan": {"estilos": ["fpv", "orbita", "lateral", "ras"], "corto": 1.5, "largo": 2.2}}, "musicos": true, "luz": [0.88, 4]},
+  {"desde": 131.73, "hasta": 136.63, "nombre": "pausa", "camara": {"claves": [[0, 25, 6, 6, 1.6], [0.55, 32, 8, 8, 1.6], [1, 10, 24, 40, 3]], "rot": 180}, "ltezla": "orilla", "luz": [0.88, 4]},
+  {"desde": 136.63, "hasta": 165.07, "nombre": "clímax", "camara": {"plan": {"estilos": ["orbita", "lateral", "alto", "orbita", "ras"], "corto": 3.0, "largo": 4.5, "ty": 9, "zoom": 1.5}}, "climax": true, "luz": [0.9, 4]},
+  {"desde": 165.07, "hasta": "fin", "nombre": "final", "camara": {"claves": [[0, 115, 6, 6.5, 1.7], [0.35, 140, 10, 12, 3], [1, 188, 24, 62, 9]]}, "climax": true, "ltezla": "final", "luz": [0.9, 4]}
+ ]
+}

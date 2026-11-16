@@ -1,0 +1,359 @@
+{
+ "fps": 30,
+ "duracion_s": 40.5,
+ "cuadros": 1215,
+ "musica": {
+  "archivo": "audio/musica_4ede319f80ba.mp3",
+  "bpm": 92.29,
+  "tramos": [
+   {
+    "pelicula": [
+     0,
+     27.283
+    ],
+    "musica": [
+     0,
+     27.283
+    ]
+   },
+   {
+    "pelicula": [
+     30.6,
+     40.5
+    ],
+    "musica": [
+     27.283,
+     37.183
+    ]
+   }
+  ]
+ },
+ "beats_pelicula_s": [
+  0.697,
+  1.347,
+  1.974,
+  2.624,
+  3.274,
+  4.133,
+  4.783,
+  5.41,
+  6.06,
+  6.711,
+  7.546,
+  8.197,
+  8.847,
+  9.497,
+  10.124,
+  10.983,
+  11.633,
+  12.283,
+  12.91,
+  13.56,
+  14.42,
+  15.07,
+  15.697,
+  16.347,
+  16.997,
+  17.833,
+  18.483,
+  19.133,
+  19.783,
+  20.434,
+  21.269,
+  21.92,
+  22.547,
+  23.197,
+  23.94,
+  24.706,
+  25.356,
+  25.983,
+  26.633,
+  27.283,
+  30.6,
+  31.251,
+  31.901,
+  32.528,
+  33.155,
+  33.805,
+  34.455,
+  35.128,
+  35.871,
+  36.591,
+  37.241,
+  37.892,
+  38.518,
+  39.169
+ ],
+ "drop": {
+  "t_s": 30.6,
+  "frame": 918,
+  "nota": "explosión + regreso de la música"
+ },
+ "silencio_musica": [
+  27.283,
+  30.6
+ ],
+ "cambios_de_camara": [
+  {
+   "t_s": 8.197,
+   "frame": 246,
+   "toma": "Alto y ancho (vista de arriba → lateral, sobre \"alto\")"
+  }
+ ],
+ "cortes": [
+  {
+   "t_s": 0,
+   "frame": 0,
+   "toma": "Gancho: este cerdo"
+  },
+  {
+   "t_s": 2.624,
+   "frame": 79,
+   "toma": "La pradera"
+  },
+  {
+   "t_s": 4.783,
+   "frame": 143,
+   "toma": "Notch quiso un cerdo"
+  },
+  {
+   "t_s": 6.711,
+   "frame": 201,
+   "toma": "Alto y ancho"
+  },
+  {
+   "t_s": 12.91,
+   "frame": 387,
+   "toma": "Te sigue con la mirada"
+  },
+  {
+   "t_s": 16.347,
+   "frame": 490,
+   "toma": "Súper creepy"
+  },
+  {
+   "t_s": 18.483,
+   "frame": 554,
+   "toma": "Le da miedo"
+  },
+  {
+   "t_s": 19.783,
+   "frame": 593,
+   "toma": "Se vuelve verde"
+  },
+  {
+   "t_s": 23.94,
+   "frame": 718,
+   "toma": "La idea"
+  },
+  {
+   "t_s": 27.283,
+   "frame": 818,
+   "toma": "Sale del arbusto"
+  },
+  {
+   "t_s": 29.1,
+   "frame": 873,
+   "toma": "La mecha"
+  },
+  {
+   "t_s": 30.6,
+   "frame": 918,
+   "toma": "Boom"
+  },
+  {
+   "t_s": 31.5,
+   "frame": 945,
+   "toma": "Aturdido"
+  },
+  {
+   "t_s": 33.155,
+   "frame": 995,
+   "toma": "Así nació el creeper"
+  },
+  {
+   "t_s": 36.591,
+   "frame": 1098,
+   "toma": "Título"
+  },
+  {
+   "t_s": 38.518,
+   "frame": 1156,
+   "toma": "Remate: oink"
+  },
+  {
+   "t_s": 40.5,
+   "frame": 1215,
+   "toma": "fin"
+  }
+ ],
+ "acciones": {
+  "cara_a_cerdo": 0.697,
+  "glitch_gancho": 1.974,
+  "giro_alto_ancho": 10.124,
+  "se_levanta": 11.633,
+  "verde_empieza": 19.933,
+  "mecha": [
+   29.1,
+   30.6
+  ],
+  "explosion": 30.6,
+  "oink_final": 39.468
+ },
+ "voces": {
+  "L1": {
+   "archivo": "audio/voz_e11dcf87c46e.mp3",
+   "inicio_s": 0.3,
+   "fin_s": 2.622,
+   "in_frame": 9,
+   "out_frame": 79
+  },
+  "L2": {
+   "archivo": "audio/voz_435b74c4178b.mp3",
+   "inicio_s": 2.8,
+   "fin_s": 7.04,
+   "in_frame": 84,
+   "out_frame": 211
+  },
+  "L3": {
+   "archivo": "audio/voz_1e964d274b14.mp3",
+   "inicio_s": 7.297,
+   "fin_s": 10.737,
+   "in_frame": 219,
+   "out_frame": 322
+  },
+  "L4": {
+   "archivo": "audio/voz_9d6bbc08ae5a.mp3",
+   "inicio_s": 11.493,
+   "fin_s": 13.813,
+   "in_frame": 345,
+   "out_frame": 414
+  },
+  "L5": {
+   "archivo": "audio/voz_961d885789f7.mp3",
+   "inicio_s": 13.55,
+   "fin_s": 20.75,
+   "in_frame": 406,
+   "out_frame": 622
+  },
+  "L6": {
+   "archivo": "audio/voz_5061f5e250c8.mp3",
+   "inicio_s": 21.0,
+   "fin_s": 23.508,
+   "in_frame": 630,
+   "out_frame": 705
+  },
+  "L7": {
+   "archivo": "audio/voz_4c2e2bc4b00f.mp3",
+   "inicio_s": 24.781,
+   "fin_s": 29.021,
+   "in_frame": 743,
+   "out_frame": 871
+  },
+  "L8": {
+   "archivo": "audio/voz_3867d353bcef.mp3",
+   "inicio_s": 33.205,
+   "fin_s": 38.005,
+   "in_frame": 996,
+   "out_frame": 1140
+  }
+ },
+ "sfx": [
+  {
+   "nombre": "glitch",
+   "t_s": 0.0,
+   "frame": 0,
+   "vol": 0.35
+  },
+  {
+   "nombre": "glitch",
+   "t_s": 0.697,
+   "frame": 21,
+   "vol": 0.4
+  },
+  {
+   "nombre": "glitch",
+   "t_s": 1.974,
+   "frame": 59,
+   "vol": 0.35
+  },
+  {
+   "nombre": "oink",
+   "t_s": 2.574,
+   "frame": 77,
+   "vol": 1.0
+  },
+  {
+   "nombre": "whoosh",
+   "t_s": 6.461,
+   "frame": 194,
+   "vol": 0.95
+  },
+  {
+   "nombre": "pop",
+   "t_s": 10.454,
+   "frame": 314,
+   "vol": 2.5
+  },
+  {
+   "nombre": "levanta",
+   "t_s": 11.513,
+   "frame": 345,
+   "vol": 0.3
+  },
+  {
+   "nombre": "pixeles",
+   "t_s": 19.883,
+   "frame": 596,
+   "vol": 0.35
+  },
+  {
+   "nombre": "hojas",
+   "t_s": 21.983,
+   "frame": 659,
+   "vol": 3.2
+  },
+  {
+   "nombre": "idea",
+   "t_s": 24.881,
+   "frame": 746,
+   "vol": 0.45
+  },
+  {
+   "nombre": "siseo",
+   "t_s": 29.1,
+   "frame": 873,
+   "vol": 0.8
+  },
+  {
+   "nombre": "explosion",
+   "t_s": 30.6,
+   "frame": 918,
+   "vol": 1.7
+  },
+  {
+   "nombre": "mareo",
+   "t_s": 31.95,
+   "frame": 958,
+   "vol": 1.0
+  },
+  {
+   "nombre": "whoosh",
+   "t_s": 32.905,
+   "frame": 987,
+   "vol": 0.35
+  },
+  {
+   "nombre": "pop",
+   "t_s": 36.591,
+   "frame": 1098,
+   "vol": 1.0
+  },
+  {
+   "nombre": "oink",
+   "t_s": 39.468,
+   "frame": 1184,
+   "vol": 1.3
+  }
+ ]
+}

@@ -1,0 +1,760 @@
+{
+ "generado": "2026-10-21",
+ "nota": "Investigación web (Know Your Meme, prensa, blogs de tendencias). Sin scraping de TikTok. Los campos 'dice' son frases cortas o paráfrasis fieles de la fuente; verificar la frase exacta antes de ponerla en pantalla. Las cifras de vistas vienen de medios, no de TikTok.",
+ "memes": [
+  {
+   "id": "boo_trend",
+   "nombre": "Boo Trend (\"¡bu!\" con ojos bizcos)",
+   "origen": "TikTok, primer ejemplo conocido de @v99191 el 20 sep 2026; Know Your Meme lo explica el 14 oct 2026.",
+   "que_es": "Alguien dice \"boo\" bizqueando y poniendo cara rara mientras se acerca a la cámara.",
+   "como_se_usa": "Se graba uno mismo o, en la versión broma, se convence a un familiar o pareja de hacerlo y se publica sólo su parte.",
+   "estado": "en su pico (evidencia 2026-10-14)",
+   "evidencia": [
+    {
+     "url": "https://trending.knowyourmeme.com/editorials/guides/what-is-the-boo-trend-on-tiktok-the-origin-of-the-viral-trend-and-prank-explained",
+     "fecha": "2026-10-14",
+     "dice": "received over 8.4 million views and 1.1 million likes in just a few weeks"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "Un aldeano convence a LTezla de hacer el 'bu' bizco; LTezla lo hace con toda la cara de bloque pegada a la cámara y el aldeano no lo hace. Remate: un creeper aparece detrás y hace 'bu' de verdad.",
+   "audio": "No depende de una canción; voz propia ('¡bu!').",
+   "riesgo": "ninguno",
+   "potencial": 5
+  },
+  {
+   "id": "not_me_nan",
+   "nombre": "You're Blatantly Just Not Me Nan (\"tú claramente no eres mi abuela\")",
+   "origen": "Sketch de TikToker @irvo.11 (junio 2025): versión realista de Caperucita, un lobo disfrazado de abuela. Nueva ola en oct 2026 (Know Your Meme, 9 oct 2026).",
+   "que_es": "Desenmascarar a un impostor evidente con total calma.",
+   "como_se_usa": "El audio se pone sobre perros vestidos de persona, ancianos que parecen perros, maquetas de Caperucita o cualquier 'impostor' obvio.",
+   "estado": "en su pico (evidencia 2026-10-21: sigue en \"Fresh Entries\" de Know Your Meme)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/editorials/the-weekly-meme-roundup-rumpelstiltskin-black-cat-clapping-game-merging-and-more",
+     "fecha": "2026-10-09",
+     "dice": "audio de un sketch donde alguien descubre a un lobo disfrazado de su abuela (paráfrasis)"
+    },
+    {
+     "url": "https://knowyourmeme.com/",
+     "fecha": "2026-10-18",
+     "dice": "Fresh Entries"
+    }
+   ],
+   "region": "global (origen Reino Unido)",
+   "idea_bloques": "Un lobo de Minecraft con pañoleta y gafas en la cama de la abuela aldeana. LTezla lo mira, pausa larga, y dice seco: 'Tú claramente no eres mi abuela'. Variante: un enderman 'disfrazado' de aldeano.",
+   "audio": "Audio original de @irvo.11: NO incrustar. Recrear la frase en español con voz propia o añadir el sonido en la app.",
+   "riesgo": "ninguno",
+   "potencial": 5
+  },
+  {
+   "id": "ramalama_disfraz",
+   "nombre": "Ramalama costume walk (revelación de disfraz de Halloween)",
+   "origen": "Reto de disfraces de octubre 2026 con 'Ramalama (Bang Bang)' de Róisín Murphy.",
+   "que_es": "Se camina con ropa normal y, al golpe de batería, corte y aparece el disfraz completo.",
+   "como_se_usa": "Plano bajo caminando, corte en el beat, disfraz; texto 'Did I win this trend?'.",
+   "estado": "en su pico (evidencia 2026-10-14: en la lista semanal de New Engen; dura hasta el 31 oct)",
+   "evidencia": [
+    {
+     "url": "https://www.que.es/2026/10/15/tendencias-tiktok-2026-retos-sonidos/",
+     "fecha": "2026-10-15",
+     "dice": "'Ramalama (Bang Bang)' de Róisín Murphy suma 456.200 vídeos"
+    },
+    {
+     "url": "https://newengen.com/insights/tiktok-trends/",
+     "fecha": "2026-10-14",
+     "dice": "Low-angle walk that builds to a full costume reveal (paráfrasis)"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "LTezla camina normal; en el golpe, corte y es un creeper/esqueleto/Warden 'disfrazado'. Cadena: cada mob se 'disfraza' de otro mob. Remate: el creeper se disfraza de LTezla.",
+   "audio": "'Ramalama (Bang Bang)' – Róisín Murphy: con copyright. Animar con un beat propio en el mismo tempo y añadir el sonido en la app.",
+   "riesgo": "ninguno",
+   "potencial": 5
+  },
+  {
+   "id": "cabeza_calabaza",
+   "nombre": "Pumpkin Head Illusion (cabeza de calabaza)",
+   "origen": "Tendencia de Halloween octubre 2026 recogida por New Engen.",
+   "que_es": "Perspectiva forzada: una calabaza cerca de la cámara parece la cabeza de alguien que baila detrás.",
+   "como_se_usa": "Un amigo baila detrás de una calabaza sostenida cerca del lente, con un remix tenebroso.",
+   "estado": "en su pico (evidencia 2026-10-14: en la lista semanal de New Engen; dura hasta el 31 oct)",
+   "evidencia": [
+    {
+     "url": "https://newengen.com/insights/tiktok-trends/",
+     "fecha": "2026-10-14",
+     "dice": "Forced perspective makes a pumpkin look like a person's head (paráfrasis)"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "Encaja perfecto: la calabaza tallada de Minecraft. Un golem de nieve/aldeano baila detrás; al final se quita la calabaza y es un enderman (que odia que lo miren).",
+   "audio": "Remix con frase 'hocus pocus' (artista no identificado): añadir el sonido en la app.",
+   "riesgo": "ninguno",
+   "potencial": 5
+  },
+  {
+   "id": "frutinovelas",
+   "nombre": "Frutinovelas (telenovelas de frutas con IA)",
+   "origen": "'Fruit Love Island' de @ai.cinema021, primeros episodios el 14 mar 2026 (parodia de Love Island). En español: @historiasfrutales_, @frutasalocadas y muchas copias desde fines de marzo 2026.",
+   "que_es": "Microseries verticales de frutas humanizadas con dramas de telenovela: infidelidades, triángulos, secretos, embarazos.",
+   "como_se_usa": "Capítulos de 30 s a 2 min, narrativa seriada, cada uno termina en suspenso; personajes arquetipo (la fresa, el plátano infiel, la naranja celosa).",
+   "estado": "bajando, con repunte por 'Cocardo' a fines de sep 2026; la cuenta @frutasalocadas fue suspendida (evidencia 2026-10-11)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/memes/ai-fruit-love-island",
+     "fecha": "2026-03",
+     "dice": "first three episodes on March 14, 2026 (paráfrasis)"
+    },
+    {
+     "url": "https://www.infobae.com/tendencias/2026/04/03/frutinovelas-con-ia-el-fenomeno-viral-que-acumula-millones-de-vistas-y-generan-polemica-en-redes/",
+     "fecha": "2026-04-03",
+     "dice": "más de 30 millones de reproducciones en una semana (paráfrasis)"
+    },
+    {
+     "url": "https://www.razon.com.mx/entretenimiento/2026/09/26/las-frutinovelas-son-canceladas-por-mostrar-historias-canibales-en-tiktok/?outputType=amp-type",
+     "fecha": "2026-09-26",
+     "dice": "TikTok suspendió la cuenta oficial @frutasalocadas"
+    },
+    {
+     "url": "https://www.elgrafico.mx/espectaculos/2026/10/11/cocardo-y-su-frutinovela-corre-peligro-le-tumban-la-cuenta-de-tiktok-al-creador-de-la-novela/",
+     "fecha": "2026-10-11",
+     "dice": "TikTok suspendió la cuenta que difundía los capítulos originales"
+    }
+   ],
+   "region": "latam + españa (origen EE. UU.)",
+   "idea_bloques": "'Bloquenovela': aldeanos/mobs como arquetipos (el aldeano bibliotecario galán, la aldeana celosa, el zombi 'ex' que vuelve). Capítulos de 60–90 s, narrador dramático, zoom a la cara en cada revelación, 'Continuará…' y número de capítulo grande.",
+   "audio": "No depende de un sonido; voces y música propias (estilo telenovela).",
+   "riesgo": "ninguno si se evita lo que las tumbó: nada sexual, sin violencia a bebés/'canibalismo', sin roles misóginos",
+   "potencial": 5
+  },
+  {
+   "id": "black_cat_clapping",
+   "nombre": "Black Cat Clapping (gato negro aplaudiendo)",
+   "origen": "Video de IA de Instagram de merkurianin (Aleksandr Kim); viral como green screen la semana antes del 9 oct 2026.",
+   "que_es": "Un gato negro que aplaude e intenta dar la mano.",
+   "como_se_usa": "Green screen: el gato aplaude en una situación absurda con texto ('aplaudiendo en el baño mientras se salta la clase').",
+   "estado": "subiendo (evidencia 2026-10-21: sigue en \"Fresh Entries\" de Know Your Meme)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/editorials/the-weekly-meme-roundup-rumpelstiltskin-black-cat-clapping-game-merging-and-more",
+     "fecha": "2026-10-09",
+     "dice": "millions of views on Reels and TikTok (paráfrasis)"
+    },
+    {
+     "url": "https://knowyourmeme.com/",
+     "fecha": "2026-10-18",
+     "dice": "Fresh Entries"
+    },
+    {
+     "url": "https://knowyourmeme.com/",
+     "fecha": "2026-10-21",
+     "dice": "Black Cat Clapping en Fresh Entries"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "Un gato negro de Minecraft (el de la bruja) aplaude cada desastre de LTezla: cae en lava, rompe el diamante con la mano, explota un creeper. Serie de 'el gato aprueba'.",
+   "audio": "Sin canción concreta; aplausos propios.",
+   "riesgo": "ninguno",
+   "potencial": 5
+  },
+  {
+   "id": "randy_vs",
+   "nombre": "Randy Marsh vs. (\"What's up brah\")",
+   "origen": "Base de 2012 (Randy vs. Bane); a inicios de oct 2026 TikTokers combinan un recorte de Randy (episodio 'Broadway Bro Down') con su 'What's up brah'.",
+   "que_es": "Un tipo cualquiera se planta, tranquilísimo, frente a villanos o héroes enormes.",
+   "como_se_usa": "Edits de enfrentamiento: Randy frente a Steve de Minecraft, Omni-Man, Bane, etc.",
+   "estado": "subiendo (evidencia 2026-10-16)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/editorials/the-weekly-meme-roundup-biddy-blas-south-park-fat-talking-tom-and-angela-and-more",
+     "fecha": "2026-10-16",
+     "dice": "Marsh squaring up against Minecraft's Steve, Omni-Man and Absolute Bane (paráfrasis)"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "Sin Randy: LTezla en chanclas se planta frente al Ender Dragon, el Warden y el Wither y dice '¿Qué onda, bro?'. El jefe duda y se va.",
+   "audio": "Audio de South Park: copyright. No usarlo; frase propia en español.",
+   "riesgo": "marca",
+   "potencial": 4
+  },
+  {
+   "id": "nostalgia_kyle",
+   "nombre": "Kyle mirando una foto vieja (nostalgia reciente)",
+   "origen": "TikTok, semana del 16 oct 2026: imagen de Kyle adulto (South Park) mirando una foto de su infancia + búsquedas de Google de fechas de memes recientes.",
+   "que_es": "Sentir nostalgia por memes de hace sólo 1–5 años.",
+   "como_se_usa": "Imagen + captura '¿cuándo fue X?' (ej. el unfollow masivo de Vexbolts, 31 dic 2024).",
+   "estado": "subiendo (evidencia 2026-10-16)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/editorials/the-weekly-meme-roundup-biddy-blas-south-park-fat-talking-tom-and-angela-and-more",
+     "fecha": "2026-10-16",
+     "dice": "meant to make viewers feel nostalgic for recent internet history (paráfrasis)"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "LTezla viejito con barba de bloques mira un cuadro (marco de objeto) con memes de Minecraft de 2025 ('chicken jockey', etc.) y suspira. Texto: 'esto fue hace 1 año'. Fechas verificadas en facts.json.",
+   "audio": "Sin canción concreta; música nostálgica propia.",
+   "riesgo": "marca (no usar la imagen de South Park)",
+   "potencial": 4
+  },
+  {
+   "id": "rumpelstiltskin_tiptoe",
+   "nombre": "Rumpelstiltskin de IA 'Tip Toein' in my Jordans'",
+   "origen": "Video IA de @stroinaya (Tatyana Tereshchenko), fin de ago 2026; desde fin de sep 2026 se combina con la canción de Riff Raff.",
+   "que_es": "Una criatura de cuento baila de puntillas, burlona, frente a una mujer aterrada.",
+   "como_se_usa": "Reacción 'troll' con texto ('cuando tomo demasiada melatonina'); versiones IA que cambian al personaje.",
+   "estado": "en su pico (evidencia 2026-10-21: n.º 1 de \"Popular right now\" en la portada de Know Your Meme)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/editorials/the-weekly-meme-roundup-rumpelstiltskin-black-cat-clapping-game-merging-and-more",
+     "fecha": "2026-10-09",
+     "dice": "paired with the Riff Raff song at the end of September (paráfrasis)"
+    },
+    {
+     "url": "https://diariopuntual.com/cooltura/2026/10/11/11343/del-terror-meme-de-tiktok-la-historia-detras-del-video-generado-por-ia",
+     "fecha": "2026-10-11",
+     "dice": "no es cine noventero, sino IA"
+    },
+    {
+     "url": "https://knowyourmeme.com/memes/popular",
+     "fecha": "2026-10-17",
+     "dice": "AI Rumpelstiltskin \"Tip Toein' In My Jordans\" en Popular right now"
+    },
+    {
+     "url": "https://knowyourmeme.com/",
+     "fecha": "2026-10-21",
+     "dice": "AI Rumpelstiltskin \"Tip Toein' In My Jordans\" primero en Popular right now"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "Un illager (evocador) bailando de puntillas con zapatillas de bloques alrededor de LTezla dormido entre balas de heno. Texto: 'yo a las 3 a.m. cuando no me puedo dormir'.",
+   "audio": "'Tip Toe Wing In My Jawwdinz' – Riff Raff: copyright. Añadir el sonido en la app.",
+   "riesgo": "ninguno (evitar las versiones con políticos reales)",
+   "potencial": 4
+  },
+  {
+   "id": "things_to_say",
+   "nombre": "Things To Say (cosas que decir)",
+   "origen": "TikTok @cawkringinvestor, 17 ago 2026; ganador del Meme del Mes de septiembre 2026 de Know Your Meme (11,6 %).",
+   "que_es": "Lista de consejos absurdos de 'qué decir' en una situación (al suegro, en una entrevista), con estética de 'hustle culture'.",
+   "como_se_usa": "Foto de alguien con pose 'cool' + lista de frases ridículas para cada situación.",
+   "estado": "bajando (evidencia 2026-10-02)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/editorials/see-the-winner-of-september-2026s-meme-of-the-month",
+     "fecha": "2026-10-02",
+     "dice": "Things to Say: 11.6% of the votes (paráfrasis)"
+    },
+    {
+     "url": "https://trending.knowyourmeme.com/editorials/guides/what-is-the-things-to-say-meme-the-viral-hustle-culture-memes-on-tiktok-and-reels-explained",
+     "fecha": "2026-09",
+     "dice": "ironic, deliberately bad advice (paráfrasis)"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "LTezla con gafas de sol y fondo de diamantes: 'Cosas que decirle a un aldeano para que te baje el precio', 'Cosas que decirle a un creeper'.",
+   "audio": "No depende de un sonido.",
+   "riesgo": "ninguno en versión limpia (el post original era de tema sexual: no citarlo)",
+   "potencial": 4
+  },
+  {
+   "id": "lets_groove",
+   "nombre": "Let's Groove (baile de Kronk)",
+   "origen": "Escena de 'Kronk's New Groove' (2005); reanimaciones desde ~2024, resurgimiento en ago 2026; 3.º en el Meme del Mes de sep 2026 (7,4 %).",
+   "que_es": "Reanimar la coreografía de la escena con otros personajes.",
+   "como_se_usa": "Reanimaciones 3D/2D y gente recreando el baile.",
+   "estado": "bajando (evidencia 2026-10-02)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/memes/lets-groove",
+     "fecha": "2026-08",
+     "dice": "resurgence in August of 2026 (paráfrasis)"
+    },
+    {
+     "url": "https://knowyourmeme.com/editorials/see-the-winner-of-september-2026s-meme-of-the-month",
+     "fecha": "2026-10-02",
+     "dice": "Let's Groove edits: 7.4% (paráfrasis)"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "Es un meme nativo de animación: LTezla, un aldeano y un creeper hacen una coreografía sincronizada (propia, inspirada en el estilo, no calcada).",
+   "audio": "'Let's Groove' de Earth, Wind & Fire y escena de Disney: copyright. Añadir el sonido en la app.",
+   "riesgo": "marca",
+   "potencial": 4
+  },
+  {
+   "id": "la_peace",
+   "nombre": "La Peace (lapislázuli mal pronunciado)",
+   "origen": "Kai Cenat pronuncia 'lapis lazuli' como 'la peace' en un stream de Minecraft Hardcore con IShowSpeed; edit viral del 16 ago 2026. 2.º en el Meme del Mes de agosto 2026.",
+   "que_es": "Convertir al streamer más ruidoso en un monje sereno de la paz.",
+   "como_se_usa": "Edits del personaje como monje o filósofo griego tranquilo; spam de 'La Peace'.",
+   "estado": "bajando (evidencia 2026-09-01)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/memes/la-peace",
+     "fecha": "2026-08",
+     "dice": "edit posted August 16th, 2026, over 4.2 million views in five days (paráfrasis)"
+    },
+    {
+     "url": "https://knowyourmeme.com/editorials/see-the-winner-of-august-2026s-meme-of-the-month",
+     "fecha": "2026-09-01",
+     "dice": "La Peace: about 11% (paráfrasis)"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "Sin imitar al streamer: un aldeano clérigo encuentra lapislázuli, lo llama 'la pis' y entra en modo monje zen; todos los mobs se calman a su alrededor.",
+   "audio": "Audio del stream: persona real, no usar. Voz propia.",
+   "riesgo": "personas reales (no imitar a Kai Cenat ni a IShowSpeed)",
+   "potencial": 3
+  },
+  {
+   "id": "chile_largo",
+   "nombre": "Memes de la forma de Chile",
+   "origen": "Empezó con usuarios franceses y lo extendieron estadounidenses (T13); viral en TikTok, Instagram y Reddit a fines de sep 2026; 2.º en el Meme del Mes de sep 2026.",
+   "que_es": "Exagerar lo largo y angosto de Chile: cuartos donde apenas cabe una cama, gente altísima y flaca, metros angostísimos.",
+   "como_se_usa": "Fotos/videos estirados con texto 'cómo me imagino Chile'.",
+   "estado": "bajando (evidencia 2026-10-02; un experto le daba 1–3 semanas el 25 sep)",
+   "evidencia": [
+    {
+     "url": "https://www.radioagricultura.cl/entretencion/chile-se-convierte-en-meme-por-su-particular-forma-las-divertidas-imagenes-que-arrasan-en-redes-sociales_20260925/",
+     "fecha": "2026-09-25",
+     "dice": "Es muy fácil hacer, es muy fácil entenderlo"
+    },
+    {
+     "url": "https://www.t13.cl/noticia/tendencias/descubrieron-nuevo-pais-como-surgio-meme-viral-sobre-geografia-chile-25-9-2026",
+     "fecha": "2026-09-25",
+     "dice": "Descubrieron un nuevo país"
+    }
+   ],
+   "region": "latam (Chile) / global",
+   "idea_bloques": "LTezla visita 'la casa chilena' de 1 bloque de ancho y 500 de largo; el aldeano chileno sale de lado. Tono cariñoso, nunca burla.",
+   "audio": "No depende de un sonido.",
+   "riesgo": "ninguno si es cariñoso (es humor sobre un país, no sobre personas)",
+   "potencial": 3
+  },
+  {
+   "id": "blocking_the_street",
+   "nombre": "We're All Just Blocking the Street",
+   "origen": "Cutaway de Family Guy (temporada 15, 'The Peter Principal'); viral como audio en TikTok y Reels en sep 2026.",
+   "que_es": "La frustración de quedar bloqueado por una multitud o un desfile.",
+   "como_se_usa": "Sketches de quedarse atrapado al salir de un concierto, vivir en pueblo turístico, etc.",
+   "estado": "bajando (evidencia 2026-10-02)",
+   "evidencia": [
+    {
+     "url": "https://trending.knowyourmeme.com/editorials/meme-review/the-weekly-meme-roundup-wawario-jean-phil-blocking-the-street-and-more",
+     "fecha": "2026-09-25",
+     "dice": "audio meme about being stuck in or blocked by crowds (paráfrasis)"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "LTezla con prisa en carrito de mina y un desfile de aldeanos con tambores (bloques de nota) le bloquea las vías; luego ovejas, luego gallinas.",
+   "audio": "Audio de Family Guy: copyright. Hacer cántico propio en español o añadir el sonido en la app.",
+   "riesgo": "marca",
+   "potencial": 3
+  },
+  {
+   "id": "tra_la_la_spongebob",
+   "nombre": "Tra La La SpongeBob",
+   "origen": "@osmisanidiot en X, 2 oct 2026: video distorsionado de Bob Esponja con boca enorme + canción 'tra la la' (tema de 'Ethan's Clubhouse').",
+   "que_es": "Brainrot inquietante y repetitivo.",
+   "como_se_usa": "Reacciones confundidas, recoloreados, reproducido en aparatos raros (una BlackBerry vieja).",
+   "estado": "subiendo (evidencia 2026-10-16)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/editorials/the-weekly-meme-roundup-biddy-blas-south-park-fat-talking-tom-and-angela-and-more",
+     "fecha": "2026-10-16",
+     "dice": "a distorted, unsettling video of a big-mouthed SpongeBob (paráfrasis)"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "Una esponja de Minecraft (bloque 'sponge') con boca gigante canta 'tra la la' en bucle en la tele del aldeano; todos lo miran inquietos. Melodía propia.",
+   "audio": "Canción derivada de Banana Splits/Mickey Mouse Clubhouse: copyright. No usar; melodía original.",
+   "riesgo": "marca",
+   "potencial": 3
+  },
+  {
+   "id": "fusion_juegos_ia",
+   "nombre": "Fusión de videojuegos con IA",
+   "origen": "X @chasmmmmmmmmmmm, empezó fusionando Skate con otros juegos; la fusión Call of Duty + Minecraft fue la más vista (semana del 9 oct 2026).",
+   "que_es": "Videos que fingen que dos juegos se fusionaron en uno jugable.",
+   "como_se_usa": "'Granny + Minecraft', etc.: mashups de juego viejo + nuevo.",
+   "estado": "subiendo (evidencia 2026-10-09)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/editorials/the-weekly-meme-roundup-rumpelstiltskin-black-cat-clapping-game-merging-and-more",
+     "fecha": "2026-10-09",
+     "dice": "Call of Duty and Minecraft drew the most attention (paráfrasis)"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "'Minecraft + juego de carreras', 'Minecraft + juego de cocina' hechos 100 % con nuestro motor: LTezla en un kart de bloques. Sin logos de otros juegos.",
+   "audio": "No depende de un sonido.",
+   "riesgo": "marca (no usar nombres ni logos de otros juegos)",
+   "potencial": 3
+  },
+  {
+   "id": "31_dias_halloween",
+   "nombre": "31 Days of Halloween",
+   "origen": "Formato de octubre 2026 (Que.es, 15 oct 2026).",
+   "que_es": "Un video temático diario numerado ('Día 4/31').",
+   "como_se_usa": "Serie diaria; el público vuelve cada día por el siguiente número.",
+   "estado": "en su pico (evidencia 2026-10-15)",
+   "evidencia": [
+    {
+     "url": "https://www.que.es/2026/10/15/tendencias-tiktok-2026-retos-sonidos/",
+     "fecha": "2026-10-15",
+     "dice": "Engancha porque el público vuelve cada día (paráfrasis)"
+    }
+   ],
+   "region": "global / españa",
+   "idea_bloques": "'Día 17/31': cada día un mob de terror distinto asusta a LTezla. Arrancar en el número del día real (no hace falta empezar en 1).",
+   "audio": "No depende de un sonido.",
+   "riesgo": "ninguno",
+   "potencial": 4
+  },
+  {
+   "id": "aura_farming",
+   "nombre": "Aura farming / batallas de aura",
+   "origen": "Término desde ene 2024 (TikTok @h.chua_212); pico mundial a mediados de 2025 con el niño del bote (Indonesia). En ago 2026 se vuelven batallas presenciales en México (UNAM, Monumento a la Revolución), Brasil y Costa Rica.",
+   "que_es": "'Farmear aura' = proyectar una seguridad y estilo exagerados; en las batallas gana quien tiene más carisma con poses, pasos y gestos.",
+   "como_se_usa": "Duelos cara a cara de poses y bailes; el público elige ganador.",
+   "estado": "bajando lento, todavía vigente en latam (evidencia 2026-08-21)",
+   "evidencia": [
+    {
+     "url": "https://es.euronews.com/video/2026/08/21/mexico-las-batallas-de-aura-convierten-un-meme-viral-en-concursos-en-directo",
+     "fecha": "2026-08-21",
+     "dice": "las batallas de aura convierten un meme viral en concursos en directo"
+    },
+    {
+     "url": "https://www.publimetro.com.mx/noticias/2026/08/19/las-batallas-de-aura-llegan-a-mexico-estas-son-las-fechas-y-lugares-en-cdmx/",
+     "fecha": "2026-08-19",
+     "dice": "las batallas de aura llegan a México (paráfrasis)"
+    }
+   ],
+   "region": "latam (México)",
+   "idea_bloques": "'Batalla de aura' en el pueblo: LTezla contra un esqueleto; contador de aura flotando (+1000 / −500). El aldeano juez levanta un cartel.",
+   "audio": "No depende de un sonido; música propia de duelo.",
+   "riesgo": "ninguno (no usar al niño real del bote)",
+   "potencial": 4
+  },
+  {
+   "id": "six_seven",
+   "nombre": "6 7 (six seven)",
+   "origen": "Verso de 'Doot Doot' de Skrilla (1 dic 2024); viral desde ene 2025; palabra del año 2025 de Dictionary.com (28 oct 2025).",
+   "que_es": "Grito numérico absurdo con gesto de manos, sin significado.",
+   "como_se_usa": "Alguien dice 6 o 7 (o una página 67) y todos gritan 'six seven' con el gesto.",
+   "estado": "bajando (evidencia 2026-01-02; Know Your Meme sin hitos de 2026, entrada actualizada 2026-08-19)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/memes/67-meme-six-seven",
+     "fecha": "2026-08-19",
+     "dice": "Perhaps the most defining feature of 67 is that it's impossible to define"
+    },
+    {
+     "url": "https://waynecoffey.substack.com/p/requiem-for-6-7",
+     "fecha": "2026-01-02",
+     "dice": "A meme takes over the world. Then it disappears."
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "Chiste de 'meme muerto': el profe aldeano dice 'página 67' y LTezla, solo, hace el gesto; nadie reacciona; grillos.",
+   "audio": "'Doot Doot' – Skrilla: copyright; no usar.",
+   "riesgo": "ninguno",
+   "potencial": 2
+  },
+  {
+   "id": "brainrot_italiano",
+   "nombre": "Brainrot italiano (Tralalero Tralala, Tung Tung Tung Sahur…)",
+   "origen": "Criaturas de IA con nombres pseudoitalianos, TikTok desde inicios de 2025; Tung Tung Tung Sahur creado en 2025 por un usuario indonesio.",
+   "que_es": "Personajes absurdos con un narrador en falso italiano.",
+   "como_se_usa": "Hoy vive más como universo de personajes (juego de Roblox 'Steal a Brainrot', peluches) que como meme nuevo.",
+   "estado": "bajando como meme; vivo como franquicia infantil (evidencia 2026-07)",
+   "evidencia": [
+    {
+     "url": "https://www.playnews.gg/guides/steal-a-brainrot-roblox-le-guide-complet-strategie-rebirth-et-tier-list-en-juillet-2026",
+     "fecha": "2026-07",
+     "dice": "Steal a Brainrot sigue dominando en julio de 2026 (paráfrasis)"
+    },
+    {
+     "url": "https://knowyourmeme.com/memes/tralalero-tralala",
+     "fecha": "2025",
+     "dice": "began making the rounds on TikTok in early 2025 (paráfrasis)"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "Inventar 'brainrot de bloques' propio: 'Creeperino Bombardino', 'Aldeanello Esmeraldello', con narrador falso-italiano propio. Personajes nuevos y originales.",
+   "audio": "Las voces originales son de terceros; usar narrador propio.",
+   "riesgo": "ninguno (no copiar personajes ya comercializados)",
+   "potencial": 3
+  },
+  {
+   "id": "te_perdi_multitud",
+   "nombre": "Te perdí entre la multitud",
+   "origen": "Trend de TikTok en México (Infobae, 9 oct 2026) con 'La tormenta de arena' de Dorian.",
+   "que_es": "Edición nostálgica y cinematográfica: búsqueda entre una multitud con luces de antro que termina en una cara inesperada.",
+   "como_se_usa": "Plantilla de CapCut con fotos de amigos sincronizadas a la canción.",
+   "estado": "subiendo (evidencia 2026-10-09)",
+   "evidencia": [
+    {
+     "url": "https://www.infobae.com/mexico/2026/10/09/te-perdi-entre-la-multitud-el-trend-de-tiktok-que-conquista-las-redes-asi-puedes-hacerlo-paso-a-paso/",
+     "fecha": "2026-10-09",
+     "dice": "la sensación de buscar a alguien especial entre decenas de desconocidos"
+    }
+   ],
+   "region": "mexico / latam / españa (canción española)",
+   "idea_bloques": "LTezla busca a su perro perdido en una fiesta de aldeanos con luces de colores; la cara inesperada al final es un creeper.",
+   "audio": "'La tormenta de arena' – Dorian: copyright. Añadir el sonido en la app.",
+   "riesgo": "ninguno",
+   "potencial": 3
+  },
+  {
+   "id": "jimothy",
+   "nombre": "Jimothy el mapache",
+   "origen": "Un mapache salvaje de Seattle famoso por su forma y su andar tranquilo (SocialBee, 22 sep 2026).",
+   "que_es": "Imagen del mapache tirado en un sofá para expresar 'sobreviví a la semana'.",
+   "como_se_usa": "Imagen + texto de estado de ánimo.",
+   "estado": "bajando (evidencia 2026-09-22)",
+   "evidencia": [
+    {
+     "url": "https://socialbee.com/blog/trending-tiktok-memes/",
+     "fecha": "2026-09-22",
+     "dice": "Jimothy the raccoon was having a moment"
+    }
+   ],
+   "region": "global (EE. UU.)",
+   "idea_bloques": "Un mapache de bloques (o un panda flojo de Minecraft) tirado en la cama de LTezla un viernes.",
+   "audio": "No depende de un sonido.",
+   "riesgo": "ninguno",
+   "potencial": 2
+  },
+  {
+   "id": "american_girl_doll",
+   "nombre": "My American Girl Doll",
+   "origen": "Clip de 2009 de un niño (Angelo David) presentando su muñeca; trend de sep 2026.",
+   "que_es": "Presentar algo cotidiano con un entusiasmo exagerado.",
+   "como_se_usa": "Audio original + objeto banal (un paquete, un diploma).",
+   "estado": "bajando (evidencia 2026-09-15)",
+   "evidencia": [
+    {
+     "url": "https://www.expreso.ec/entretenimiento/trends-tiktok-septiembre-2026-son-virales-significan-295924.html",
+     "fecha": "2026-09-15",
+     "dice": "contraste entre una reacción exagerada y algo ordinario (paráfrasis)"
+    }
+   ],
+   "region": "latam / global",
+   "idea_bloques": "LTezla presenta con emoción desbordada… un bloque de tierra. Voz propia.",
+   "audio": "Audio de un menor real: no usar; voz propia.",
+   "riesgo": "personas reales (menor en el audio original)",
+   "potencial": 2
+  },
+  {
+   "id": "find_the_beat",
+   "nombre": "Find the beat (baile en pareja)",
+   "origen": "Reto de octubre 2026 sobre Jersey Club ralentizado (Que.es, 15 oct 2026).",
+   "que_es": "Uno se sabe la coreografía y el otro la sigue improvisando; la gracia es lo mal que lo hace.",
+   "como_se_usa": "Dos personas lado a lado, una perfecta y otra perdida.",
+   "estado": "subiendo (evidencia 2026-10-15)",
+   "evidencia": [
+    {
+     "url": "https://www.que.es/2026/10/15/tendencias-tiktok-2026-retos-sonidos/",
+     "fecha": "2026-10-15",
+     "dice": "la gracia está en lo mal que lo hace la segunda persona (paráfrasis)"
+    }
+   ],
+   "region": "españa / global",
+   "idea_bloques": "LTezla baila perfecto y un golem de hierro intenta seguirlo, torpe; o un zombi que va medio segundo tarde.",
+   "audio": "Beat de Jersey Club: crear uno propio (sin samples con copyright).",
+   "riesgo": "ninguno",
+   "potencial": 3
+  },
+  {
+   "id": "mentalista_aura",
+   "nombre": "Momento mentalista (edits de Patrick Jane)",
+   "origen": "Edits de la serie The Mentalist: Patrick Jane descubre la verdad antes que nadie; blanco y negro, zoom lento a su sonrisa y una canción en tendencia.",
+   "que_es": "Alguien deduce algo absurdamente obvio o rebuscado y el video pasa a blanco y negro con su sonrisa de 'ya lo sabía'.",
+   "como_se_usa": "Situación en color → la deducción → corte a blanco y negro con zoom y la canción.",
+   "estado": "en su pico (evidencia 2026-10-13)",
+   "evidencia": [
+    {
+     "url": "https://tenor.com/view/patrick-jane-gif-11929396848537776612",
+     "fecha": "2026-10-13",
+     "dice": "GIF etiquetado 'Patrick-Jane-Aura' y 'edit' (paráfrasis)"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=lQqZ8dM7ZOM",
+     "fecha": "2026-10",
+     "dice": "'Patrick Jane Owns The Most Trends In 2026' (título)"
+    }
+   ],
+   "region": "global; en español 'el mentalista'",
+   "idea_bloques": "LTezla es el mentalista: el aldeano miente sobre el cofre y LTezla lo descubre con una pista de Minecraft.",
+   "audio": "canción del edit: NO incrustar; Leo la pone en la app sobre la versión sin música",
+   "riesgo": "no usar imágenes ni la cara del actor (persona real): sólo la plantilla recreada con LTezla",
+   "potencial": 5,
+   "usado": "meme-momento-mentalista (2026-10-17)"
+  },
+  {
+   "id": "two_fishes",
+   "nombre": "Two Fishes (defender una opinión rara muy en serio)",
+   "origen": "Sonido de Love Island USA (temporada 8); New Engen lo pone 1.º de la semana el 14 oct 2026.",
+   "que_es": "Texto en pantalla con una opinión cuestionable y la persona la defiende a cámara, seria y convencida, con el sonido.",
+   "como_se_usa": "Texto con la opinión + playback serio. Funcionan las opiniones específicas y cotidianas.",
+   "estado": "subiendo (evidencia 2026-10-14)",
+   "evidencia": [
+    {
+     "url": "https://newengen.com/insights/tiktok-trends/",
+     "fecha": "2026-10-14",
+     "dice": "A Love Island USA sound turns hilariously questionable opinions into passionate, straight-faced arguments."
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "Opiniones de mobs defendidas muy en serio: un zombi defiende que el sol es 'mal diseño', un aldeano que 1 esmeralda por 1 papa es 'precio justo'; LTezla de jurado.",
+   "audio": "El sonido de Love Island NO se incrusta: Leo lo agrega en la app. Voz propia en el video.",
+   "riesgo": "ninguno (no usar la cara ni la voz de la persona del programa)",
+   "potencial": 5
+  },
+  {
+   "id": "pray_for_me_slowmo",
+   "nombre": "Pray For Me Slow Mo (entradas de película en cámara lenta)",
+   "origen": "Tendencia con la canción 'Pray For Me'; New Engen, 14 oct 2026.",
+   "que_es": "Amigos entran uno por uno en cámara lenta, desde direcciones distintas, con cara seria de película.",
+   "como_se_usa": "Plano abierto fijo; cada uno entra en cámara lenta al ritmo de la música.",
+   "estado": "subiendo (evidencia 2026-10-14)",
+   "evidencia": [
+    {
+     "url": "https://newengen.com/insights/tiktok-trends/",
+     "fecha": "2026-10-14",
+     "dice": "Friends and groups take turns making exaggerated cinematic entrances"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "La 'banda' de LTezla entra en cámara lenta: gólem, lobo, creeper… y al final una gallina que arruina la toma.",
+   "audio": "La canción NO se incrusta (tiene derechos): Leo la agrega en la app.",
+   "riesgo": "ninguno",
+   "potencial": 4
+  },
+  {
+   "id": "una_palabra",
+   "nombre": "Answer in One Word (responde con una sola palabra)",
+   "origen": "Se reta a la IA, amigos o familia a responder preguntas personales con una sola palabra; New Engen, 14 oct 2026.",
+   "que_es": "Captura del chat: 'responde con una palabra' y una pregunta que da una respuesta inesperada.",
+   "como_se_usa": "Instrucción de una palabra → pregunta → respuesta sorpresa.",
+   "estado": "subiendo (evidencia 2026-10-14)",
+   "evidencia": [
+    {
+     "url": "https://newengen.com/insights/tiktok-trends/",
+     "fecha": "2026-10-14",
+     "dice": "Creators challenge ChatGPT, friends, and family to answer personal questions with just one word."
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "LTezla entrevista mobs 'en una palabra': ¿tu miedo? creeper: 'gatos'. ¿Tu sueño? enderman: 'agua… no'.",
+   "audio": "Sin audio fijo; voz propia.",
+   "riesgo": "ninguno (no mostrar la interfaz ni el logotipo de ningún chatbot)",
+   "potencial": 4
+  },
+  {
+   "id": "cientificos_revelan",
+   "nombre": "Scientists Reveal the Hi (\"Los científicos revelan el…\")",
+   "origen": "Plantilla de 2025 (foto de un gato naranja con un rótulo tipo noticiero); la variante \"Hi\" salió en Reddit el 28 may 2026 y se volvió a esparcir en Instagram y TikTok en octubre de 2026. Know Your Meme la tiene en \"Popular right now\" y \"Fresh Entries\" (evidencia 2026-10-19).",
+   "que_es": "Un rótulo de noticiero serio dice \"Los científicos revelan el…\" y la palabra final es una tontería (\"hola\", \"adiós\"), sobre la foto de un gato con cara rara.",
+   "como_se_usa": "Se cambia la palabra final o el animal (gato, foca, perro) para un anuncio falso y absurdo.",
+   "estado": "en su pico (evidencia 2026-10-21: 3.º en \"Popular right now\" y 1.º en \"Fresh Entries\" de Know Your Meme)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/memes/scientists-reveal-the-hi",
+     "fecha": "2026-10-19",
+     "dice": "over 200,000 views in two months (@_bella_141)"
+    },
+    {
+     "url": "https://knowyourmeme.com/memes/popular",
+     "fecha": "2026-10-20",
+     "dice": "Scientists Reveal the Hi encabeza la lista Popular"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "LTezla de presentador de noticias muy serio: \"Los científicos revelan…\" y aparece un gato de Minecraft que sólo dice 'hola' (miau). Giro: como el canal SÍ da noticias de ciencia, LTezla intenta dar una noticia real y el gato le roba el rótulo cada vez.",
+   "audio": "No depende de una canción: es una imagen con rótulo.",
+   "riesgo": "La plantilla imita el rótulo de un noticiero real: NO usar logotipos ni el nombre de ningún medio; rótulo genérico propio. No usar la foto original del gato: recrearlo en bloques.",
+   "potencial": 5
+  },
+  {
+   "id": "verity_minecraft",
+   "nombre": "It's Me, It's Verity",
+   "origen": "Canción y video de fans (Horror Skunx, 10 jul 2026) de la serie-ARG de terror de Minecraft \"Verity\"; memes en TikTok y Reels en jul–ago 2026.",
+   "que_es": "Una asistente con cara sonriente que se vuelve malvada; los memes editan su cara con la canción.",
+   "como_se_usa": "Edits con la canción.",
+   "estado": "bajando (evidencia 2026-10-20: sigue en la portada de Know Your Meme, pero su pico fue jul–ago)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/memes/its-me-its-verity",
+     "fecha": "2026-10-20",
+     "dice": "The video gained over 17 million views, 199,000 likes and 30,800 comments in a month."
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "NO USAR tal cual: personaje y canción de terceros. Sólo inspiración: un objeto de la casa con carita sonriente que se porta raro.",
+   "audio": "Canción de fans con dueño: no incrustar.",
+   "riesgo": "Personaje y canción con autor (Horror Skunx / serie Verity): no recrear."
+  },
+  {
+   "id": "logout_2007",
+   "nombre": "If You Log Out, It's Still 2007 (\"Si cierras sesión, sigue siendo 2007\")",
+   "origen": "Título de un video de YouTube (9 sep 2026) que se volvió captura viral en X a mediados de septiembre.",
+   "que_es": "La idea de que la gente desconectada vive con años de atraso: sus modas, frases y memes son de hace mucho.",
+   "como_se_usa": "\"Si cierras sesión, sigue siendo <año>\" + algo muy viejo que alguien cree nuevo.",
+   "estado": "bajando (evidencia 2026-10-20: entrada de Know Your Meme con picos del 14–16 sep 2026)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/memes/if-you-log-out-its-still-2007",
+     "fecha": "2026-10-20",
+     "dice": "a screenshot of the video's thumbnail and title went viral on X / Twitter later that month"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "LTezla sale de una cueva tras meses minando y presume una 'novedad' que ya es viejísima; los aldeanos lo miran raro.",
+   "audio": "No depende de audio.",
+   "riesgo": "No mostrar a la youtuber ni su miniatura (persona real). Evitar las respuestas políticas del hilo."
+  },
+  {
+   "id": "biddy_blas_scrib_doon",
+   "nombre": "Biddy Blas / \"Scrib doon\"",
+   "origen": "Personaje alienígena de un videojuego de Star Wars lanzado el 6 oct 2026; el clip se volvió viral a principios de octubre en X y pasó a Instagram y TikTok.",
+   "que_es": "Un alien que repite la muletilla \"Scrib doon\".",
+   "como_se_usa": "Se repite la muletilla como respuesta absurda.",
+   "estado": "bajando (NO USAR; evidencia 2026-10-21: 4.º en \"Popular right now\" de Know Your Meme)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/memes/biddy-blas-scrib-doon",
+     "fecha": "2026-10-21",
+     "dice": "alien character in the video game Star Wars: Galactic Racer (paráfrasis)"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "NO USAR: personaje y franquicia de terceros (marca).",
+   "audio": "Del juego: copyright.",
+   "riesgo": "alto: personaje con marca registrada",
+   "potencial": 1
+  },
+  {
+   "id": "malfoid",
+   "nombre": "Malfoid / Female Draco Malfoy",
+   "origen": "Know Your Meme, oct 2026.",
+   "que_es": "Versión femenina de un personaje de una franquicia de libros y películas.",
+   "como_se_usa": "Edits de personaje.",
+   "estado": "bajando (NO USAR; evidencia 2026-10-21: 2.º en \"Popular right now\" de Know Your Meme)",
+   "evidencia": [
+    {
+     "url": "https://knowyourmeme.com/",
+     "fecha": "2026-10-21",
+     "dice": "Malfoid / Female Draco Malfoy en Popular right now"
+    }
+   ],
+   "region": "global",
+   "idea_bloques": "NO USAR: personaje de franquicia con dueño y edits de actores reales.",
+   "audio": "-",
+   "riesgo": "alto: franquicia y personas reales",
+   "potencial": 1
+  }
+ ]
+}

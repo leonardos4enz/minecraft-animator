@@ -1,0 +1,265 @@
+[
+ {
+  "id": "chancla_radar",
+  "premisa": "La mamá latina detecta desde la cocina quién dejó la luz prendida, con 'radar' y zoom dramático; termina con la chancla volando en cámara lenta.",
+  "personajes": [
+   "mamá (bruja o aldeana)",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 5
+ },
+ {
+  "id": "ahorita",
+  "premisa": "'Ahorita lo hago': un reloj de bloques muestra cuánto dura un 'ahorita' (5 min, 3 horas, nunca). Escala de 'ahorita' a 'ahoritita'.",
+  "personajes": [
+   "LTezla",
+   "mamá"
+  ],
+  "region": "mexico",
+  "potencial": 5
+ },
+ {
+  "id": "tupper_mama",
+  "premisa": "Le prestan un tupper a la vecina: la mamá lo rastrea durante meses como si fuera una misión de espías.",
+  "personajes": [
+   "mamá",
+   "vecina (gato)"
+  ],
+  "region": "latam",
+  "potencial": 5
+ },
+ {
+  "id": "bolsa_de_bolsas",
+  "premisa": "Visita a la cocina: la bolsa que guarda todas las bolsas crece hasta ser un mob gigante.",
+  "personajes": [
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 4
+ },
+ {
+  "id": "tio_fiesta",
+  "premisa": "El tío en la fiesta: '¿y la novia?', '¿y cuándo te casas?', y la cámara gira como en una película de terror.",
+  "personajes": [
+   "tío (aldeano)",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 5
+ },
+ {
+  "id": "como_se_dice",
+  "premisa": "Cómo se dice 'popote / pajita / pitillo / bombilla / sorbete' en cada país: un aldeano por país que discute.",
+  "personajes": [
+   "aldeanos por país"
+  ],
+  "region": "latam+españa",
+  "potencial": 5
+ },
+ {
+  "id": "visita_sala",
+  "premisa": "Llegan visitas: todo el mundo corre a esconder cosas, y aparece la 'sala de las visitas' que nadie puede usar.",
+  "personajes": [
+   "familia"
+  ],
+  "region": "latam",
+  "potencial": 4
+ },
+ {
+  "id": "mama_no_estoy",
+  "premisa": "'Dile que no estoy': LTezla tiene que mentir por teléfono y se le traba todo.",
+  "personajes": [
+   "mamá",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 4
+ },
+ {
+  "id": "vamos_a_comprar",
+  "premisa": "'Vamos rápido al súper': la mamá se encuentra a 5 conocidas y la 'visita rápida' dura 3 horas (contador en pantalla).",
+  "personajes": [
+   "mamá",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 5
+ },
+ {
+  "id": "abuela_comida",
+  "premisa": "La abuela que dice 'no comiste nada' después de 4 platos: los platos se apilan como torre de bloques.",
+  "personajes": [
+   "abuela",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 5
+ },
+ {
+  "id": "nombre_completo",
+  "premisa": "Cuando tu mamá dice tu nombre completo: todo se pone en cámara lenta y suena alarma.",
+  "personajes": [
+   "mamá",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 5
+ },
+ {
+  "id": "wifi_familiar",
+  "premisa": "El primo que pide la contraseña del wifi al entrar, antes de saludar.",
+  "personajes": [
+   "primo",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 4
+ },
+ {
+  "id": "papa_termostato",
+  "premisa": "El papá y la factura de la luz: persigue cada foco prendido como un golem vigilante.",
+  "personajes": [
+   "papá (golem)",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 4
+ },
+ {
+  "id": "domingo_limpieza",
+  "premisa": "Domingo a las 8 am: música a todo volumen y la mamá limpiando; nadie puede dormir.",
+  "personajes": [
+   "mamá",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 5
+ },
+ {
+  "id": "remedio_casero",
+  "premisa": "Cualquier enfermedad se cura con vaporub (sin decir marcas en pantalla: 'el ungüento'), te, y 'ponte suéter'.",
+  "personajes": [
+   "abuela",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 4
+ },
+ {
+  "id": "cumpleanos_mordida",
+  "premisa": "La 'mordida' al pastel en el cumpleaños: todos gritan y el pastel aplasta la cara en cámara lenta.",
+  "personajes": [
+   "familia",
+   "LTezla"
+  ],
+  "region": "mexico",
+  "potencial": 4
+ },
+ {
+  "id": "piñata_pelea",
+  "premisa": "La piñata se vuelve una batalla épica de mobs por los dulces.",
+  "personajes": [
+   "niños mobs"
+  ],
+  "region": "latam",
+  "potencial": 4
+ },
+ {
+  "id": "vecino_reggaeton",
+  "premisa": "El vecino pone música a las 3 am y la casa entera vibra con partículas.",
+  "personajes": [
+   "vecino",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 3
+ },
+ {
+  "id": "llegar_tarde_latino",
+  "premisa": "La fiesta empieza a las 8: a las 8 sólo llega el que no es latino; a las 11 llegan todos.",
+  "personajes": [
+   "invitados"
+  ],
+  "region": "latam",
+  "potencial": 4
+ },
+ {
+  "id": "cafe_de_olla_vs",
+  "premisa": "Debate de desayunos por país: chilaquiles vs arepa vs medialunas vs tostada con tomate.",
+  "personajes": [
+   "aldeanos por país"
+  ],
+  "region": "latam+españa",
+  "potencial": 4
+ },
+ {
+  "id": "tarea_mama",
+  "premisa": "La mamá descubre a las 11 pm que mañana hay que entregar una maqueta: modo construcción de emergencia.",
+  "personajes": [
+   "mamá",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 5
+ },
+ {
+  "id": "foto_familiar",
+  "premisa": "Tomar la foto familiar: 'uno más', 'otra porque cerré los ojos', 40 intentos.",
+  "personajes": [
+   "familia"
+  ],
+  "region": "latam",
+  "potencial": 4
+ },
+ {
+  "id": "uber_mama",
+  "premisa": "La mamá dando direcciones: 'donde estaba la tienda que cerraron, das vuelta donde el perro'.",
+  "personajes": [
+   "mamá",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 4
+ },
+ {
+  "id": "dieta_lunes",
+  "premisa": "'El lunes empiezo la dieta': el lunes aparece la abuela con tamales.",
+  "personajes": [
+   "LTezla",
+   "abuela"
+  ],
+  "region": "latam",
+  "potencial": 4
+ },
+ {
+  "id": "mama_buscar",
+  "premisa": "'Si voy yo y lo encuentro…': la mamá encuentra en 1 segundo lo que buscaste 20 minutos.",
+  "personajes": [
+   "mamá",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 5
+ },
+ {
+  "id": "cobija_hora",
+  "premisa": "'Nada más 5 minutitos': LTezla apaga la alarma 'un ratito' y la cama lo jala como imán; la mamá entra con la escoba como despertador.",
+  "personajes": [
+   "mamá",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 4
+ },
+ {
+  "id": "tienda_esquina_fiado",
+  "premisa": "'Ahí me lo apunta': LTezla compra en la tiendita y la libreta de fiado del tendero ya mide 64 bloques.",
+  "personajes": [
+   "tendero (aldeano)",
+   "LTezla"
+  ],
+  "region": "latam",
+  "potencial": 4
+ }
+]

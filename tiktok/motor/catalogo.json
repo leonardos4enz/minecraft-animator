@@ -1,0 +1,1125 @@
+{
+"mobs": {
+"pollito": {
+"nombre": "Pollito",
+"cat": "animal",
+"tam": [
+0.2,
+0.35
+],
+"java": "chicken"
+},
+"oveja": {
+"nombre": "Oveja",
+"cat": "animal",
+"tam": [
+0.9,
+1.3
+],
+"java": "sheep",
+"variantes": [
+"blanco",
+"naranja",
+"magenta",
+"azul_claro",
+"amarillo",
+"verde_lima",
+"rosa",
+"gris",
+"gris_claro",
+"cian",
+"morado",
+"azul",
+"cafe",
+"verde",
+"rojo",
+"negro"
+]
+},
+"cordero": {
+"nombre": "Cordero",
+"cat": "animal",
+"tam": [
+0.45,
+0.65
+],
+"java": "sheep",
+"variantes": [
+"blanco",
+"naranja",
+"magenta",
+"azul_claro",
+"amarillo",
+"verde_lima",
+"rosa",
+"gris",
+"gris_claro",
+"cian",
+"morado",
+"azul",
+"cafe",
+"verde",
+"rojo",
+"negro"
+]
+},
+"cabra": {
+"nombre": "Cabra",
+"cat": "animal",
+"tam": [
+0.9,
+1.3
+],
+"java": "goat"
+},
+"cabrito": {
+"nombre": "Cabrito",
+"cat": "animal",
+"tam": [
+0.45,
+0.65
+],
+"java": "goat"
+},
+"aldeano": {
+"nombre": "Aldeano",
+"cat": "aldeano",
+"tam": [
+0.6,
+1.9
+],
+"java": "villager"
+},
+"granjero": {
+"nombre": "Granjero",
+"cat": "aldeano",
+"tam": [
+0.6,
+1.9
+],
+"java": "villager"
+},
+"aldeanito": {
+"nombre": "Aldeanito",
+"cat": "aldeano",
+"tam": [
+0.3,
+0.95
+],
+"java": "villager"
+},
+"lobo": {
+"nombre": "Lobo",
+"cat": "mascota",
+"tam": [
+0.6,
+0.8
+],
+"java": "wolf"
+},
+"calamar": {
+"nombre": "Calamar luminoso",
+"cat": "acuatico",
+"tam": [
+0.8,
+0.8
+],
+"java": "glow_squid"
+},
+"strider": {
+"nombre": "Strider",
+"cat": "animal",
+"tam": [
+0.9,
+1.7
+],
+"java": "strider"
+},
+"llama": {
+"nombre": "Llama",
+"cat": "animal",
+"tam": [
+0.9,
+1.87
+],
+"java": "llama",
+"variantes": [
+"crema",
+"blanca",
+"cafe",
+"gris"
+]
+},
+"cubito": {
+"nombre": "Cubito (cría de ghast feliz)",
+"cat": "animal",
+"tam": [
+0.95,
+0.95
+],
+"java": "happy_ghast"
+},
+"clawd": {
+"nombre": "Clawd",
+"cat": "mascota",
+"tam": [
+0.6,
+0.45
+]
+},
+"gallina": {
+"nombre": "Gallina",
+"cat": "animal",
+"tam": [
+0.4,
+0.7
+],
+"java": "chicken",
+"variantes": [
+"templada",
+"fria",
+"calida"
+]
+},
+"vaca": {
+"nombre": "Vaca",
+"cat": "animal",
+"tam": [
+0.9,
+1.3
+],
+"java": "cow",
+"variantes": [
+"templada",
+"fria",
+"calida"
+]
+},
+"champinaca": {
+"nombre": "Mooshroom",
+"cat": "animal",
+"tam": [
+0.9,
+1.3
+],
+"java": "mooshroom",
+"variantes": [
+"roja",
+"cafe"
+],
+"nota": "hongos como en Fresh Animations"
+},
+"cerdo": {
+"nombre": "Cerdo",
+"cat": "animal",
+"tam": [
+0.9,
+0.9
+],
+"java": "pig",
+"variantes": [
+"templada",
+"fria",
+"calida"
+]
+},
+"caballo": {
+"nombre": "Caballo",
+"cat": "animal",
+"tam": [
+1.4,
+1.6
+],
+"java": "horse",
+"variantes": [
+"castano",
+"blanco",
+"crema",
+"cafe",
+"negro",
+"gris",
+"cafe_oscuro"
+]
+},
+"burro": {
+"nombre": "Burro",
+"cat": "animal",
+"tam": [
+1.4,
+1.6
+],
+"java": "donkey"
+},
+"mula": {
+"nombre": "Mula",
+"cat": "animal",
+"tam": [
+1.4,
+1.6
+],
+"java": "mule"
+},
+"llama_comerciante": {
+"nombre": "Llama de comerciante",
+"cat": "animal",
+"tam": [
+0.9,
+1.87
+],
+"java": "trader_llama",
+"variantes": [
+"gris",
+"crema",
+"blanca",
+"cafe"
+]
+},
+"zorro": {
+"nombre": "Zorro",
+"cat": "animal",
+"tam": [
+0.6,
+0.7
+],
+"java": "fox",
+"variantes": [
+"rojo",
+"nieve"
+]
+},
+"abeja": {
+"nombre": "Abeja",
+"cat": "animal",
+"tam": [
+0.7,
+0.6
+],
+"java": "bee"
+},
+"murcielago": {
+"nombre": "Murciélago",
+"cat": "animal",
+"tam": [
+0.5,
+0.9
+],
+"java": "bat"
+},
+"rana": {
+"nombre": "Rana",
+"cat": "animal",
+"tam": [
+0.5,
+0.55
+],
+"java": "frog",
+"variantes": [
+"templada",
+"fria",
+"calida"
+]
+},
+"tortuga": {
+"nombre": "Tortuga",
+"cat": "animal",
+"tam": [
+1.2,
+0.4
+],
+"java": "turtle"
+},
+"sniffer": {
+"nombre": "Sniffer",
+"cat": "animal",
+"tam": [
+1.9,
+1.75
+],
+"java": "sniffer"
+},
+"hoglin": {
+"nombre": "Hoglin",
+"cat": "monstruo",
+"tam": [
+1.3965,
+1.4
+],
+"java": "hoglin"
+},
+"conejo": {
+"nombre": "Conejo",
+"cat": "animal",
+"tam": [
+0.4,
+0.5
+],
+"java": "rabbit",
+"variantes": [
+"cafe",
+"blanco",
+"negro",
+"blanco_manchado",
+"dorado",
+"sal_y_pimienta",
+"toast"
+]
+},
+"panda": {
+"nombre": "Panda",
+"cat": "animal",
+"tam": [
+1.3,
+1.25
+],
+"java": "panda",
+"variantes": [
+"normal",
+"perezoso",
+"preocupado",
+"jugueton",
+"cafe",
+"debil",
+"agresivo"
+]
+},
+"oso_polar": {
+"nombre": "Oso polar",
+"cat": "animal",
+"tam": [
+1.4,
+1.4
+],
+"java": "polar_bear"
+},
+"armadillo": {
+"nombre": "Armadillo",
+"cat": "animal",
+"tam": [
+0.7,
+0.65
+],
+"java": "armadillo"
+},
+"camello": {
+"nombre": "Camello",
+"cat": "animal",
+"tam": [
+1.7,
+2.375
+],
+"java": "camel"
+},
+"ghast_feliz": {
+"nombre": "Ghast feliz",
+"cat": "animal",
+"tam": [
+4,
+4
+],
+"java": "happy_ghast"
+},
+"gato": {
+"nombre": "Gato",
+"cat": "mascota",
+"tam": [
+0.6,
+0.7
+],
+"java": "cat",
+"variantes": [
+"atigrado",
+"negro",
+"rojo",
+"siames",
+"britanico",
+"calico",
+"persa",
+"ragdoll",
+"blanco",
+"jellie",
+"todo_negro"
+]
+},
+"ocelote": {
+"nombre": "Ocelote",
+"cat": "mascota",
+"tam": [
+0.6,
+0.7
+],
+"java": "ocelot",
+"nota": "Fresh Animations lo sienta solo cuando está quieto (pose al azar)"
+},
+"loro": {
+"nombre": "Loro",
+"cat": "mascota",
+"tam": [
+0.5,
+1
+],
+"java": "parrot",
+"variantes": [
+"rojo",
+"azul",
+"verde",
+"cian",
+"gris"
+]
+},
+"ajolote": {
+"nombre": "Ajolote",
+"cat": "mascota",
+"tam": [
+0.75,
+0.42
+],
+"java": "axolotl",
+"variantes": [
+"rosa",
+"cafe",
+"dorado",
+"cian",
+"azul"
+]
+},
+"allay": {
+"nombre": "Allay",
+"cat": "mascota",
+"tam": [
+0.35,
+0.6
+],
+"java": "allay"
+},
+"calamar_comun": {
+"nombre": "Calamar",
+"cat": "acuatico",
+"tam": [
+0.8,
+0.8
+],
+"java": "squid"
+},
+"delfin": {
+"nombre": "Delfín",
+"cat": "acuatico",
+"tam": [
+0.9,
+0.6
+],
+"java": "dolphin"
+},
+"bacalao": {
+"nombre": "Bacalao",
+"cat": "acuatico",
+"tam": [
+0.5,
+0.3
+],
+"java": "cod"
+},
+"salmon": {
+"nombre": "Salmón",
+"cat": "acuatico",
+"tam": [
+0.5,
+0.5
+],
+"java": "salmon"
+},
+"pez_globo": {
+"nombre": "Pez globo",
+"cat": "acuatico",
+"tam": [
+0.8,
+0.8
+],
+"java": "pufferfish"
+},
+"renacuajo": {
+"nombre": "Renacuajo",
+"cat": "acuatico",
+"tam": [
+0.8,
+0.6
+],
+"java": "tadpole"
+},
+"guardian": {
+"nombre": "Guardián",
+"cat": "acuatico",
+"tam": [
+0.85,
+0.85
+],
+"java": "guardian"
+},
+"guardian_anciano": {
+"nombre": "Guardián anciano",
+"cat": "jefe",
+"tam": [
+1.99,
+1.99
+],
+"java": "elder_guardian"
+},
+"nautilo": {
+"nombre": "Nautilo",
+"cat": "acuatico",
+"tam": [
+0.875,
+0.95
+],
+"java": "nautilus"
+},
+"comerciante": {
+"nombre": "Comerciante nómada",
+"cat": "aldeano",
+"tam": [
+0.6,
+1.9
+],
+"java": "wandering_trader"
+},
+"bruja": {
+"nombre": "Bruja",
+"cat": "aldeano",
+"tam": [
+0.6,
+1.9
+],
+"java": "witch"
+},
+"aldeano_zombi": {
+"nombre": "Aldeano zombi",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.9
+],
+"java": "zombie_villager",
+"variantes": [
+"llanura",
+"desierto",
+"jungla",
+"sabana",
+"nieve",
+"pantano",
+"taiga"
+]
+},
+"saqueador": {
+"nombre": "Saqueador",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.9
+],
+"java": "pillager"
+},
+"vindicador": {
+"nombre": "Vindicador",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.9
+],
+"java": "vindicator"
+},
+"invocador": {
+"nombre": "Evocador",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.9
+],
+"java": "evoker"
+},
+"ilusionista": {
+"nombre": "Ilusionista",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.9
+],
+"java": "illusioner"
+},
+"devastador": {
+"nombre": "Devastador",
+"cat": "monstruo",
+"tam": [
+1.95,
+2.2
+],
+"java": "ravager"
+},
+"vex": {
+"nombre": "Vex",
+"cat": "monstruo",
+"tam": [
+0.4,
+0.8
+],
+"java": "vex"
+},
+"zombi": {
+"nombre": "Zombi",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.9
+],
+"java": "zombie"
+},
+"momia": {
+"nombre": "Disecado",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.9
+],
+"java": "husk"
+},
+"ahogado": {
+"nombre": "Ahogado",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.9
+],
+"java": "drowned"
+},
+"esqueleto": {
+"nombre": "Esqueleto",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.9
+],
+"java": "skeleton"
+},
+"esqueleto_glacial": {
+"nombre": "Errante",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.9
+],
+"java": "stray"
+},
+"esqueleto_pantanoso": {
+"nombre": "Ciénago",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.9
+],
+"java": "bogged"
+},
+"esqueleto_reseco": {
+"nombre": "Momificado",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.9
+],
+"java": "parched"
+},
+"esqueleto_wither": {
+"nombre": "Esqueleto del Wither",
+"cat": "monstruo",
+"tam": [
+0.72,
+2.01
+],
+"java": "wither_skeleton"
+},
+"creeper": {
+"nombre": "Creeper",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.7
+],
+"java": "creeper"
+},
+"arana": {
+"nombre": "Araña",
+"cat": "monstruo",
+"tam": [
+1.4,
+0.9
+],
+"java": "spider"
+},
+"arana_cueva": {
+"nombre": "Araña de cueva",
+"cat": "monstruo",
+"tam": [
+0.7,
+0.5
+],
+"java": "cave_spider"
+},
+"enderman": {
+"nombre": "Enderman",
+"cat": "monstruo",
+"tam": [
+0.6,
+2.9
+],
+"java": "enderman"
+},
+"endermite": {
+"nombre": "Endermite",
+"cat": "monstruo",
+"tam": [
+0.4,
+0.3
+],
+"java": "endermite"
+},
+"pez_plateado": {
+"nombre": "Pez de plata",
+"cat": "monstruo",
+"tam": [
+0.4,
+0.3
+],
+"java": "silverfish"
+},
+"slime": {
+"nombre": "Slime",
+"cat": "monstruo",
+"tam": [
+2.08,
+2.08
+],
+"java": "slime",
+"nota": "la capa de afuera es translúcida, sin el brillo del juego"
+},
+"cubo_magma": {
+"nombre": "Cubo de magma",
+"cat": "monstruo",
+"tam": [
+2.08,
+2.08
+],
+"java": "magma_cube"
+},
+"blaze": {
+"nombre": "Blaze",
+"cat": "monstruo",
+"tam": [
+0.5,
+1.8
+],
+"java": "blaze"
+},
+"ghast": {
+"nombre": "Ghast",
+"cat": "monstruo",
+"tam": [
+4.02,
+4
+],
+"java": "ghast"
+},
+"phantom": {
+"nombre": "Phantom",
+"cat": "monstruo",
+"tam": [
+0.9,
+0.5
+],
+"java": "phantom"
+},
+"shulker": {
+"nombre": "Shulker",
+"cat": "monstruo",
+"tam": [
+0.6,
+1
+],
+"java": "shulker"
+},
+"piglin": {
+"nombre": "Piglin",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.9
+],
+"java": "piglin"
+},
+"piglin_bruto": {
+"nombre": "Piglin bruto",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.9
+],
+"java": "piglin_brute"
+},
+"piglin_zombificado": {
+"nombre": "Piglin zombificado",
+"cat": "monstruo",
+"tam": [
+0.6,
+1
+],
+"java": "zombified_piglin"
+},
+"zoglin": {
+"nombre": "Zoglin",
+"cat": "monstruo",
+"tam": [
+1.3965,
+1.4
+],
+"java": "zoglin"
+},
+"caballo_esqueleto": {
+"nombre": "Caballo esquelético",
+"cat": "monstruo",
+"tam": [
+1.4,
+1.6
+],
+"java": "skeleton_horse"
+},
+"caballo_zombi": {
+"nombre": "Caballo zombi",
+"cat": "monstruo",
+"tam": [
+1.4,
+1.6
+],
+"java": "zombie_horse"
+},
+"breeze": {
+"nombre": "Breeze",
+"cat": "monstruo",
+"tam": [
+0.6,
+1.77
+],
+"java": "breeze"
+},
+"crujidor": {
+"nombre": "Crepitante",
+"cat": "monstruo",
+"tam": [
+0.9,
+2.7
+],
+"java": "creaking"
+},
+"warden": {
+"nombre": "Warden",
+"cat": "jefe",
+"tam": [
+0.9,
+2.9
+],
+"java": "warden"
+},
+"wither": {
+"nombre": "Wither",
+"cat": "jefe",
+"tam": [
+1,
+3
+],
+"java": "wither",
+"nota": "geometría de Bedrock con animación básica: no gira las cabezas"
+},
+"dragon_ender": {
+"nombre": "Enderdragón",
+"cat": "jefe",
+"tam": [
+16,
+8
+],
+"java": "ender_dragon",
+"nota": "aproximado: el cuello y la cola no toman su pose (Bedrock la arma con Molang)"
+},
+"golem_hierro": {
+"nombre": "Gólem de hierro",
+"cat": "golem",
+"tam": [
+1.4,
+2.9
+],
+"java": "iron_golem"
+},
+"golem_nieve": {
+"nombre": "Gólem de nieve",
+"cat": "golem",
+"tam": [
+0.4,
+1.8
+],
+"java": "snow_golem",
+"nota": "sin la cabeza de calabaza (en el juego es un bloque aparte)"
+},
+"golem_cobre": {
+"nombre": "Gólem de cobre",
+"cat": "golem",
+"tam": [
+0.6,
+0.98
+],
+"java": "copper_golem",
+"variantes": [
+"cobre",
+"expuesto",
+"erosionado",
+"oxidado"
+]
+}
+},
+"poses": [
+"reposo",
+"relajado",
+"firmes",
+"jarras",
+"cruzados",
+"paso",
+"correr",
+"salto",
+"agachado",
+"sentado",
+"reverencia",
+"saludar",
+"hola_dos",
+"senalar",
+"senalar_arriba",
+"pulgar",
+"encogerse",
+"ofrecer",
+"presentar",
+"pensar",
+"facepalm",
+"aplaudir",
+"saludo_militar",
+"estirarse",
+"celebrar",
+"victoria",
+"timido",
+"sorpresa",
+"miedo",
+"enojado",
+"triste",
+"chulo",
+"en_guardia",
+"punetazo",
+"patada",
+"espadazo",
+"guardia_espada",
+"espada_atras",
+"espada_golpe",
+"estocada",
+"victoria_espada",
+"minar",
+"volar",
+"dab",
+"baile",
+"disco",
+"ladear",
+"mano_pecho",
+"voltear",
+"alcanzar",
+"manos_nuca",
+"lejos",
+"sorpresa_leve",
+"dudar",
+"risa_nuca",
+"risa_atras",
+"mirar_picaro",
+"presentarse",
+"tomar_camara",
+"sostener_camara",
+"manos_juntas",
+"apoyado",
+"trotar",
+"nadar",
+"caer_espalda",
+"asomarse",
+"sentado_borde",
+"contemplar",
+"mirar_lado",
+"de_frente",
+"montar",
+"robot"
+],
+"expresiones": [
+"neutral",
+"feliz",
+"muy_feliz",
+"ilusionado",
+"emocionado",
+"riendo",
+"triste",
+"llorando",
+"enojado",
+"furioso",
+"sorprendido",
+"asustado",
+"sospecha",
+"determinado",
+"pensativo",
+"confundido",
+"cansado",
+"aburrido",
+"avergonzado",
+"enamorado",
+"guino",
+"ojos_cerrados",
+"dormido",
+"picaro"
+],
+"matices": [
+"respirar",
+"hablar",
+"asentir",
+"negar",
+"reir",
+"temblar",
+"rebotar",
+"balancear",
+"caminar_atras",
+"caminar",
+"mirar_alrededor",
+"montar",
+"correr",
+"nadar",
+"flotar",
+"agitado"
+],
+"escenarios": [
+"aldea",
+"noche",
+"nieve",
+"agua",
+"cerezos",
+"nether",
+"aldea_frente",
+"calle",
+"cresta",
+"pradera",
+"pista",
+"montana",
+"cordillera"
+],
+"ambientes": [
+"dia",
+"nieve",
+"noche",
+"agua",
+"rosa",
+"atardecer",
+"lila",
+"nether"
+]
+}

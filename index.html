@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="es" data-theme="claro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Minecraft Animator</title>
+<link rel="icon" href="icono.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pixelify+Sans:wght@600&family=Silkscreen:wght@400;700&family=Jersey+10&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilo.css">
+<script>try { const t = localStorage.getItem("mcanimator.tema"); if (t) document.documentElement.dataset.theme = t; } catch {}</script>
+<script type="importmap">
+{ "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<!-- Iconos de línea (trazos de Lucide, lucide.dev, licencia ISC) incrustados: sin descargas ni emojis. Uso: <svg class="ic"><use href="#i-play"/></svg> -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="i-undo" viewBox="0 0 24 24"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/></symbol>
+  <symbol id="i-redo" viewBox="0 0 24 24"><path d="m15 14 5-5-5-5"/><path d="M20 9H9.5a5.5 5.5 0 0 0 0 11H13"/></symbol>
+  <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.94 15.5A2 2 0 0 0 8.5 14.06l-6.14-1.58a.5.5 0 0 1 0-.96L8.5 9.94A2 2 0 0 0 9.94 8.5l1.58-6.14a.5.5 0 0 1 .96 0l1.58 6.14a2 2 0 0 0 1.44 1.44l6.14 1.58a.5.5 0 0 1 0 .96l-6.14 1.58a2 2 0 0 0-1.44 1.44l-1.58 6.14a.5.5 0 0 1-.96 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/></symbol>
+  <symbol id="i-folder" viewBox="0 0 24 24"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></symbol>
+  <symbol id="i-file-plus" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M9 15h6"/><path d="M12 18v-6"/></symbol>
+  <symbol id="i-upload" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m17 8-5-5-5 5"/><path d="M12 3v12"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></symbol>
+  <symbol id="i-film" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M7 3v18"/><path d="M3 7.5h4"/><path d="M3 12h18"/><path d="M3 16.5h4"/><path d="M17 3v18"/><path d="M17 7.5h4"/><path d="M17 16.5h4"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.06 12.35a1 1 0 0 1 0-.7 10.75 10.75 0 0 1 19.88 0 1 1 0 0 1 0 .7 10.75 10.75 0 0 1-19.88 0"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-box" viewBox="0 0 24 24"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></symbol>
+  <symbol id="i-video" viewBox="0 0 24 24"><path d="m16 13 5.22 3.48a.5.5 0 0 0 .78-.42V7.87a.5.5 0 0 0-.75-.43L16 10.5"/><rect x="2" y="6" width="14" height="12" rx="2"/></symbol>
+  <symbol id="i-paw" viewBox="0 0 24 24"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"/></symbol>
+  <symbol id="i-sword" viewBox="0 0 24 24"><path d="M14.5 17.5 3 6V3h3l11.5 11.5"/><path d="m13 19 6-6"/><path d="m16 16 4 4"/><path d="m19 21 2-2"/></symbol>
+  <symbol id="i-hand" viewBox="0 0 24 24"><path d="M18 11V6a2 2 0 0 0-4 0"/><path d="M14 10V4a2 2 0 0 0-4 0v2"/><path d="M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-5.54 10.19-7.4 11.8a1 1 0 0 1-1.2 0C9.54 20.19 4 15 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5v14"/></symbol>
+  <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18"/><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"/><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"/><path d="M10 11v6"/><path d="M14 11v6"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M7 4.5v15a1 1 0 0 0 1.52.85l12.2-7.5a1 1 0 0 0 0-1.7L8.52 3.65A1 1 0 0 0 7 4.5Z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><rect fill="currentColor" stroke="none" x="6" y="4" width="4" height="16" rx="1.2"/><rect fill="currentColor" stroke="none" x="14" y="4" width="4" height="16" rx="1.2"/></symbol>
+  <symbol id="i-repeat" viewBox="0 0 24 24"><path d="m17 2 4 4-4 4"/><path d="M3 11v-1a4 4 0 0 1 4-4h14"/><path d="m7 22-4-4 4-4"/><path d="M21 13v1a4 4 0 0 1-4 4H3"/></symbol>
+  <symbol id="i-zoom-in" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></symbol>
+  <symbol id="i-zoom-out" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M8 11h6"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><path d="M12 19v3"/></symbol>
+  <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></symbol>
+  <symbol id="i-volume" viewBox="0 0 24 24"><path d="M11 4.7a.7.7 0 0 0-1.2-.5L6.41 7.59A1.4 1.4 0 0 1 5.42 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.42a1.4 1.4 0 0 1 .99.41l3.39 3.39a.7.7 0 0 0 1.2-.5z"/><path d="M16 9a5 5 0 0 1 0 6"/><path d="M19.36 18.36a9 9 0 0 0 0-12.72"/></symbol>
+  <symbol id="i-clapper" viewBox="0 0 24 24"><path d="M20.2 6 3 11l-.9-2.4c-.3-1.1.3-2.2 1.3-2.5l13.5-4c1.1-.3 2.2.3 2.5 1.3Z"/><path d="m6.2 5.3 3.1 3.9"/><path d="m12.4 3.4 3.1 4"/><path d="M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/></symbol>
+  <symbol id="i-flip" viewBox="0 0 24 24"><path d="m3 7 5 5-5 5V7"/><path d="m21 7-5 5 5 5V7"/><path d="M12 20v2"/><path d="M12 14v2"/><path d="M12 8v2"/><path d="M12 2v2"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M11.53 2.3a.53.53 0 0 1 .95 0l2.31 4.68a2.12 2.12 0 0 0 1.6 1.16l5.16.76a.53.53 0 0 1 .3.9l-3.74 3.64a2.12 2.12 0 0 0-.61 1.88l.88 5.14a.53.53 0 0 1-.77.56l-4.62-2.43a2.12 2.12 0 0 0-1.97 0L6.4 21.01a.53.53 0 0 1-.77-.56l.88-5.14a2.12 2.12 0 0 0-.61-1.88L2.16 9.8a.53.53 0 0 1 .29-.9l5.17-.76a2.12 2.12 0 0 0 1.6-1.16z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></symbol>
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+  <symbol id="i-eraser" viewBox="0 0 24 24"><path d="m7 21-4.3-4.3c-1-1-1-2.5 0-3.4l9.6-9.6c1-1 2.5-1 3.4 0l5.6 5.6c1 1 1 2.5 0 3.4L13 21"/><path d="M22 21H7"/><path d="m5 11 9 9"/></symbol>
+  <symbol id="i-pipette" viewBox="0 0 24 24"><path d="m2 22 1-1h3l9-9"/><path d="M3 21v-3l9-9"/><path d="m15 6 3.4-3.4a2.1 2.1 0 1 1 3 3L18 9l.4.4a2.1 2.1 0 1 1-3 3l-3.8-3.8a2.1 2.1 0 1 1 3-3l.4.4Z"/></symbol>
+  <symbol id="i-door" viewBox="0 0 24 24"><path d="M13 4h3a2 2 0 0 1 2 2v14"/><path d="M2 20h3"/><path d="M13 20h9"/><path d="M10 12v.01"/><path d="M13 4.56v16.16a1 1 0 0 1-1.24.97L5 20V5.56a2 2 0 0 1 1.52-1.94l4-1A2 2 0 0 1 13 4.56Z"/></symbol>
+  <symbol id="i-bot" viewBox="0 0 24 24"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></symbol>
+  <symbol id="i-cloud-check" viewBox="0 0 24 24"><path d="m17 15-5.5 5.5L9 18"/><path d="M5 17.74A7 7 0 1 1 15.71 10h1.79a4.5 4.5 0 0 1 1.5 8.74"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></symbol>
+  <symbol id="i-pencil" viewBox="0 0 24 24"><path d="M21.17 6.81a1 1 0 0 0-3.98-3.99L3.84 16.17a2 2 0 0 0-.5.83l-1.32 4.35a.5.5 0 0 0 .62.62l4.35-1.32a2 2 0 0 0 .83-.5z"/><path d="m15 5 4 4"/></symbol>
+  <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-type" viewBox="0 0 24 24"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></symbol>
+  <symbol id="i-smile" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01"/><path d="M15 9h.01"/></symbol>
+  <symbol id="i-person" viewBox="0 0 24 24"><circle cx="12" cy="5" r="1.5"/><path d="m9 20 3-6 3 6"/><path d="m6 8 6 2 6-2"/><path d="M12 10v4"/></symbol>
+  <symbol id="i-waves" viewBox="0 0 24 24"><path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/></symbol>
+  <symbol id="i-mountain" viewBox="0 0 24 24"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></symbol>
+  <symbol id="i-loader" viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-6.22-8.56"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 0 0-16 0"/></symbol>
+  <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M21 4h-7"/><path d="M10 4H3"/><path d="M21 12h-9"/><path d="M8 12H3"/><path d="M21 20h-5"/><path d="M12 20H3"/><path d="M14 2v4"/><path d="M8 10v4"/><path d="M16 18v4"/></symbol>
+</svg>
+
+<header class="barra">
+  <div class="marca"><img alt="" class="marca-ico" id="marca-ico" src="icono.svg"><span>Minecraft <b>Animator</b></span></div>
+  <div class="proy-actual">
+    <input class="nombre-proy" id="nombre-proy" value="Mi animación" aria-label="Nombre del proyecto" maxlength="60">
+    <span class="estado-proy" id="estado-proy" title="Autoguardado en la carpeta proyectos/"></span>
+  </div>
+  <div class="barra-grupo">
+    <button class="btn icono" id="b-deshacer" title="Deshacer (Ctrl+Z)" aria-label="Deshacer"><svg class="ic"><use href="#i-undo"/></svg></button>
+    <button class="btn icono" id="b-rehacer" title="Rehacer (Ctrl+Y)" aria-label="Rehacer"><svg class="ic"><use href="#i-redo"/></svg></button>
+  </div>
+  <div class="barra-der">
+    <button class="btn" id="b-proyectos" title="Todos tus videos (carpeta proyectos/)"><svg class="ic"><use href="#i-folder"/></svg>Proyectos</button>
+    <button class="btn" id="b-nuevo" title="Proyecto nuevo (el actual queda guardado)"><svg class="ic"><use href="#i-file-plus"/></svg>Nuevo</button>
+    <span class="barra-sep"></span>
+    <button class="btn icono" id="b-sorpresa" title="Sorpréndeme: animación al azar" aria-label="Sorpréndeme"><svg class="ic"><use href="#i-sparkles"/></svg></button>
+    <button class="btn icono" id="b-abrir" title="Importar un archivo .json como proyecto nuevo" aria-label="Importar archivo"><svg class="ic"><use href="#i-upload"/></svg></button>
+    <button class="btn icono" id="b-guardar" title="Descargar una copia .json del proyecto" aria-label="Descargar copia"><svg class="ic"><use href="#i-download"/></svg></button>
+    <button class="btn icono" id="b-tema" title="Tema claro / oscuro" aria-label="Cambiar tema"><svg class="ic tema-claro"><use href="#i-moon"/></svg><svg class="ic tema-oscuro"><use href="#i-sun"/></svg></button>
+    <input type="file" id="f-proyecto" accept=".json,application/json" hidden>
+    <button class="btn primario" id="b-exportar"><svg class="ic"><use href="#i-film"/></svg>Exportar</button>
+  </div>
+</header>
+
+<main class="app">
+  <!-- ───────── Izquierda ───────── -->
+  <aside class="lado izq">
+    <details class="seccion" open>
+      <summary>Personaje<svg class="ic chev"><use href="#i-chevron"/></svg></summary>
+      <button class="tarjeta-pj" id="b-catalogo" title="Abrir el catálogo de personajes">
+        <img id="pj-retrato" alt="">
+        <span><b id="pj-nombre">—</b><small>Cambiar personaje</small></span>
+      </button>
+      <button class="btn ancho" id="b-ojos"><svg class="ic"><use href="#i-eye"/></svg>Ojos y boca</button>
+    </details>
+
+    <details class="seccion" open>
+      <summary>Biblioteca<svg class="ic chev"><use href="#i-chevron"/></svg></summary>
+      <p class="nota">Todos los mobs y objetos de Minecraft (modelos de Fresh Animations y texturas de Bare Bones).</p>
+      <div class="fila"><button class="btn chico" id="b-recursos" title="Agregar mobs a la toma bajo el cabezal"><svg class="ic"><use href="#i-paw"/></svg>Mobs</button><button class="btn chico" id="b-recursos-obj" title="Dar un objeto a LTezla en la toma bajo el cabezal"><svg class="ic"><use href="#i-sword"/></svg>Objetos</button></div>
+    </details>
+
+    <details class="seccion" open>
+      <summary>Escena<svg class="ic chev"><use href="#i-chevron"/></svg></summary>
+      <label class="campo">Fondo
+        <select id="s-fondo"><option value="transparente">Transparente</option><option value="color">Color</option><option value="mundo">Mundo de bloques</option></select>
+      </label>
+      <label class="campo" id="campo-color">Color <input type="color" id="i-color" value="#1d2030"></label>
+      <div id="campo-mundo">
+        <label class="campo">Terreno
+          <select id="s-terreno"><option value="colinas">Colinas con árboles</option><option value="plano">Plano</option><option value="balcon">Balcón (video Benly)</option><option value="aldea">Aldea (calle con casas)</option><option value="noche">Meseta y acantilado</option><option value="nieve">Taiga nevada</option><option value="agua">Fondo del mar</option><option value="cerezos">Bosque de cerezos</option><option value="nether">Nether (bosque carmesí)</option><option value="vacio">Isla pequeña</option></select>
+        </label>
+        <div class="fila"><button class="btn chico" id="b-generar">Generar terreno</button><button class="btn chico" id="b-construir" aria-pressed="false"><svg class="ic"><use href="#i-box"/></svg>Construir</button></div>
+        <label class="campo">Texturas
+          <select id="s-texturas"><option value="minecraft">De tu Minecraft</option><option value="barebones">Bare Bones</option><option value="generadas">Generadas</option></select>
+        </label>
+        <button class="btn chico texto" id="b-importar-tex" title="Copia las texturas de bloques del Minecraft instalado en tu PC"><svg class="ic"><use href="#i-download"/></svg>Importar de mi Minecraft</button>
+        <label class="campo">Cielo <input type="color" id="i-cielo" value="#9cc9f5"></label>
+      </div>
+      <label class="check"><input type="checkbox" id="c-sombras" checked> Sombras</label>
+      <label class="campo">Marco
+        <select id="s-marco"><option value="ninguno">Ninguno</option><option value="cine">Barras de cine</option><option value="rec">Cámara REC</option></select>
+      </label>
+    </details>
+
+    <details class="seccion">
+      <summary>Render<svg class="ic chev"><use href="#i-chevron"/></svg></summary>
+      <label class="campo">Calidad
+        <select id="s-calidad"><option value="cine">Cine</option><option value="rapida">Rápida</option></select>
+      </label>
+      <label class="check"><input type="checkbox" id="c-ao" checked> Sombras de contacto</label>
+      <div class="mini-desl"><span>Desenfoque de fondo</span><input type="range" id="r-dof" min="0" max="1" step="0.05" value="0"></div>
+      <div class="mini-desl"><span>Grano</span><input type="range" id="r-grano" min="0" max="1" step="0.05" value="0"></div>
+      <div class="mini-desl"><span>Aberración</span><input type="range" id="r-aberracion" min="0" max="1" step="0.05" value="0"></div>
+      <div class="mini-desl"><span>Viñeta</span><input type="range" id="r-vineta" min="0" max="1" step="0.05" value="0"></div>
+      <div class="mini-desl"><span>Saturación</span><input type="range" id="r-saturacion" min="0" max="2.5" step="0.05" value="1"></div>
+      <div class="mini-desl"><span>Suavidad de lente</span><input type="range" id="r-suavidad" min="0" max="1" step="0.05" value="0"></div>
+    </details>
+
+    <details class="seccion">
+      <summary>Animación<svg class="ic chev"><use href="#i-chevron"/></svg></summary>
+      <label class="check"><input type="checkbox" id="c-dinamica" checked> Movimiento suave (física)</label>
+      <label class="check"><input type="checkbox" id="c-vida" checked> Vida: respira, cambia el peso, mira</label>
+      <label class="check"><input type="checkbox" id="c-parpadeo" checked> Parpadeo automático</label>
+      <label class="campo">Stop-motion
+        <select id="s-stop"><option value="0">Desactivado</option><option value="12">12 fps</option><option value="8">8 fps</option><option value="6">6 fps</option></select>
+      </label>
+    </details>
+
+    <details class="seccion" open>
+      <summary>Plantillas<svg class="ic chev"><use href="#i-chevron"/></svg></summary>
+      <div class="plantillas" id="plantillas"></div>
+    </details>
+  </aside>
+
+  <!-- ───────── Centro ───────── -->
+  <section class="centro">
+    <div class="herramientas">
+      <div class="segmentado">
+        <button class="seg" id="b-vista-cam" aria-pressed="false" title="Ver a través de la pista de cámara"><svg class="ic"><use href="#i-video"/></svg>Cámara</button>
+        <button class="seg" id="b-posar" aria-pressed="false" title="Haz clic en una parte del cuerpo y gírala"><svg class="ic"><use href="#i-hand"/></svg>Posar</button>
+        <button class="seg" id="b-mover-pj" aria-pressed="false" title="Clic en un bloque para poner ahí al personaje"><svg class="ic"><use href="#i-pin"/></svg>Mover</button>
+      </div>
+      <select id="s-formato" class="chico" title="Formato del video">
+        <option value="1080x1080">Cuadrado · 1080×1080</option>
+        <option value="1920x1080">Horizontal · 1920×1080</option>
+        <option value="1280x720">Horizontal · 1280×720</option>
+        <option value="1706x720">Cine 21:9 · 1706×720</option>
+        <option value="2560x1080">Cine 21:9 · 2560×1080</option>
+        <option value="1080x1920">Vertical · 1080×1920</option>
+      </select>
+    </div>
+    <div class="lienzo-caja" id="lienzo-caja">
+      <div class="lienzo-marco" id="lienzo-marco">
+        <canvas id="lienzo"></canvas>
+        <canvas id="capa" class="capa" aria-hidden="true"></canvas>
+        <div class="marco-cine" aria-hidden="true"></div>
+        <div class="marco-rec" aria-hidden="true">
+          <span class="rec"><i></i>REC</span>
+          <span class="bateria"><i></i></span>
+          <span class="cinta"><i></i><i></i></span>
+          <span class="esq e1"></span><span class="esq e2"></span><span class="esq e3"></span><span class="esq e4"></span>
+        </div>
+      </div>
+      <div class="paleta" id="paleta" hidden>
+        <div class="paleta-herr">
+          <button data-herr="poner" class="activo" title="Clic: poner bloque"><svg class="ic"><use href="#i-plus"/></svg>Poner</button>
+          <button data-herr="quitar" title="Clic: quitar bloque (o Shift+clic)"><svg class="ic"><use href="#i-eraser"/></svg>Quitar</button>
+          <button data-herr="gotero" title="Clic: tomar ese bloque (o Alt+clic)"><svg class="ic"><use href="#i-pipette"/></svg>Gotero</button>
+          <button data-herr="puerta" title="Clic en una puerta: abrir / cerrar"><svg class="ic"><use href="#i-door"/></svg>Puertas</button>
+        </div>
+        <div class="paleta-bloques" id="paleta-bloques"></div>
+      </div>
+      <p class="pista-ayuda" id="ayuda">Arrastra para girar · clic derecho para mover · rueda para acercar</p>
+    </div>
+  </section>
+
+  <!-- ───────── Derecha: inspector ───────── -->
+  <aside class="lado der" id="inspector"></aside>
+
+  <!-- ───────── Abajo: línea de tiempo ───────── -->
+  <section class="linea" id="linea">
+    <div class="transporte">
+      <button class="btn redondo" id="b-play" title="Reproducir (Espacio)" aria-label="Reproducir"><svg class="ic"><use href="#i-play"/></svg></button>
+      <span class="tiempo"><b id="t-actual">0.00</b><span class="tiempo-sep">/</span><span id="t-total">0.0</span> s</span>
+      <label class="interruptor" title="Repetir al llegar al final"><input type="checkbox" id="c-bucle" checked><svg class="ic"><use href="#i-repeat"/></svg></label>
+      <div class="sep"></div>
+      <div class="agregar">
+        <span class="agregar-et">Agregar</span>
+        <button class="chip" data-agregar="poses"><svg class="ic"><use href="#i-person"/></svg>Pose</button>
+        <button class="chip" data-agregar="ojos"><svg class="ic"><use href="#i-smile"/></svg>Expresión</button>
+        <button class="chip" data-agregar="matices"><svg class="ic"><use href="#i-waves"/></svg>Matiz</button>
+        <button class="chip" data-agregar="camara"><svg class="ic"><use href="#i-video"/></svg>Toma</button>
+        <button class="chip" data-agregar="voz"><svg class="ic"><use href="#i-mic"/></svg>Voz</button>
+        <button class="chip" data-agregar="sfx"><svg class="ic"><use href="#i-volume"/></svg>Sonido</button>
+        <button class="chip" data-agregar="escenas" title="Toma con escenario, cielo y mobs (para tráilers con cortes)"><svg class="ic"><use href="#i-mountain"/></svg>Escenario</button>
+        <button class="chip" data-agregar="textos"><svg class="ic"><use href="#i-type"/></svg>Título</button>
+      </div>
+      <div class="zoom">
+        <button class="btn icono chico" id="b-zoom-menos" title="Alejar línea de tiempo" aria-label="Alejar"><svg class="ic"><use href="#i-zoom-out"/></svg></button>
+        <button class="btn icono chico" id="b-zoom-mas" title="Acercar línea de tiempo" aria-label="Acercar"><svg class="ic"><use href="#i-zoom-in"/></svg></button>
+      </div>
+    </div>
+    <div class="pistas">
+      <div class="cabeceras">
+        <div class="cab-regla"></div>
+        <div class="cab" data-pista="escenas"><i></i>Escenarios</div>
+        <div class="cab" data-pista="poses"><i></i>Poses</div>
+        <div class="cab" data-pista="ojos"><i></i>Ojos</div>
+        <div class="cab" data-pista="matices"><i></i>Matices</div>
+        <div class="cab" data-pista="camara"><i></i>Cámara</div>
+        <div class="cab" data-pista="audio"><i></i>Audio</div>
+        <div class="cab" data-pista="textos"><i></i>Títulos</div>
+      </div>
+      <div class="carriles" id="carriles">
+        <div class="carriles-int" id="carriles-int">
+          <div class="regla" id="regla"></div>
+          <div class="carril" data-pista="escenas"></div>
+          <div class="carril" data-pista="poses"></div>
+          <div class="carril" data-pista="ojos"></div>
+          <div class="carril" data-pista="matices"></div>
+          <div class="carril" data-pista="camara"></div>
+          <div class="carril" data-pista="audio"></div>
+          <div class="carril" data-pista="textos"></div>
+          <div class="cabezal" id="cabezal"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ───────── Modal: proyectos ───────── -->
+<dialog class="modal ancho" id="m-proyectos">
+  <div class="modal-cab"><h2>Proyectos</h2><button class="btn chico primario" id="b-proy-nuevo"><svg class="ic"><use href="#i-plus"/></svg>Nuevo proyecto</button><button class="btn icono chico" data-cerrar aria-label="Cerrar"><svg class="ic"><use href="#i-x"/></svg></button></div>
+  <p class="nota pad">Cada video es un archivo en la carpeta <b>proyectos/</b> y se guarda solo mientras lo editas. Las plantillas grandes (tráiler, vlog) abren un proyecto nuevo.</p>
+  <div class="proy-rejilla" id="proyectos-rejilla"></div>
+</dialog>
+
+<!-- ───────── Modal: catálogo de personajes ───────── -->
+<dialog class="modal" id="m-catalogo">
+  <div class="modal-cab"><h2>Personajes</h2><button class="btn icono chico" data-cerrar aria-label="Cerrar"><svg class="ic"><use href="#i-x"/></svg></button></div>
+  <p class="nota pad">Cada jugador guarda su skin y su configuración de cara (ojos, boca, colores).</p>
+  <div class="rejilla" id="catalogo-rejilla"></div>
+  <div class="nuevo-pj">
+    <h4>Nuevo personaje</h4>
+    <div class="fila">
+      <input id="np-nombre" placeholder="Nombre de jugador (ej. LTezla)" maxlength="32">
+      <button class="btn chico" id="b-np-buscar" title="Descarga la skin de ese jugador de Minecraft"><svg class="ic"><use href="#i-search"/></svg>Buscar skin</button>
+      <button class="btn chico" id="b-np-archivo"><svg class="ic"><use href="#i-upload"/></svg>Subir .png</button>
+      <input type="file" id="f-np" accept="image/png" hidden>
+    </div>
+  </div>
+</dialog>
+
+<!-- ───────── Modal: biblioteca de poses / expresiones ───────── -->
+<dialog class="modal" id="m-biblio">
+  <div class="modal-cab"><h2 id="biblio-titulo">Biblioteca de poses</h2><input type="search" id="biblio-buscar" placeholder="Buscar"><button class="btn icono chico" data-cerrar aria-label="Cerrar"><svg class="ic"><use href="#i-x"/></svg></button></div>
+  <div class="tabs" id="biblio-tabs"></div>
+  <div class="rejilla" id="biblio-rejilla"></div>
+</dialog>
+
+<!-- ───────── Modal: biblioteca de recursos (mobs y objetos de Minecraft) ───────── -->
+<dialog class="modal ancho" id="m-recursos">
+  <div class="modal-cab"><h2>Biblioteca de Minecraft</h2><input type="search" id="rec-buscar" placeholder="Buscar (zombi, espada, pig…)"><button class="btn icono chico" data-cerrar aria-label="Cerrar"><svg class="ic"><use href="#i-x"/></svg></button></div>
+  <div class="tabs" id="rec-tabs"></div>
+  <div class="tabs sub" id="rec-cats"></div>
+  <p class="nota pad" id="rec-destino"></p>
+  <div class="rejilla" id="rec-rejilla"></div>
+</dialog>
+
+<!-- ───────── Modal: editor de ojos ───────── -->
+<dialog class="modal ancho" id="m-ojos">
+  <div class="modal-cab"><h2 id="ojos-titulo">Ojos y boca</h2><button class="btn icono chico" data-cerrar aria-label="Cerrar"><svg class="ic"><use href="#i-x"/></svg></button></div>
+  <div class="ojos-cuerpo">
+    <div class="ojos-izq">
+      <p class="nota">Elige qué marcar y arrastra sobre la cara. Los ojos se redibujan encima con párpados, iris y brillo; si la skin no tiene boca, déjala sin marcar.</p>
+      <div class="tabs" id="ojos-herr">
+        <button data-herr="0" class="activo"><i class="sw sw-o1"></i>Ojo 1</button>
+        <button data-herr="1"><i class="sw sw-o2"></i>Ojo 2</button>
+        <button data-herr="boca"><i class="sw sw-boca"></i>Boca</button>
+      </div>
+      <canvas id="ojos-lienzo" width="320" height="320" class="ojos-lienzo"></canvas>
+      <div class="fila">
+        <button class="btn chico" id="b-ojos-auto">Detectar ojos</button>
+        <button class="btn chico" id="b-sin-boca">Sin boca</button>
+      </div>
+    </div>
+    <div class="ojos-der">
+      <label class="campo">Estilo <select id="o-estilo"></select></label>
+      <label class="check"><input type="checkbox" id="o-cejas"> Cejas animadas</label>
+      <label class="check"><input type="checkbox" id="o-brillo"> Brillo en los ojos</label>
+      <label class="check"><input type="checkbox" id="o-delineado"> Delineado arriba del ojo</label>
+      <label class="check"><input type="checkbox" id="o-delgado"> Brazos delgados (Alex)</label>
+      <label class="check"><input type="checkbox" id="o-pelo" checked> Pelo con movimiento (física)</label>
+      <div class="mini-desl"><span>Mechones atrás (largo)</span><input type="range" id="o-largo" min="0" max="6" step="1" value="2"></div>
+      <div class="colores" id="o-colores"></div>
+      <button class="btn chico" id="b-colores-auto">Colores automáticos</button>
+      <h4>Vista previa</h4>
+      <div class="previa-fila">
+        <canvas id="ojos-previa" width="256" height="256" class="ojos-previa"></canvas>
+        <div class="mira" id="o-mira" title="Arrastra para mover la mirada"><i></i></div>
+      </div>
+      <div class="chips" id="o-chips"></div>
+    </div>
+  </div>
+  <div class="modal-pie"><button class="btn" data-cerrar>Cancelar</button><button class="btn primario" id="b-ojos-ok">Guardar en el personaje</button></div>
+</dialog>
+
+<!-- ───────── Modal: exportar ───────── -->
+<dialog class="modal" id="m-exportar">
+  <div class="modal-cab"><h2>Exportar</h2><button class="btn icono chico" data-cerrar aria-label="Cerrar"><svg class="ic"><use href="#i-x"/></svg></button></div>
+  <div class="exp-cuerpo">
+    <label class="campo">Formato
+      <select id="e-tipo"><option value="mp4">Video MP4 (H.264, para redes)</option><option value="webm">Video WebM</option><option value="png">PNG (cuadro actual)</option><option value="secuencia">Secuencia PNG (carpeta)</option></select>
+    </label>
+    <label class="campo">Cuadros por segundo <select id="e-fps"><option>24</option><option selected>30</option><option>60</option></select></label>
+    <label class="campo">Calidad <select id="e-escala"><option value="1">Completa</option><option value="0.5">Mitad (más rápido)</option></select></label>
+    <p class="nota" id="e-nota">El tamaño es el del formato elegido arriba de la vista. El MP4 se arma cuadro por cuadro (sale fluido aunque el render sea lento) y se guarda en la carpeta <b>Videos</b> del programa. Con fondo transparente usa WebM para conservar la transparencia.</p>
+    <div class="progreso" id="e-progreso" hidden><i></i><span></span></div>
+  </div>
+  <div class="modal-pie"><button class="btn" data-cerrar>Cerrar</button><button class="btn primario" id="b-exp-ok">Exportar</button></div>
+</dialog>
+
+<!-- ───────── Hub de inicio (lobby): continuar, recientes, nuevo, plantillas ───────── -->
+<div class="hub" id="hub" hidden>
+  <div class="hub-int">
+    <header class="hub-cab">
+      <div class="hub-marca"><img src="icono.svg" alt=""><span>Minecraft <b>Animator</b></span></div>
+      <button class="btn icono" id="hub-tema" title="Tema claro / oscuro" aria-label="Cambiar tema"><svg class="ic tema-claro"><use href="#i-moon"/></svg><svg class="ic tema-oscuro"><use href="#i-sun"/></svg></button>
+    </header>
+    <section class="hub-hero">
+      <div>
+        <h1>¿Qué vamos a animar hoy?</h1>
+        <p>Tus videos se guardan solos en la carpeta <b>proyectos/</b>. Abre uno o empieza otro.</p>
+      </div>
+      <div class="hub-acciones">
+        <button class="btn primario grande" id="hub-nuevo"><svg class="ic"><use href="#i-plus"/></svg>Nuevo proyecto</button>
+        <button class="btn grande" id="hub-importar"><svg class="ic"><use href="#i-upload"/></svg>Importar archivo</button>
+        <a class="btn grande" id="hub-tiktok" href="tiktok/panel.html"><svg class="ic"><use href="#i-video"/></svg>TikToks del día</a>
+      </div>
+    </section>
+    <section class="hub-continuar" id="hub-continuar"></section>
+    <div class="hub-fila-tit"><h2>Recientes</h2><button class="btn texto chico" id="hub-todos">Administrar proyectos</button></div>
+    <div class="hub-rejilla" id="hub-recientes"></div>
+    <div class="hub-fila-tit"><h2>Empezar con una plantilla</h2></div>
+    <div class="hub-plantillas" id="hub-plantillas"></div>
+    <footer class="hub-pie"><svg class="ic"><use href="#i-bot"/></svg>Un agente de IA también puede manejar el programa por comandos (ver <b>AGENTE.md</b>).</footer>
+  </div>
+</div>
+
+<!-- ───────── Diálogos propios (nombre / confirmar) ───────── -->
+<dialog class="modal chico" id="m-texto">
+  <form method="dialog">
+    <div class="modal-cab"><h2 id="mt-titulo">Nombre</h2></div>
+    <div class="exp-cuerpo"><label class="mt-et" id="mt-etiqueta" for="mt-valor"></label><input id="mt-valor" maxlength="60" autocomplete="off"><p class="nota" id="mt-nota"></p></div>
+    <div class="modal-pie"><button class="btn primario" id="mt-ok" value="ok">Aceptar</button><button class="btn mt-cancelar" value="cancelar" formnovalidate>Cancelar</button></div>
+  </form>
+</dialog>
+
+<div class="toast" id="toast" role="status"></div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

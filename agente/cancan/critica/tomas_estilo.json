@@ -1,0 +1,623 @@
+[
+ {
+  "t": 0.0,
+  "dur": 3.2,
+  "seccion": "galop",
+  "camara": "cerca",
+  "paleta": null,
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 3.2,
+  "dur": 3.2,
+  "seccion": "galop",
+  "camara": "ras",
+  "paleta": null,
+  "filtro": null,
+  "impacto": null
+ },
+ {
+  "t": 6.4,
+  "dur": 3.2,
+  "seccion": "galop",
+  "camara": "grua",
+  "paleta": null,
+  "filtro": null,
+  "impacto": null
+ },
+ {
+  "t": 9.6,
+  "dur": 3.2,
+  "seccion": "galop",
+  "camara": "latigo",
+  "paleta": null,
+  "filtro": null,
+  "impacto": null
+ },
+ {
+  "t": 12.8,
+  "dur": 1.6,
+  "seccion": "octavas",
+  "camara": "empuje",
+  "paleta": "nether",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 14.4,
+  "dur": 1.6,
+  "seccion": "octavas",
+  "camara": "cerca",
+  "paleta": "nether",
+  "filtro": null,
+  "impacto": null
+ },
+ {
+  "t": 16.0,
+  "dur": 1.6,
+  "seccion": "octavas",
+  "camara": "holandes",
+  "paleta": "roja",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 17.6,
+  "dur": 1.6,
+  "seccion": "octavas",
+  "camara": "alto",
+  "paleta": "roja",
+  "filtro": null,
+  "impacto": null
+ },
+ {
+  "t": 19.2,
+  "dur": 1.6,
+  "seccion": "octavas",
+  "camara": "ras",
+  "paleta": "naranja",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 20.8,
+  "dur": 1.6,
+  "seccion": "octavas",
+  "camara": "cerca",
+  "paleta": "naranja",
+  "filtro": null,
+  "impacto": null
+ },
+ {
+  "t": 22.4,
+  "dur": 2.4,
+  "seccion": "octavas",
+  "camara": "grua",
+  "paleta": "oro",
+  "filtro": "deconverge",
+  "impacto": "mundo"
+ },
+ {
+  "t": 24.8,
+  "dur": 3.2,
+  "seccion": "re-la",
+  "camara": "espiral_sube",
+  "paleta": "obsidiana",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 28.0,
+  "dur": 1.6,
+  "seccion": "re-la",
+  "camara": "vertigo",
+  "paleta": "obsidiana",
+  "filtro": "wobble",
+  "impacto": null
+ },
+ {
+  "t": 29.6,
+  "dur": 1.6,
+  "seccion": "re-la",
+  "camara": "holandes",
+  "paleta": "obsidiana",
+  "filtro": "oscuridad",
+  "impacto": null
+ },
+ {
+  "t": 31.2,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "ras",
+  "paleta": "rosa",
+  "filtro": null,
+  "impacto": "congela"
+ },
+ {
+  "t": 32.8,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "alto",
+  "paleta": "azul",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 34.4,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "cerca",
+  "paleta": "oro",
+  "filtro": "bits",
+  "impacto": "mundo"
+ },
+ {
+  "t": 36.0,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "holandes",
+  "paleta": "verde",
+  "filtro": "creeper",
+  "impacto": "mundo"
+ },
+ {
+  "t": 37.6,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "latigo",
+  "paleta": "end",
+  "filtro": "ntsc",
+  "impacto": "mundo"
+ },
+ {
+  "t": 39.2,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "vertigo",
+  "paleta": "nether",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 40.8,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "cenital",
+  "paleta": "prismarina",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 42.4,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "cerca",
+  "paleta": "lila",
+  "filtro": "spider",
+  "impacto": "mundo"
+ },
+ {
+  "t": 44.0,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "ras",
+  "paleta": "rosa",
+  "filtro": null,
+  "impacto": "congela"
+ },
+ {
+  "t": 45.6,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "empuje",
+  "paleta": "hielo",
+  "filtro": "deconverge",
+  "impacto": "mundo"
+ },
+ {
+  "t": 47.2,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "holandes",
+  "paleta": "oro",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 48.8,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "alto",
+  "paleta": "verde",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 50.4,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "latigo",
+  "paleta": "roja",
+  "filtro": "wobble",
+  "impacto": "mundo"
+ },
+ {
+  "t": 52.0,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "cerca",
+  "paleta": "azul",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 53.6,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "grua",
+  "paleta": "prismarina",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 55.2,
+  "dur": 1.6,
+  "seccion": "coro en sol",
+  "camara": "ras",
+  "paleta": "end",
+  "filtro": "bits",
+  "impacto": "mundo"
+ },
+ {
+  "t": 56.8,
+  "dur": 3.2,
+  "seccion": "galop 2",
+  "camara": "cerca",
+  "paleta": null,
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 60.0,
+  "dur": 3.2,
+  "seccion": "galop 2",
+  "camara": "cenital",
+  "paleta": null,
+  "filtro": "vision",
+  "impacto": null
+ },
+ {
+  "t": 63.2,
+  "dur": 3.2,
+  "seccion": "galop 2",
+  "camara": "ras",
+  "paleta": null,
+  "filtro": null,
+  "impacto": null
+ },
+ {
+  "t": 66.4,
+  "dur": 3.2,
+  "seccion": "subida",
+  "camara": "vertigo",
+  "paleta": "hielo",
+  "filtro": "nieve",
+  "impacto": "mundo"
+ },
+ {
+  "t": 69.6,
+  "dur": 1.6,
+  "seccion": "subida",
+  "camara": "grua",
+  "paleta": "hielo",
+  "filtro": "oscuridad",
+  "impacto": null
+ },
+ {
+  "t": 71.2,
+  "dur": 0.8,
+  "seccion": "subida",
+  "camara": "cerca",
+  "paleta": "hielo",
+  "filtro": null,
+  "impacto": null
+ },
+ {
+  "t": 72.0,
+  "dur": 0.8,
+  "seccion": "subida",
+  "camara": "holandes",
+  "paleta": "hielo",
+  "filtro": "deconverge",
+  "impacto": null
+ },
+ {
+  "t": 72.8,
+  "dur": 0.8,
+  "seccion": "subida",
+  "camara": "ras",
+  "paleta": "hielo",
+  "filtro": null,
+  "impacto": null
+ },
+ {
+  "t": 73.6,
+  "dur": 0.8,
+  "seccion": "subida",
+  "camara": "empuje",
+  "paleta": "hielo",
+  "filtro": "bits",
+  "impacto": null
+ },
+ {
+  "t": 74.4,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "ras",
+  "paleta": "oro",
+  "filtro": null,
+  "impacto": "congela"
+ },
+ {
+  "t": 76.0,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "alto",
+  "paleta": "nether",
+  "filtro": "deconverge",
+  "impacto": "mundo"
+ },
+ {
+  "t": 77.6,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "holandes",
+  "paleta": "rosa",
+  "filtro": "bits",
+  "impacto": "mundo"
+ },
+ {
+  "t": 79.2,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "latigo",
+  "paleta": "azul",
+  "filtro": "ntsc",
+  "impacto": "mundo"
+ },
+ {
+  "t": 80.8,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "cerca",
+  "paleta": "verde",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 82.4,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "vertigo",
+  "paleta": "end",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 84.0,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "cenital",
+  "paleta": "roja",
+  "filtro": "ntsc",
+  "impacto": "mundo"
+ },
+ {
+  "t": 85.6,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "empuje",
+  "paleta": "prismarina",
+  "filtro": "bits",
+  "impacto": "mundo"
+ },
+ {
+  "t": 87.2,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "ras",
+  "paleta": "oro",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 88.8,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "holandes",
+  "paleta": "nether",
+  "filtro": "deconverge",
+  "impacto": "mundo"
+ },
+ {
+  "t": 90.4,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "latigo",
+  "paleta": "lila",
+  "filtro": "sobel",
+  "impacto": "mundo"
+ },
+ {
+  "t": 92.0,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "cerca",
+  "paleta": "azul",
+  "filtro": "bits",
+  "impacto": "mundo"
+ },
+ {
+  "t": 93.6,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "grua",
+  "paleta": "rosa",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 95.2,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "alto",
+  "paleta": "verde",
+  "filtro": "deconverge",
+  "impacto": "mundo"
+ },
+ {
+  "t": 96.8,
+  "dur": 1.6,
+  "seccion": "coro en re",
+  "camara": "ras",
+  "paleta": "end",
+  "filtro": "sobel",
+  "impacto": "mundo"
+ },
+ {
+  "t": 98.4,
+  "dur": 1.6,
+  "seccion": "hop hop",
+  "camara": "cerca",
+  "paleta": null,
+  "filtro": "pencil",
+  "impacto": "mundo"
+ },
+ {
+  "t": 100.0,
+  "dur": 1.6,
+  "seccion": "hop hop",
+  "camara": "ras",
+  "paleta": null,
+  "filtro": "pencil",
+  "impacto": "mundo"
+ },
+ {
+  "t": 101.6,
+  "dur": 1.6,
+  "seccion": "hop hop",
+  "camara": "holandes",
+  "paleta": "rosa",
+  "filtro": "sobel",
+  "impacto": "mundo"
+ },
+ {
+  "t": 103.2,
+  "dur": 1.6,
+  "seccion": "hop hop",
+  "camara": "latigo",
+  "paleta": "oro",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 104.8,
+  "dur": 1.6,
+  "seccion": "hop hop",
+  "camara": "empuje",
+  "paleta": "azul",
+  "filtro": "deconverge",
+  "impacto": "mundo"
+ },
+ {
+  "t": 106.4,
+  "dur": 1.6,
+  "seccion": "hop hop",
+  "camara": "vertigo",
+  "paleta": "nether",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 108.0,
+  "dur": 4.0,
+  "seccion": "nota larga",
+  "camara": "orbita_lenta",
+  "paleta": "end",
+  "filtro": null,
+  "impacto": "suspendido"
+ },
+ {
+  "t": 112.0,
+  "dur": 0.8,
+  "seccion": "final",
+  "camara": "empuje",
+  "paleta": "oro",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 112.8,
+  "dur": 0.8,
+  "seccion": "final",
+  "camara": "ras",
+  "paleta": "rosa",
+  "filtro": "deconverge",
+  "impacto": null
+ },
+ {
+  "t": 113.6,
+  "dur": 0.8,
+  "seccion": "final",
+  "camara": "holandes",
+  "paleta": "azul",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 114.4,
+  "dur": 0.8,
+  "seccion": "final",
+  "camara": "cerca",
+  "paleta": "nether",
+  "filtro": "bits",
+  "impacto": null
+ },
+ {
+  "t": 115.2,
+  "dur": 0.8,
+  "seccion": "final",
+  "camara": "alto",
+  "paleta": "verde",
+  "filtro": null,
+  "impacto": "mundo"
+ },
+ {
+  "t": 116.0,
+  "dur": 0.8,
+  "seccion": "final",
+  "camara": "latigo",
+  "paleta": "prismarina",
+  "filtro": null,
+  "impacto": null
+ },
+ {
+  "t": 116.8,
+  "dur": 0.4,
+  "seccion": "final",
+  "camara": "cerca",
+  "paleta": "lila",
+  "filtro": null,
+  "impacto": "final"
+ },
+ {
+  "t": 117.2,
+  "dur": 2.6,
+  "seccion": "cierre",
+  "camara": "recompensa",
+  "paleta": null,
+  "filtro": null,
+  "impacto": null
+ }
+]

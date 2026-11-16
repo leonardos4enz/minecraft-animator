@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="es" data-theme="claro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TikToks del día · Minecraft Animator</title>
+<link rel="icon" href="../icono.svg">
+<link rel="stylesheet" href="../css/estilo.css">
+<script>try { const t = localStorage.getItem("mcanimator.tema"); if (t) document.documentElement.dataset.theme = t; } catch {}</script>
+<style>
+  html, body { overflow: auto; height: auto; min-height: 100%; }
+  body { font-size: 14px; }
+  .envoltura { max-width: 1180px; margin: 0 auto; padding: 20px 16px 60px; }
+  .cab { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 18px; }
+  .logo { display: flex; align-items: center; gap: 10px; font-size: 16px; font-weight: 600; margin-right: auto; }
+  .logo img { width: 28px; height: 28px; }
+  .logo small { color: var(--suave); font-weight: 400; font-size: 13px; }
+  .fecha { display: flex; align-items: center; gap: 6px; }
+  .fecha b { min-width: 150px; text-align: center; font-weight: 600; }
+  .kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-bottom: 16px; }
+  .kpi { background: var(--panel); border: 1px solid var(--borde); border-radius: 10px; padding: 12px 14px; box-shadow: var(--sombra); }
+  .kpi span { color: var(--suave); font-size: 12px; display: block; }
+  .kpi b { font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .kpi small { color: var(--tenue); font-size: 12px; }
+  .barra-prog { height: 4px; background: var(--hundido); border-radius: 2px; margin-top: 8px; overflow: hidden; }
+  .barra-prog i { display: block; height: 100%; background: var(--escenas); }
+  .rejilla { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 16px; align-items: start; }
+  .aviso { background: var(--marca-suave); border: 1px solid var(--marca); border-radius: 10px; padding: 12px 14px; margin-bottom: 12px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  .aviso p { margin: 0; flex: 1; min-width: 240px; }
+  .lista { display: flex; flex-direction: column; gap: 8px; container-type: inline-size; }
+  @container (max-width: 680px) {             /* lista angosta: los botones bajan bajo el título en vez de apretarlo */
+    .slot { grid-template-columns: 56px 54px minmax(0, 1fr); }
+    .slot .acciones { grid-column: 3 / -1; justify-content: flex-start; }
+    .slot .mini { grid-row: span 2; }
+  }
+  .slot { display: grid; grid-template-columns: 56px 54px minmax(0, 1fr) auto; gap: 12px; align-items: center; background: var(--panel); border: 1px solid var(--borde); border-radius: 10px; padding: 10px 12px; box-shadow: var(--sombra); }
+  .slot.hecho { opacity: .62; }
+  .hora { font-weight: 600; font-variant-numeric: tabular-nums; font-size: 15px; }
+  .mini { width: 54px; height: 96px; border-radius: 6px; background: var(--hundido); object-fit: cover; display: block; border: 1px solid var(--borde); }
+  .mini.vacia { display: grid; place-items: center; color: var(--tenue); font-size: 11px; text-align: center; }
+  .info { min-width: 0; }
+  .info .tit { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .info .meta { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; align-items: center; }
+  .chip { font-size: 11px; padding: 2px 8px; border-radius: 99px; background: var(--hundido); color: var(--suave); white-space: nowrap; }
+  .chip.idea, .chip.guion, .chip.armado { background: var(--hundido); }
+  .chip.revisado { background: color-mix(in srgb, var(--matices) 16%, transparent); color: var(--matices); }
+  .chip.entregado { background: var(--marca-suave); color: var(--marca); font-weight: 600; }
+  .chip.publicado { background: color-mix(in srgb, var(--escenas) 16%, transparent); color: var(--escenas); font-weight: 600; }
+  .chip.malo { background: color-mix(in srgb, var(--peligro) 14%, transparent); color: var(--peligro); }
+  .acciones { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+  .metricas { grid-column: 1 / -1; display: none; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 8px; padding-top: 8px; border-top: 1px dashed var(--borde); }
+  .slot.abierto .metricas { display: grid; }
+  .metricas label { font-size: 11px; color: var(--suave); display: flex; flex-direction: column; gap: 3px; }
+  .metricas input { height: 30px; border: 1px solid var(--borde); border-radius: 6px; background: var(--panel2); padding: 0 8px; min-width: 0; }
+  .lado { display: flex; flex-direction: column; gap: 12px; }
+  .caja { background: var(--panel); border: 1px solid var(--borde); border-radius: 10px; padding: 14px; box-shadow: var(--sombra); }
+  .caja h3 { font-size: 13px; }
+  .caja textarea { width: 100%; min-height: 70px; border: 1px solid var(--borde); border-radius: 8px; background: var(--panel2); padding: 8px; resize: vertical; }
+  .caja pre { white-space: pre-wrap; word-break: break-word; font: 12px/1.5 Inter, system-ui, sans-serif; color: var(--suave); margin: 0; max-height: 260px; overflow: auto; }
+  .seccion { margin: 22px 0 10px; font-size: 13px; color: var(--suave); font-weight: 600; }
+  .vacio { color: var(--suave); padding: 18px; text-align: center; border: 1px dashed var(--borde2); border-radius: 10px; }
+  dialog { border: 0; border-radius: 14px; padding: 0; background: var(--panel); color: var(--texto); box-shadow: var(--sombra-l); max-width: 96vw; }
+  dialog::backdrop { background: var(--velo); }
+  .modal { display: grid; grid-template-columns: auto minmax(260px, 380px); gap: 16px; padding: 16px; }
+  .modal video { height: min(78vh, 720px); aspect-ratio: 9 / 16; background: #000; border-radius: 10px; }
+  .modal pre { white-space: pre-wrap; font: 12px/1.55 Inter, system-ui, sans-serif; background: var(--panel2); border: 1px solid var(--borde); border-radius: 8px; padding: 10px; max-height: 52vh; overflow: auto; margin: 8px 0; }
+  /* ── "Siguiente a subir": el flujo de Leo en 4 pasos ── */
+  .sig { display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 18px; background: var(--panel); border: 1.5px solid var(--marca); border-radius: 14px; padding: 16px; box-shadow: var(--sombra-m); margin-bottom: 18px; }
+  #siguiente { container-type: inline-size; }
+  .sig .portada { all: unset; cursor: pointer; display: block; width: 132px; aspect-ratio: 9 / 16; border-radius: 10px; overflow: hidden; background: var(--hundido); position: relative; }
+  .sig .portada img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .sig .portada span { position: absolute; inset: auto 6px 6px 6px; background: rgba(0, 0, 0, .62); color: #fff; font-size: 11px; text-align: center; border-radius: 6px; padding: 3px 0; }
+  .sig .portada:focus-visible { outline: 2px solid var(--marca); outline-offset: 2px; }
+  .sig .cuando { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 12px; color: var(--suave); }
+  .sig .cuando b { color: var(--marca); font-size: 12px; letter-spacing: .04em; }
+  .sig .cuando .reloj { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--texto); }
+  .sig .cuando .tarde { color: var(--peligro); }
+  .sig h2 { font-size: 18px; margin: 4px 0 12px; line-height: 1.3; }
+  .pasos { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+  .paso { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 10px; align-items: start; }
+  .paso .n { width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; font-size: 12px; font-weight: 600; background: var(--hundido); color: var(--suave); }
+  .paso.hecho .n { background: var(--escenas); color: #fff; }
+  .paso .cab-paso { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; min-height: 26px; }
+  .paso .cab-paso small { color: var(--suave); font-size: 12px; }
+  .texto-copiar { all: unset; box-sizing: border-box; cursor: pointer; display: block; width: 100%; margin-top: 6px; background: var(--panel2); border: 1px solid var(--borde); border-radius: 8px; padding: 8px 10px; font-size: 13px; line-height: 1.45; white-space: pre-wrap; word-break: break-word; }
+  .texto-copiar:hover { border-color: var(--marca); }
+  .texto-copiar:focus-visible { outline: 2px solid var(--marca); outline-offset: 1px; }
+  .recordar { margin-top: 12px; font-size: 12px; color: var(--suave); display: flex; flex-direction: column; gap: 4px; }
+  .recordar b { color: var(--texto); font-weight: 600; }
+  .sig .final { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 14px; }
+  .btn.ok { border-color: var(--escenas); color: var(--escenas); }
+  @container (max-width: 520px) { .sig { grid-template-columns: 1fr; padding: 14px; } .sig .portada { width: 96px; } .paso .cab-paso small { flex-basis: 100%; } }
+  details.subidos { margin-top: 18px; }
+  details.subidos summary { cursor: pointer; font-size: 13px; color: var(--suave); font-weight: 600; padding: 6px 0; list-style: none; }
+  details.subidos summary::before { content: "▸ "; } details.subidos[open] summary::before { content: "▾ "; }
+  details.subidos .lista { margin-top: 8px; }
+  .listo-dia { background: color-mix(in srgb, var(--escenas) 12%, transparent); border: 1px solid var(--escenas); color: var(--texto); border-radius: 12px; padding: 14px 16px; margin-bottom: 18px; }
+  .ruta { all: unset; cursor: pointer; color: var(--suave); font-size: 12px; word-break: break-all; display: block; }
+  .ruta:hover { color: var(--marca); text-decoration: underline; }
+  .ruta:focus-visible { outline: 2px solid var(--marca); outline-offset: 2px; border-radius: 4px; }
+  .toast { position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%); background: var(--acento); color: var(--acento-txt); padding: 8px 14px; border-radius: 8px; font-size: 13px; opacity: 0; transition: opacity .2s; pointer-events: none; }
+  .toast.ver { opacity: 1; }
+  @media (max-width: 900px) { .rejilla { grid-template-columns: 1fr; } .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } .modal { grid-template-columns: 1fr; } .modal video { height: 60vh; } }
+  @media (max-width: 560px) { .slot { grid-template-columns: 44px minmax(0, 1fr); } .slot .mini { display: none; } .acciones { grid-column: 1 / -1; justify-content: flex-start; } .fecha b { min-width: 0; } }
+</style>
+</head>
+<body>
+<div class="envoltura">
+  <header class="cab">
+    <div class="logo"><img src="../icono.svg" alt=""><span>TikToks de LTezla <small>· máquina diaria</small></span></div>
+    <div class="fecha">
+      <button class="btn icono" id="ant" aria-label="Día anterior">‹</button>
+      <b id="titulo-fecha">—</b>
+      <button class="btn icono" id="sig" aria-label="Día siguiente">›</button>
+      <button class="btn chico" id="hoy">Hoy</button>
+    </div>
+    <a class="btn chico" href="../index.html">Abrir el animador</a>
+    <button class="btn icono" id="tema" aria-label="Cambiar tema">◐</button>
+  </header>
+
+  <section class="kpis">
+    <div class="kpi"><span>Listos para subir</span><b id="k-listos">0</b> <small id="k-listos2"></small><div class="barra-prog"><i id="p-listos" style="width:0"></i></div></div>
+    <div class="kpi"><span>Subidos</span><b id="k-subidos">0</b> <small id="k-subidos2"></small><div class="barra-prog"><i id="p-subidos" style="width:0"></i></div></div>
+    <div class="kpi"><span>Material sin usar</span><b id="k-datos">0</b> <small id="k-datos2"></small></div>
+    <div class="kpi"><span>Espacio de los TikToks</span><b id="k-espacio">0</b> <small>MB</small></div>
+  </section>
+
+  <div class="rejilla">
+    <main>
+      <div id="aviso"></div>
+      <div id="siguiente"></div>
+      <div class="seccion" id="t-lista" hidden></div>
+      <div class="lista" id="lista"></div>
+      <div id="hechos"></div>
+      <div id="sueltos"></div>
+    </main>
+    <aside class="lado">
+      <div class="caja">
+        <h3>Ideas para la máquina</h3>
+        <p style="margin:0 0 8px;color:var(--suave);font-size:12px">Temas que viste en TikTok, comentarios o el "content gap" de Creator Search Insights. La rutina diaria las lee primero.</p>
+        <textarea id="idea" placeholder="Ej.: muchos preguntan por qué los aldeanos no duermen…"></textarea>
+        <button class="btn chico primario" id="guardar-idea" style="margin-top:8px">Guardar idea</button>
+        <pre id="ideas" style="margin-top:10px"></pre>
+      </div>
+      <div class="caja"><h3>Tendencias (última investigación)</h3><pre id="tendencias">Aún no hay. La rutina diaria escribe tiktok/tendencias/AAAA-MM-DD.md.</pre></div>
+      <div class="caja"><h3>Lo que aprendimos</h3><pre id="aprendizajes">Anota las métricas de 72 h de cada video (botón Métricas) y la máquina calculará qué formatos funcionan.</pre></div>
+    </aside>
+  </div>
+</div>
+
+<dialog id="modal">
+  <div class="modal">
+    <video id="m-video" controls playsinline></video>
+    <div>
+      <h3 id="m-titulo" style="font-size:15px"></h3>
+      <div style="display:flex;gap:6px;flex-wrap:wrap">
+        <button class="btn chico primario" id="m-copiar">Copiar descripción</button>
+        <a class="btn chico" id="m-descargar" download>Descargar video</a>
+        <a class="btn chico" id="m-sinmusica" download>Versión sin música</a>
+        <button class="btn chico" id="m-abrir" title="Abre la carpeta en el Explorador con el video seleccionado"></button>
+      </div>
+      <pre id="m-publicar"></pre>
+      <button class="ruta" id="m-carpeta" title="Abrir en el Explorador"></button>
+      <button class="btn chico" id="m-cerrar" style="margin-top:10px">Cerrar</button>
+    </div>
+  </div>
+</dialog>
+<div class="toast" id="toast"></div>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const PASOS = { idea: "Idea", guion: "Guion", armado: "Armado", revisado: "Revisado", entregado: "Listo para subir", publicado: "Subido" };
+const FORMATOS = { sabias_que: "¿Sabías que?", mito: "Mito o verdad", versus: "Versus", noticia: "Noticia", historia: "Historia", sketch: "Sketch", curiosidad: "Curiosidad", debate: "Debate", meme: "Meme", novela: "Novela" };
+const METRICAS = [["vistas", "Vistas"], ["tiempo_medio_s", "Tiempo medio (s)"], ["pct_completo", "% completo"], ["likes", "Likes"], ["comentarios", "Comentarios"],
+  ["compartidos", "Compartidos"], ["guardados", "Guardados"], ["seguidores", "Seguidores +"], ["pct_para_ti", "% Para ti"]];
+const ICONO_CARPETA = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true" style="vertical-align:-2px"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5H9l2 2.5h8.5A1.5 1.5 0 0 1 21 9v9.5a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18.5z"/></svg>`;
+const local = (d = new Date()) => new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);   // fecha local, no UTC
+let fecha = local(), datos = null;
+
+function toast(t) { const e = $("#toast"); e.textContent = t; e.classList.add("ver"); clearTimeout(toast.t); toast.t = setTimeout(() => e.classList.remove("ver"), 1800); }
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+async function post(ruta, cuerpo) {
+  const r = await fetch("/api/tiktok/" + ruta, { method: "POST", headers: { "Content-Type": "application/json", "X-Panel": "1" }, body: JSON.stringify(cuerpo) });
+  const j = await r.json(); if (!j.ok) throw new Error(j.error || "error"); return j;
+}
+function ahora() { const d = new Date(); return local(d) + " " + d.toTimeString().slice(0, 5); }
+function bonita(f) { return new Date(f + "T12:00").toLocaleDateString("es-MX", { weekday: "long", day: "numeric", month: "short" }); }
+function mover(dias) { const d = new Date(fecha + "T12:00"); d.setDate(d.getDate() + dias); fecha = local(d); cargar(); }
+
+async function cargar(sinPedir = false) {
+  $("#titulo-fecha").textContent = (fecha === local() ? "Hoy · " : "") + bonita(fecha);
+  try { if (!sinPedir || !datos) datos = await (await fetch("/api/tiktok/estado?fecha=" + fecha)).json(); } catch { $("#lista").innerHTML = `<div class="vacio">No responde el servidor del animador.</div>`; return; }
+  if (!datos.ok) { $("#lista").innerHTML = `<div class="vacio">${esc(datos.error)}</div>`; return; }
+  const vs = datos.videos, n = Math.max(vs.length, 1);
+  const listos = vs.filter(v => v.paso === "entregado" || v.paso === "publicado").length, subidos = vs.filter(v => v.paso === "publicado").length;
+  $("#k-listos").textContent = listos; $("#k-listos2").textContent = `de ${vs.length || datos.por_dia}`; $("#p-listos").style.width = (listos / n * 100) + "%";
+  $("#k-subidos").textContent = subidos; $("#k-subidos2").textContent = `de ${vs.length || datos.por_dia}`; $("#p-subidos").style.width = (subidos / n * 100) + "%";
+  $("#k-datos").textContent = datos.datos.disponibles; $("#k-datos2").textContent = `alcanza ${datos.datos.dias_de_datos} días · ` + Object.entries(datos.datos.por_pilar || {}).map(([k, n]) => `${k} ${n}`).join(" · ");
+  const e = datos.espacio; $("#k-espacio").textContent = Math.round(e.videos_tiktok_mb + e.trabajo_mb);
+  $("#aviso").innerHTML = !datos.plan
+    ? `<div class="aviso"><p><b>Este día no tiene plan.</b> El plan elige un video por pilar (novela, lo nuevo, meme, Latam, curiosidad/debate) sin empalmar con días anteriores. Los guiones y el render los hace la rutina diaria (TIKTOK.md).</p><button class="btn chico primario" id="planificar">Planificar ${datos.por_dia} videos</button></div>`
+    : datos.aviso ? `<div class="aviso"><p>${esc(datos.aviso)}</p></div>` : "";
+  $("#planificar")?.addEventListener("click", async () => { try { await post("planificar", { fecha }); toast("Plan creado"); cargar(); } catch (er) { toast(er.message); } });
+  // el flujo de subir: el siguiente pendiente arriba, en grande; el resto de pendientes en lista; los subidos plegados
+  const pend = vs.filter(v => v.paso === "entregado"), enCurso = vs.filter(v => !["entregado", "publicado"].includes(v.paso)), hechos = vs.filter(v => v.paso === "publicado");
+  const sig = pend[0];
+  $("#siguiente").innerHTML = sig ? siguiente(sig)
+    : vs.length && !enCurso.length ? `<div class="listo-dia"><b>¡Listo por hoy!</b> Los ${hechos.length} videos de este día ya están subidos. A las 72 h anota sus métricas.</div>` : "";
+  const resto = [...pend.slice(1), ...enCurso];
+  $("#t-lista").hidden = !resto.length; $("#t-lista").textContent = sig ? "Después" : "En producción";
+  $("#lista").innerHTML = resto.length ? resto.map(tarjeta).join("") : (!vs.length && datos.plan ? `<div class="vacio">Plan vacío.</div>` : "");
+  $("#hechos").innerHTML = hechos.length ? `<details class="subidos" ${pend.length ? "" : "open"}><summary>Subidos (${hechos.length})</summary><div class="lista">${hechos.map(tarjeta).join("")}</div></details>` : "";
+  reloj();
+  $("#sueltos").innerHTML = datos.sueltos.length ? `<div class="seccion">Videos sin fecha en el plan</div><div class="lista">${datos.sueltos.map(tarjeta).join("")}</div>` : "";
+  $("#ideas").textContent = datos.ideas || "";
+  if (datos.tendencias) $("#tendencias").textContent = datos.tendencias;
+  if (datos.aprendizajes) $("#aprendizajes").textContent = datos.aprendizajes;
+}
+
+function tarjeta(v) {
+  const listo = v.paso === "entregado" || v.paso === "publicado";
+  const mini = v.portada ? `<img class="mini" src="${v.portada}" alt="" loading="lazy">` : `<div class="mini vacia">${PASOS[v.paso] || ""}</div>`;
+  const chips = [`<span class="chip ${v.paso}">${PASOS[v.paso] || v.paso}</span>`, v.pilar ? `<span class="chip" style="background:var(--marca-suave);color:var(--marca)">${esc(v.pilar)}</span>` : "", v.formato ? `<span class="chip">${FORMATOS[v.formato] || v.formato}</span>` : "",
+    v.duracion ? `<span class="chip">${Math.round(v.duracion)} s</span>` : "", (v.bloquean || []).length ? `<span class="chip malo">bloquea: ${esc(v.bloquean.join(", "))}</span>` : "",
+    v.publicado ? `<span class="chip">subido ${esc(v.publicado.slice(5))}</span>` : ""].join("");
+  const p = pasos(v.slug);
+  const acc = !listo ? "" : v.publicado
+    ? `<button class="btn chico" data-met="${v.slug}">Métricas</button>
+       <button class="btn chico" data-ver="${v.slug}">Ver</button>
+       <button class="btn chico texto" data-subido="${v.slug}">Desmarcar</button>`
+    : `<button class="btn chico ${p.carpeta ? "ok" : ""}" data-abrir="${v.slug}" title="Abre la carpeta con el video seleccionado: arrástralo a TikTok">${p.carpeta ? "✓" : ICONO_CARPETA} Video</button>
+       <button class="btn chico ${p.desc ? "ok" : ""}" data-copiar="desc" data-slug="${v.slug}">${p.desc ? "✓ Descripción" : "Copiar descripción"}</button>
+       <button class="btn chico" data-ver="${v.slug}">Ver</button>
+       <button class="btn chico primario" data-subido="${v.slug}">Marcar subido</button>`;
+  const met = v.publicado ? `<div class="metricas">${METRICAS.map(([k, t]) => `<label>${t}<input data-campo="${k}" data-slug="${v.slug}" value="${esc(v.metricas?.[k])}" inputmode="decimal"></label>`).join("")}
+      <button class="btn chico primario" data-guardar="${v.slug}" style="align-self:end">Guardar</button></div>` : "";
+  return `<div class="slot ${v.publicado ? "hecho" : ""}" id="s-${v.slug}">
+    <div class="hora">${esc(v.hora || "—")}</div>${mini}
+    <div class="info"><div class="tit">${esc(v.titulo || v.slug)}</div><div class="meta">${chips}</div></div>
+    <div class="acciones">${acc}</div>${met}</div>`;
+}
+
+// pasos hechos de cada video (carpeta abierta, descripción y comentario copiados): sólo en este navegador
+function pasos(slug) { try { return JSON.parse(localStorage.getItem("tt.pasos." + slug)) || {}; } catch { return {}; } }
+function marcarPaso(slug, paso) { const p = pasos(slug); p[paso] = true; try { localStorage.setItem("tt.pasos." + slug, JSON.stringify(p)); } catch {} }
+
+function siguiente(v) {
+  const p = pasos(v.slug), hecho = (k) => p[k] ? "hecho" : "";
+  const n = (k, i) => `<span class="n">${p[k] ? "✓" : i}</span>`;
+  return `<section class="sig" aria-label="Siguiente video a subir">
+    <button class="portada" data-ver="${v.slug}" title="Ver el video">${v.portada ? `<img src="${v.portada}" alt="Portada de ${esc(v.titulo)}">` : ""}<span>▶ Ver</span></button>
+    <div>
+      <div class="cuando"><b>SIGUIENTE</b><span class="reloj" data-hora="${esc(v.hora || "")}">${esc(v.hora || "")}</span><span class="falta" data-hora="${esc(v.hora || "")}"></span>
+        ${v.pilar ? `<span class="chip">${esc(v.pilar)}</span>` : ""}${v.duracion ? `<span class="chip">${Math.round(v.duracion)} s</span>` : ""}</div>
+      <h2>${esc(v.titulo || v.slug)}</h2>
+      <ol class="pasos">
+        <li class="paso ${hecho("carpeta")}">${n("carpeta", 1)}<div><div class="cab-paso">
+          <button class="btn chico ${p.carpeta ? "" : "primario"}" data-abrir="${v.slug}">${ICONO_CARPETA} Abrir el video${v.sin_musica_subir ? " (sin música)" : ""}</button>
+          <small>se abre la carpeta con el video marcado: arrástralo a TikTok</small></div></div></li>
+        <li class="paso ${hecho("desc")}">${n("desc", 2)}<div><div class="cab-paso">
+          <button class="btn chico ${p.carpeta && !p.desc ? "primario" : ""}" data-copiar="desc" data-slug="${v.slug}">Copiar descripción</button>
+          <small>pégala en el texto del video</small></div>
+          <button class="texto-copiar" data-copiar="desc" data-slug="${v.slug}" title="Clic para copiar">${esc(v.descripcion || "(sin descripción)")}</button></div></li>
+      </ol>
+      <div class="recordar">
+        <span>Antes de publicar: activa <b>«Contenido generado por IA»</b> (la voz es sintética).</span>
+        ${v.nota_leo ? `<span>Sonido: ${esc(v.nota_leo)}</span>` : ""}
+      </div>
+      <div class="final">
+        <button class="btn grande primario" data-subido="${v.slug}">✓ Ya lo subí</button>
+        <small style="color:var(--suave)">y pasa al siguiente</small>
+      </div>
+    </div>
+  </section>`;
+}
+
+// "en 25 min" / "ya es hora" / "atrasado 10 min" (sólo para hoy)
+function reloj() {
+  document.querySelectorAll(".falta[data-hora]").forEach(e => {
+    const h = e.dataset.hora; if (!h || fecha !== local()) { e.textContent = ""; return; }
+    const [hh, mm] = h.split(":").map(Number), ahoraD = new Date(), meta = new Date(); meta.setHours(hh, mm, 0, 0);
+    const min = Math.round((meta - ahoraD) / 60000), fmt = (m) => m >= 60 ? `${Math.floor(m / 60)} h ${m % 60} min` : `${m} min`;
+    e.className = "falta" + (min < -5 ? " tarde" : "");
+    e.textContent = min > 0 ? `· en ${fmt(min)}` : min >= -5 ? "· ¡ya es hora!" : `· atrasado ${fmt(-min)}`;
+  });
+}
+setInterval(reloj, 30000);
+
+async function copiar(b) {
+  const v = buscar(b.dataset.slug), tipo = b.dataset.copiar, txt = tipo === "com" ? v.comentario : v.descripcion;
+  try { await navigator.clipboard.writeText(txt || ""); } catch { toast("No se pudo copiar"); return; }
+  marcarPaso(v.slug, tipo);
+  toast(tipo === "com" ? "Comentario copiado" : "Descripción copiada: pégala en TikTok");
+  pintar();
+}
+// vuelve a pintar sin pedir datos (los pasos cambian sólo en este navegador)
+function pintar() { const y = scrollY; cargar(true).then(() => scrollTo(0, y)); }
+
+function buscar(slug) { return [...(datos.videos || []), ...(datos.sueltos || [])].find(v => v.slug === slug); }
+document.addEventListener("click", async (ev) => {
+  const b = ev.target.closest("button"); if (!b) return;
+  if (b.dataset.ver) {
+    const v = buscar(b.dataset.ver);
+    $("#m-titulo").textContent = v.titulo; $("#m-video").src = v.video || ""; $("#m-publicar").textContent = v.publicar || "";
+    $("#m-descargar").href = v.video || "#"; $("#m-sinmusica").href = v.sin_musica || "#"; $("#m-sinmusica").hidden = !v.sin_musica;
+    $("#m-carpeta").textContent = v.carpeta ? "Carpeta: " + v.carpeta : ""; $("#m-carpeta").hidden = !v.carpeta; $("#m-copiar").dataset.texto = v.descripcion || "";
+    $("#m-abrir").innerHTML = ICONO_CARPETA + " Abrir carpeta"; $("#m-abrir").dataset.abrir = $("#m-carpeta").dataset.abrir = v.slug; $("#m-abrir").hidden = !v.carpeta;
+    $("#modal").showModal();
+  } else if (b.dataset.abrir) {
+    try { await post("abrir", { slug: b.dataset.abrir }); marcarPaso(b.dataset.abrir, "carpeta"); toast("Se abrió la carpeta: arrastra el video a TikTok"); pintar(); } catch (er) { toast(er.message); }
+  } else if (b.dataset.copiar) { copiar(b); }
+  else if (b.id === "m-copiar") {
+    try { await navigator.clipboard.writeText(b.dataset.texto); toast("Descripción copiada"); } catch { toast("No se pudo copiar"); }
+  } else if (b.id === "m-cerrar") { $("#m-video").pause(); $("#modal").close(); }
+  else if (b.dataset.subido) {
+    const v = buscar(b.dataset.subido);
+    try { await post("publicado", { slug: v.slug, publicado: v.publicado ? "" : ahora() }); toast(v.publicado ? "Desmarcado" : "¡Marcado como subido!"); cargar(); } catch (er) { toast(er.message); }
+  } else if (b.dataset.met) { $("#s-" + b.dataset.met).classList.toggle("abierto"); }
+  else if (b.dataset.guardar) {
+    const campos = {}; document.querySelectorAll(`input[data-slug="${b.dataset.guardar}"]`).forEach(i => campos[i.dataset.campo] = i.value);
+    try { await post("metricas", { slug: b.dataset.guardar, campos }); toast("Métricas guardadas"); } catch (er) { toast(er.message); }
+  }
+});
+$("#modal").addEventListener("close", () => $("#m-video").pause());
+$("#guardar-idea").onclick = async () => { const t = $("#idea").value.trim(); if (!t) return; try { await post("idea", { texto: t }); $("#idea").value = ""; toast("Idea guardada"); cargar(); } catch (er) { toast(er.message); } };
+$("#ant").onclick = () => mover(-1); $("#sig").onclick = () => mover(1); $("#hoy").onclick = () => { fecha = local(); cargar(); };
+$("#tema").onclick = () => { const t = document.documentElement.dataset.theme === "oscuro" ? "claro" : "oscuro"; document.documentElement.dataset.theme = t; try { localStorage.setItem("mcanimator.tema", t); } catch {} };
+cargar();
+</script>
+</body>
+</html>

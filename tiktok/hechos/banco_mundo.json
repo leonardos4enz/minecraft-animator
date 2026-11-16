@@ -1,0 +1,1950 @@
+[
+ {
+  "id": "roadster_2026",
+  "categoria": "autos",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-15",
+  "caduca": "2026-10-31",
+  "dato_es": "Tesla presentó el nuevo Roadster con propulsores de SpaceX; dice que va de 0 a 97 km/h en menos de un segundo.",
+  "cita": "The Roadster can accelerate from zero to 60 mph (97 kph) in less than one second.",
+  "url": "https://www.investing.com/news/stock-market-news/tesla-set-to-unveil-next-generation-roadster-sports-ev-after-years-of-delay-4951021",
+  "fuente": "Reuters (vía Investing.com)",
+  "consultado": "2026-10-17",
+  "gancho_es": "Llega a 97 km/h en menos de un segundo",
+  "numeros": [
+   {
+    "valor": 1,
+    "unidad": "s",
+    "que": "0 a 97 km/h (60 mph), según Tesla"
+   },
+   {
+    "valor": 2028,
+    "unidad": "año",
+    "que": "inicio de producción"
+   },
+   {
+    "valor": 50000,
+    "unidad": "USD",
+    "que": "depósito de reserva versión Performance"
+   },
+   {
+    "valor": 250000,
+    "unidad": "USD",
+    "que": "depósito de reserva versión Thrust"
+   }
+  ],
+  "visual": "Carrera de 97 bloques: el Roadster de bloques cruza la meta mientras un guepardo (ocelote) apenas arranca; contador de 1 segundo arriba.",
+  "potencial": 5,
+  "no_afirmar": "Es una afirmación de Tesla (lo dijo Lars Moravy), no una medición independiente. Electrek señala que la cifra de 0,55 s del modelo tope incluye 'one foot rollout' (el cronómetro arranca tras moverse 30 cm) y que los propulsores de gas frío aportan gran parte del empuje. No hay precio final: 50 000 y 250 000 USD son DEPÓSITOS, no precios. Producción prevista en 2028, no ya. No decir que 'vuela': sólo salta/planea con propulsores en la demo. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "roadster_salto",
+  "categoria": "autos",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-15",
+  "caduca": "2026-10-31",
+  "dato_es": "En la presentación, el Roadster usó propulsores para saltar por encima de un Cybercab, un Cybertruck, un camión Semi y otros Tesla.",
+  "cita": "used the thrusters to lift itself over a Cybercab, Cybertruck, Tesla Semi, Model Y, and Model 3 while in motion",
+  "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
+  "fuente": "TechCrunch",
+  "consultado": "2026-10-17",
+  "gancho_es": "Un auto saltó por encima de cinco autos",
+  "numeros": [
+   {
+    "valor": 5,
+    "unidad": "vehículos",
+    "que": "vehículos que saltó en la demo"
+   },
+   {
+    "valor": 300,
+    "unidad": "millas",
+    "que": "autonomía anunciada (~480 km)"
+   },
+   {
+    "valor": 230,
+    "unidad": "mph",
+    "que": "velocidad máxima anunciada (más de ~370 km/h)"
+   }
+  ],
+  "visual": "Fila de 5 autos de bloques; el Roadster de LTezla enciende propulsores (partículas de humo) y pasa por encima girando; LTezla con casco gritando.",
+  "potencial": 5,
+  "no_afirmar": "Fue una demostración controlada en un sitio de pruebas de SpaceX (McGregor, Texas); Electrek dice que Tesla usó autos distintos para cada demo y que los tanques tardan 'six or seven hours' en llenarse. No afirmar que el auto que se venda hará lo mismo. InsideEVs da velocidad máxima ACTUAL de 214 mph con objetivo de 330 mph; TechCrunch dice 'exceeding 230 miles per hour': cifras discrepantes, mejor no usar la velocidad máxima o decir 'más de 300 km/h' con cautela. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "perseverance_record",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-11",
+  "caduca": "2026-10-26",
+  "dato_es": "El rover Perseverance ya recorrió 45,22 km en Marte: ningún vehículo ha manejado tanto en otro mundo.",
+  "cita": "NASA’s Perseverance Mars rover has driven farther than any vehicle ever has on the surface of another world.",
+  "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+  "fuente": "NASA",
+  "consultado": "2026-10-17",
+  "gancho_es": "Un auto de NASA rompió un récord en Marte",
+  "numeros": [
+   {
+    "valor": 45.22,
+    "unidad": "km",
+    "que": "distancia total recorrida al 11 oct 2026"
+   },
+   {
+    "valor": 45.16,
+    "unidad": "km",
+    "que": "récord anterior de Opportunity"
+   },
+   {
+    "valor": 2006,
+    "unidad": "soles",
+    "que": "días marcianos de misión"
+   }
+  ],
+  "visual": "Rover de bloques en suelo rojo (arenisca roja) adelantando por 60 bloques a un rover viejo (Opportunity) en una pista con cartel 'RÉCORD'.",
+  "potencial": 4,
+  "no_afirmar": "El margen sobre Opportunity es mínimo (unos 60 m). El récord es 'en otro mundo' (fuera de la Tierra), incluye la Luna. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "artemis2_destellos",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-07",
+  "caduca": "2026-10-21",
+  "dato_es": "Los astronautas de Artemis II vieron cinco destellos diminutos de rocas chocando contra la Luna, desde 74 000 km.",
+  "cita": "five extremely faint “pinprick” bursts of light from 46,000 miles away",
+  "url": "https://science.nasa.gov/feature/artemis-ii-preliminary-lunar-science-report/",
+  "fuente": "NASA",
+  "consultado": "2026-10-17",
+  "gancho_es": "Astronautas vieron rocas explotar en la Luna",
+  "numeros": [
+   {
+    "valor": 5,
+    "unidad": "destellos",
+    "que": "impactos vistos"
+   },
+   {
+    "valor": 46000,
+    "unidad": "millas",
+    "que": "distancia desde la que los vieron (~74 000 km)"
+   },
+   {
+    "valor": 5,
+    "unidad": "cm",
+    "que": "tamaño máx. aprox. de las rocas ('a couple of inches')"
+   }
+  ],
+  "visual": "Luna de bloques grises; pequeñas piedras caen y hacen chispas blancas; LTezla en una cápsula Orion de bloques apuntando por la ventana.",
+  "potencial": 4,
+  "no_afirmar": "Es un informe científico PRELIMINAR. El tamaño de las rocas es estimado ('no more than a couple of inches wide'); 5 cm es una conversión aproximada. Cita extraída por el resumidor de WebFetch; verificar comillas tipográficas."
+ },
+ {
+  "id": "artemis2_eclipse",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-07",
+  "caduca": "2026-10-21",
+  "dato_es": "Desde la nave Orion, la tripulación de Artemis II vio el Sol esconderse detrás de la Luna durante 54 minutos.",
+  "cita": "stay there for 54 minutes",
+  "url": "https://science.nasa.gov/feature/artemis-ii-preliminary-lunar-science-report/",
+  "fuente": "NASA",
+  "consultado": "2026-10-17",
+  "gancho_es": "Un eclipse de casi una hora, visto desde el espacio",
+  "numeros": [
+   {
+    "valor": 54,
+    "unidad": "min",
+    "que": "duración del Sol oculto tras la Luna"
+   },
+   {
+    "valor": 4067,
+    "unidad": "millas",
+    "que": "máximo acercamiento a la superficie lunar (~6545 km)"
+   }
+  ],
+  "visual": "Sol de glowstone desaparece tras una Luna de bloques; reloj de Minecraft girando; LTezla con palomitas en la ventana de la nave.",
+  "potencial": 3,
+  "no_afirmar": "La cita es un fragmento; la frase completa habla de ver el Sol 'slip behind the Moon'. Un eclipse total visto desde la Tierra dura minutos; no dar una cifra exacta de comparación sin fuente. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "mmx_fobos",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-15",
+  "caduca": "2026-10-29",
+  "dato_es": "Japón lanzará la misión MMX para traer a la Tierra un pedazo de Fobos, una luna de Marte, en 2031.",
+  "cita": "characterize and determine the origin of Mars’ moons Phobos and Deimos",
+  "url": "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/",
+  "fuente": "NASA",
+  "consultado": "2026-10-17",
+  "gancho_es": "Van a traer un pedazo de una luna de Marte",
+  "numeros": [
+   {
+    "valor": 2027,
+    "unidad": "año",
+    "que": "llegada a Marte (agosto)"
+   },
+   {
+    "valor": 2031,
+    "unidad": "año",
+    "que": "llegada de la muestra a la Tierra"
+   },
+   {
+    "valor": 15,
+    "unidad": "%",
+    "que": "parte de la muestra que custodiará NASA"
+   }
+  ],
+  "visual": "Nave de bloques con una pala que saca un bloque de una luna-papa gris (Fobos) y lo trae a un cofre en la Tierra.",
+  "potencial": 3,
+  "no_afirmar": "El lanzamiento estaba PREVISTO para el 19 oct 2026 desde Tanegashima: verificar si despegó antes de publicar. Es misión de JAXA; NASA sólo aporta instrumentos. La toma de muestra será 'no earlier than December 2028'. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "crs35_paneles",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-13",
+  "caduca": "2026-10-27",
+  "dato_es": "SpaceX lanzó a la Estación Espacial más de 2800 kilos de carga y nuevos paneles solares enrollables.",
+  "cita": "more than 6,300 pounds of science and supplies",
+  "url": "https://spaceflightnow.com/2026/10/13/spacex-launches-nasa-science-and-cargo-to-the-international-space-station/",
+  "fuente": "Spaceflight Now",
+  "consultado": "2026-10-17",
+  "gancho_es": "Mandaron paneles solares enrollados como alfombra al espacio",
+  "numeros": [
+   {
+    "valor": 6300,
+    "unidad": "lb",
+    "que": "carga (~2860 kg)"
+   },
+   {
+    "valor": 20,
+    "unidad": "kW",
+    "que": "potencia de cada panel ROSA (más de)"
+   },
+   {
+    "valor": 40,
+    "unidad": "experimentos",
+    "que": "estudios científicos a bordo (más de)"
+   }
+  ],
+  "visual": "Cápsula Dragon de bloques con cofres; al llegar desenrolla un panel solar como una alfombra azul de bloques.",
+  "potencial": 2,
+  "no_afirmar": "Misión CRS-35. La conversión a kg es aproximada. 'Enrollable' viene del nombre Roll-Out Solar Array; el artículo no da medidas. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "dino_invictibellatrix",
+  "categoria": "ciencia",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-14",
+  "caduca": "2026-10-28",
+  "dato_es": "Un fósil olvidado casi 100 años en un cajón del museo resultó ser un dinosaurio nuevo, del tamaño de un tigre.",
+  "cita": "sitting in a drawer for nearly 100 years",
+  "url": "https://www.sciencedaily.com/releases/2026/10/261014015457.htm",
+  "fuente": "ScienceDaily (comunicado de University College London)",
+  "consultado": "2026-10-17",
+  "gancho_es": "Un dinosaurio nuevo estaba escondido en un cajón",
+  "numeros": [
+   {
+    "valor": 4,
+    "unidad": "m",
+    "que": "largo (estimado 3 a 4 m)"
+   },
+   {
+    "valor": 1.5,
+    "unidad": "m",
+    "que": "altura (algo más de 1,5 m)"
+   },
+   {
+    "valor": 20,
+    "unidad": "cm",
+    "que": "garras (estimado 10 a 20 cm)"
+   },
+   {
+    "valor": 120000000,
+    "unidad": "años",
+    "que": "antigüedad aproximada"
+   }
+  ],
+  "visual": "LTezla abre un cofre en un museo y sale un dinosaurio de bloques de 4 bloques de largo con garras enormes; al lado un tigre (ocelote escalado) para comparar.",
+  "potencial": 5,
+  "no_afirmar": "Nombre: Invictibellatrix amberina ('guerrera invicta'). Sólo se tiene un fragmento de cráneo de la Isla de Wight; el tamaño y las garras son ESTIMACIONES del autor. Es el primer megaraptorano conocido de Europa. El museo (Natural History Museum) lo adquirió en 1924. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "hongo_drex",
+  "categoria": "naturaleza",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-13",
+  "caduca": "2026-10-27",
+  "dato_es": "En China descubrieron 'D-rex', un hongo de hasta 50 centímetros y 2,2 kilos, tan raro que inauguró una familia nueva.",
+  "cita": "produces vertical fruiting bodies up to 50 cm (20 inches) high and weighing up to 2.2 kg (4.9 pounds)",
+  "url": "https://phys.org/news/2026-10-scientists-d-rex-giant-fungus.html",
+  "fuente": "Phys.org (Frontiers in Fungal Biology)",
+  "consultado": "2026-10-17",
+  "gancho_es": "Descubrieron un hongo llamado D-rex",
+  "numeros": [
+   {
+    "valor": 50,
+    "unidad": "cm",
+    "que": "altura máxima"
+   },
+   {
+    "valor": 2.2,
+    "unidad": "kg",
+    "que": "peso máximo"
+   }
+  ],
+  "visual": "Un champiñón gigante de Minecraft con un letrero 'D-REX' rugiendo; LTezla a su lado (el hongo le llega a la cintura).",
+  "potencial": 4,
+  "no_afirmar": "Nombre científico Dianjunus rex, familia nueva Dianjunaceae, Yunnan. Es 'the largest known within the phylum Ascomycota' (el más grande de su grupo), NO el hongo más grande del mundo. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "cocodrilo_esfinge",
+  "categoria": "ciencia",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-06",
+  "caduca": "2026-10-20",
+  "dato_es": "Una especie nueva de cocodrilo antiguo apareció en las mismas rocas con que se construyó la Gran Esfinge de Egipto.",
+  "cita": "Herugavialis cairensis was found in the very same rocks used to build the iconic monument.",
+  "url": "https://phys.org/news/2026-10-crocodile-species-great-sphinx.html",
+  "fuente": "Phys.org (Royal Society Open Science)",
+  "consultado": "2026-10-17",
+  "gancho_es": "La Esfinge escondía un cocodrilo de 45 millones de años",
+  "numeros": [
+   {
+    "valor": 45000000,
+    "unidad": "años",
+    "que": "edad de las rocas (Formación Mokattam)"
+   }
+  ],
+  "visual": "Esfinge de arenisca; un bloque se rompe y sale un cráneo de cocodrilo de huesos (bloque de hueso) sin la punta del hocico, igual que la Esfinge sin nariz.",
+  "potencial": 4,
+  "no_afirmar": "El fósil NO salió de la Esfinge: salió de la misma formación rocosa, y se recuperó en los años 1920. Se llama así por el dios Heru; le falta la punta del hocico 'como la nariz de la Esfinge'. Sin dato de tamaño corporal. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "isopodo_gigante",
+  "categoria": "naturaleza",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-08",
+  "caduca": "2026-10-22",
+  "dato_es": "Un 'bicho bolita' gigante de 32 centímetros guardado desde los años 80 en una universidad resultó ser especie nueva.",
+  "cita": "measuring 32.2 centimeters (12.7 inches) in length",
+  "url": "https://phys.org/news/2026-10-puerto-rico-specimen-reveals-giant.html",
+  "fuente": "Phys.org (Universidad de Tübingen)",
+  "consultado": "2026-10-17",
+  "gancho_es": "Un bicho bolita del tamaño de un gato",
+  "numeros": [
+   {
+    "valor": 32.2,
+    "unidad": "cm",
+    "que": "largo del ejemplar"
+   }
+  ],
+  "visual": "Un lepisma/silverfish de Minecraft escalado a tamaño gato junto a LTezla y un gato; letrero 'Puerto Rico'.",
+  "potencial": 4,
+  "no_afirmar": "Nombre: Bathynomus tuebingoborikensis (Puerto Rico). Es un isópodo marino de profundidad, pariente lejano del bicho bolita, no el mismo animal. 'Del tamaño de un gato' es comparación nuestra: mejor decir 'más largo que una regla de 30 cm'. Fue adquirido en los años 80; no se sabe la fecha exacta. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "gusanos_espagueti",
+  "categoria": "naturaleza",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-14",
+  "caduca": "2026-10-28",
+  "dato_es": "Científicos australianos describieron siete especies nuevas de 'gusanos espagueti', llamados así por sus muchísimos tentáculos largos.",
+  "cita": "are so called because of their numerous long tentacles",
+  "url": "https://phys.org/news/2026-10-scientists-genus-deep-sea-spaghetti.html",
+  "fuente": "Phys.org (Australian Museum)",
+  "consultado": "2026-10-17",
+  "gancho_es": "En el fondo del mar hay gusanos espagueti",
+  "numeros": [
+   {
+    "valor": 7,
+    "unidad": "especies",
+    "que": "especies nuevas descritas"
+   },
+   {
+    "valor": 670,
+    "unidad": "m",
+    "que": "profundidad de uno de los hallazgos (más de)"
+   }
+  ],
+  "visual": "Columna de agua de 670 bloques (bajada rápida de cámara); en el fondo, un gusano con tentáculos como fideos amarillos.",
+  "potencial": 3,
+  "no_afirmar": "Género nuevo Terebellosuctoria ('terebélidos con ventosas'). Dos de las 7 especies son del género nuevo. Los 670 m son de una especie concreta cerca de las islas Cocos (Keeling). Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "calabaza_record",
+  "categoria": "records",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-10",
+  "caduca": "2026-10-31",
+  "dato_es": "La calabaza más pesada del mundo pesó 1431,5 kilos: el récord se rompió dos veces en una semana.",
+  "cita": "On 10 October, his superlative squash tipped the scales at 1,431.5 kg (3,156 lb)",
+  "url": "https://www.guinnessworldrecords.com/news/2026/10/pumpkinpalooza-how-the-worlds-biggest-pumpkin-record-fell-twice-in-one-week",
+  "fuente": "Guinness World Records",
+  "consultado": "2026-10-17",
+  "gancho_es": "Esta calabaza pesa lo que un auto",
+  "numeros": [
+   {
+    "valor": 1431.5,
+    "unidad": "kg",
+    "que": "calabaza de Ron Wallace (Rhode Island, EE. UU.), 10 oct"
+   },
+   {
+    "valor": 1295.8,
+    "unidad": "kg",
+    "que": "récord previo de Ian Paton (Reino Unido), 3 oct"
+   }
+  ],
+  "visual": "Calabaza de Minecraft escalada 5x5x5 en una balanza; al lado un auto de bloques para comparar peso; ideal para Halloween.",
+  "potencial": 5,
+  "no_afirmar": "'Pesa lo que un auto' es aproximado (un auto compacto ronda 1200-1500 kg); no dar modelo concreto. Es la primera de más de 3000 libras. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "cola_caballo",
+  "categoria": "records",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-15",
+  "caduca": "2026-10-29",
+  "dato_es": "Jenny, una yegua de Ohio, tiene la cola más larga del mundo: 4,11 metros, según Guinness.",
+  "cita": "An Ohio horse's hair earned her a Guinness World Record when her tail was officially measured at 13 feet and 6 inches long.",
+  "url": "https://www.upi.com/Odd_News/2026/10/15/guinness-world-records-longest-horse-tail/8351792085400/",
+  "fuente": "UPI",
+  "consultado": "2026-10-17",
+  "gancho_es": "Esta yegua tiene una cola de cuatro metros",
+  "numeros": [
+   {
+    "valor": 4.11,
+    "unidad": "m",
+    "que": "largo de la cola (13 pies 6 pulgadas)"
+   },
+   {
+    "valor": 3.81,
+    "unidad": "m",
+    "que": "récord anterior de 2007 (12 pies 6 pulgadas)"
+   }
+  ],
+  "visual": "Caballo de Minecraft con una cola de 4 bloques que se arrastra; LTezla la mide con una cinta de bloques.",
+  "potencial": 4,
+  "no_afirmar": "Conversión a metros nuestra (13 ft 6 in = 4,11 m). La fuente es UPI citando a Guinness. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "papas_fritas_record",
+  "categoria": "records",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-12",
+  "caduca": "2026-10-26",
+  "dato_es": "En Idaho cocinaron una sola porción de 668 kilos de papas fritas y rompieron un récord Guinness.",
+  "cita": "cook up a serving of 1,474 pounds of fresh-cut french fries and break a Guinness World Record",
+  "url": "https://www.upi.com/Odd_News/2026/10/12/guinness-food-records-fries-slim-jim/3951791835726/",
+  "fuente": "UPI",
+  "consultado": "2026-10-17",
+  "gancho_es": "La porción de papas fritas más grande del mundo",
+  "numeros": [
+   {
+    "valor": 1474,
+    "unidad": "lb",
+    "que": "papas fritas (~668 kg)"
+   },
+   {
+    "valor": 429,
+    "unidad": "ft",
+    "que": "Slim Jim más largo (~131 m), mismo artículo"
+   },
+   {
+    "valor": 1291,
+    "unidad": "sándwiches",
+    "que": "fila de cheesesteaks en el aeropuerto de Filadelfia (plan)"
+   }
+  ],
+  "visual": "Montaña de bloques amarillos (papas) del tamaño de una casa; LTezla con un tenedor gigante.",
+  "potencial": 3,
+  "no_afirmar": "Lo hicieron la Idaho Potato Commission y Spud Daddy. El artículo es un resumen de varios récords; la fecha exacta de cada intento puede ser anterior al 12 oct. Para los cheesesteaks la cita habla de un plan ('plans to assemble'), no confirmar el resultado. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "maraton_chicago",
+  "categoria": "deportes",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-11",
+  "caduca": "2026-10-25",
+  "dato_es": "El keniano Amos Kipruto ganó el Maratón de Chicago en 2 horas, 1 minuto y 9 segundos, a unos 21 km/h.",
+  "cita": "It did, and it resulted in a personal-best time of 2 hours, 1 minute, 9 seconds.",
+  "url": "https://chicago.suntimes.com/chicago-marathon/2026/10/11/amos-kipruto-finally-wins-mens-chicago-marathon-joining-three-familiar-gold-medalists-as-2026-champions",
+  "fuente": "Chicago Sun-Times",
+  "consultado": "2026-10-17",
+  "gancho_es": "Corrió 42 kilómetros a la velocidad de una bici",
+  "numeros": [
+   {
+    "valor": 42.195,
+    "unidad": "km",
+    "que": "distancia del maratón"
+   },
+   {
+    "valor": 7269,
+    "unidad": "s",
+    "que": "tiempo ganador (2:01:09)"
+   },
+   {
+    "valor": 20.9,
+    "unidad": "km/h",
+    "que": "velocidad media (cálculo propio)"
+   },
+   {
+    "valor": 8013,
+    "unidad": "s",
+    "que": "tiempo de Hawi Feysa, ganadora femenina (2:13:33)"
+   }
+  ],
+  "visual": "Corredor de bloques en una pista larguísima junto a LTezla en bicicleta/caballo, que apenas lo alcanza.",
+  "potencial": 3,
+  "no_afirmar": "Es marca personal, NO récord mundial. La velocidad media (≈20,9 km/h) es cálculo nuestro. 'Velocidad de una bici' es comparación informal. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "debrunner_record",
+  "categoria": "deportes",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-11",
+  "caduca": "2026-10-25",
+  "dato_es": "La suiza Catherine Debrunner batió el récord mundial de maratón en silla de ruedas en Chicago: 1 hora, 33 minutos, 16 segundos.",
+  "cita": "The 2023 and 2024 winner in Chicago, Debrunner set a world record with her time of 1:33:16.",
+  "url": "https://chicago.suntimes.com/chicago-marathon/2026/10/11/amos-kipruto-finally-wins-mens-chicago-marathon-joining-three-familiar-gold-medalists-as-2026-champions",
+  "fuente": "Chicago Sun-Times",
+  "consultado": "2026-10-17",
+  "gancho_es": "42 kilómetros en silla de ruedas, en hora y media",
+  "numeros": [
+   {
+    "valor": 5596,
+    "unidad": "s",
+    "que": "tiempo récord (1:33:16)"
+   },
+   {
+    "valor": 27.1,
+    "unidad": "km/h",
+    "que": "velocidad media (cálculo propio)"
+   }
+  ],
+  "visual": "Silla de ruedas de bloques adelantando a corredores en la pista; marcador 'RÉCORD MUNDIAL'.",
+  "potencial": 3,
+  "no_afirmar": "Nacionalidad suiza no aparece en la cita; confirmar antes de decirla en voz. Tratar con respeto, foco en el récord deportivo. Velocidad media es cálculo nuestro. Marcel Hug hizo récord DEL CIRCUITO (1:21:34), no mundial. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "iphone_duo",
+  "categoria": "tecnologia",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-16",
+  "caduca": "2026-10-30",
+  "dato_es": "El iPhone Duo, el primer iPhone plegable, abrió preventas: pantalla de 5,4 pulgadas que se abre en 7,6, desde 1999 dólares.",
+  "cita": "Pre-orders begin Friday, October 16, with availability beginning Friday, October 23.",
+  "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/",
+  "fuente": "Apple Newsroom",
+  "consultado": "2026-10-17",
+  "gancho_es": "El iPhone ahora se dobla como un libro",
+  "numeros": [
+   {
+    "valor": 5.4,
+    "unidad": "pulgadas",
+    "que": "pantalla exterior"
+   },
+   {
+    "valor": 7.6,
+    "unidad": "pulgadas",
+    "que": "pantalla interior"
+   },
+   {
+    "valor": 1999,
+    "unidad": "USD",
+    "que": "precio inicial (EE. UU., 256 GB)"
+   },
+   {
+    "valor": 100,
+    "unidad": "piezas",
+    "que": "componentes de la bisagra (más de)"
+   }
+  ],
+  "visual": "Teléfono de bloques que se abre como un libro de Minecraft; LTezla mira los precios en esmeraldas.",
+  "potencial": 5,
+  "no_afirmar": "Anunciado el 9 sep 2026; la noticia de esta semana es la PREVENTA (16 oct) y la venta (23 oct). El precio de 1999 USD es de EE. UU.; no dar precios de países latinos sin fuente. 'Inner display ... 50 percent larger than iPhone 18 Pro Max' se refiere a tamaño de pantalla según Apple (probablemente área): no decir '50% más grande el teléfono'. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "nobel_fisica_icecube",
+  "categoria": "ciencia",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-06",
+  "caduca": "2026-10-20",
+  "dato_es": "El Nobel de Física 2026 premió IceCube: un kilómetro cúbico de hielo antártico convertido en detector de neutrinos.",
+  "cita": "turned a cubic kilometer of the Antarctic ice sheet into a way to detect small flashes of light",
+  "url": "https://phys.org/news/2026-10-physics-nobel-highlights-antarctica-role.html",
+  "fuente": "Phys.org (The Conversation); NSF / IceCube",
+  "consultado": "2026-10-17",
+  "gancho_es": "Ganó el Nobel usando un cubo de hielo gigante",
+  "numeros": [
+   {
+    "valor": 1,
+    "unidad": "km³",
+    "que": "volumen de hielo usado como detector"
+   },
+   {
+    "valor": 1000,
+    "unidad": "bloques",
+    "que": "lado del cubo a escala 1 bloque = 1 m"
+   }
+  ],
+  "visual": "Cubo de hielo compacto de 1000x1000x1000 bloques en la Antártida (cámara alejándose para mostrar escala); destellos azules dentro cuando pasa un neutrino.",
+  "potencial": 4,
+  "no_afirmar": "La cita es de un pie de foto. 'Cazador de neutrinos' es simplificación; detecta destellos de luz producidos por neutrinos. Ganador único: Francis Halzen (Univ. de Wisconsin-Madison), anunciado el 6 oct. Premio a Halzen 'for decisive contributions to the IceCube Neutrino Observatory' (no fue el único constructor). Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "nobel_medicina_optogenetica",
+  "categoria": "salud",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-05",
+  "caduca": "2026-10-19",
+  "dato_es": "El Nobel de Medicina 2026 premió la optogenética: usar luz para encender y apagar neuronas, idea que nació de un alga.",
+  "cita": "Using light, researchers are now able to switch individual neural circuits on or off in a brain.",
+  "url": "https://phys.org/news/2026-10-german-trio-medicine-nobel-optogenetics.html",
+  "fuente": "Phys.org (AFP)",
+  "consultado": "2026-10-17",
+  "gancho_es": "Un alga verde ayudó a ganar un Nobel",
+  "numeros": [
+   {
+    "valor": 3,
+    "unidad": "científicos",
+    "que": "Deisseroth, Hegemann y Nagel"
+   },
+   {
+    "valor": 2007,
+    "unidad": "año",
+    "que": "primer interruptor de luz en cerebros de ratones vivos"
+   }
+  ],
+  "visual": "Un cerebro de bloques con circuitos de redstone; LTezla apunta una linterna azul y se encienden lámparas de redstone.",
+  "potencial": 3,
+  "no_afirmar": "Se hace en investigación (sobre todo animales), no es un tratamiento común en personas. El alga 'nadaba hacia la luz'; la proteína es la canalrodopsina. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "estrella_verde",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-15",
+  "caduca": "2026-10-31",
+  "dato_es": "Astrónomos encontraron la primera estrella verde conocida: una enana blanca con sodio que absorbe la parte naranja de su luz.",
+  "cita": "The traces of sodium in the atmosphere of this white dwarf absorb the orange part of the spectrum",
+  "url": "https://www.popsci.com/science/first-green-star-reddest-star/",
+  "fuente": "Popular Science (estudio de la Universidad de Warwick)",
+  "consultado": "2026-10-17",
+  "gancho_es": "Existe una estrella verde, y la acaban de encontrar",
+  "numeros": [
+   {
+    "valor": 4000,
+    "unidad": "°C",
+    "que": "temperatura aproximada de la estrella"
+   }
+  ],
+  "visual": "Cielo nocturno de Minecraft con estrellas blancas y una verde de esmeralda brillante; LTezla con telescopio dice '¿¡verde!?'.",
+  "potencial": 5,
+  "no_afirmar": "Estrella WD J1330+6435. Las fuentes NO coinciden en la distancia (284 vs 326 años luz): no decir la distancia. Varias notas dicen que es la primera 'genuinamente' verde; es un resultado reciente, decir 'según el estudio'. Otros reportes mencionan también calcio y litio. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "asteroide_trompo",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-13",
+  "caduca": "2026-10-27",
+  "dato_es": "El Observatorio Vera Rubin detectó un asteroide de 2,5 km que da una vuelta completa cada 4 minutos.",
+  "cita": "appears to rotate once every 4.18 minutes",
+  "url": "https://phys.org/news/2026-10-vera-rubin-observatory-largest-ultra.html",
+  "fuente": "Phys.org",
+  "consultado": "2026-10-17",
+  "gancho_es": "Una montaña espacial que gira como trompo",
+  "numeros": [
+   {
+    "valor": 2.53,
+    "unidad": "km",
+    "que": "diámetro estimado"
+   },
+   {
+    "valor": 4.18,
+    "unidad": "min",
+    "que": "periodo de rotación"
+   }
+  ],
+  "visual": "Roca de bloques de 2500 bloques girando rápido en el espacio, con un reloj al lado; LTezla mareado encima.",
+  "potencial": 3,
+  "no_afirmar": "Asteroide 491384. Es un PREPRINT en arXiv, aún no revisado por pares: decir 'según un estudio preliminar'. Es el más grande conocido de los 'rotadores ultrarrápidos', no el asteroide más rápido. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "wasp17b_hinchado",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-16",
+  "caduca": "2026-10-30",
+  "dato_es": "El telescopio James Webb vio que la atmósfera del planeta WASP-17b está chueca: se hincha más de un lado.",
+  "cita": "extends farther outward on one side than the other",
+  "url": "https://www.sciencedaily.com/releases/2026/10/261015073205.htm",
+  "fuente": "ScienceDaily",
+  "consultado": "2026-10-17",
+  "gancho_es": "Un planeta con la atmósfera torcida",
+  "numeros": [
+   {
+    "valor": 1300,
+    "unidad": "años luz",
+    "que": "distancia a la Tierra"
+   }
+  ],
+  "visual": "Planeta de bloques con una capa de vidrio tintado más gruesa de un lado; flechas de viento llevando calor.",
+  "potencial": 2,
+  "no_afirmar": "Es un 'Júpiter caliente'. La causa propuesta son vientos fuertes que llevan calor; no hay cifra de velocidad del viento. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "chatgpt_interfaz_visual",
+  "categoria": "tecnologia",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-07",
+  "caduca": "2026-10-21",
+  "dato_es": "ChatGPT estrenó 'Intelligent UI': además de texto, ahora puede responder con botones, calculadoras y gráficos interactivos.",
+  "cita": "tappable buttons, a customized calculator for a specific task, interactive charts",
+  "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+  "fuente": "TechCrunch",
+  "consultado": "2026-10-17",
+  "gancho_es": "ChatGPT ya no sólo escribe: ahora te arma botones",
+  "numeros": [],
+  "visual": "LTezla le habla a un aldeano-bibliotecario (IA) y en vez de libro le entrega una mesa de crafteo con botones de piedra que se pueden pulsar.",
+  "potencial": 3,
+  "no_afirmar": "Llega con GPT-6; a usuarios gratis y Go les llega con GPT-6 Luna (menos capaz que Sol, según Engadget). No es un modelo nuevo en sí: la familia GPT-6 salió en septiembre. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "meta_ia_mac",
+  "categoria": "tecnologia",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-15",
+  "caduca": "2026-10-29",
+  "dato_es": "Meta lanzó una IA gratuita para correr en Mac, pero necesita un terabyte de memoria RAM: unas 60 veces una laptop normal.",
+  "cita": "The 800-billion parameter model was optimized for Apple Silicon, but you'll need a staggering 1TB of RAM to run it locally.",
+  "url": "https://www.engadget.com/2287833/meta-built-a-huge-open-weight-ai-model-for-macs-but-youll-need-1tb-of-ram-to-run-it/",
+  "fuente": "Engadget",
+  "consultado": "2026-10-17",
+  "gancho_es": "Una IA que necesita mil gigas de RAM",
+  "numeros": [
+   {
+    "valor": 800,
+    "unidad": "mil millones",
+    "que": "parámetros del modelo"
+   },
+   {
+    "valor": 1,
+    "unidad": "TB",
+    "que": "RAM necesaria"
+   },
+   {
+    "valor": 38000,
+    "unidad": "USD",
+    "que": "costo aprox. de cuatro Mac Studio de 256 GB"
+   }
+  ],
+  "visual": "Torre de 64 bloques de RAM (verdes) apilados frente a una laptop de 1 bloque; LTezla intentando cargarla.",
+  "potencial": 3,
+  "no_afirmar": "Modelo Muse Spark Open. 'Gratis' = pesos abiertos, pero el hardware cuesta mucho. '60 veces una laptop normal' asume laptop de 16 GB: es comparación nuestra, mejor decir 'mil gigas'. El artículo habla de cuatro Mac Studio en una frase y de 'dos Mac Studios' en otra: no usar el número de Macs. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "ejercicio_10min_sueno",
+  "categoria": "salud",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-11",
+  "caduca": "2026-10-25",
+  "dato_es": "Un estudio con estudiantes y relojes Fitbit asoció apenas 10 minutos diarios de ejercicio intenso con dormir mejor.",
+  "cita": "as little as 10 minutes of moderate to vigorous physical activity per day was associated with better sleep",
+  "url": "https://www.sciencedaily.com/releases/2026/10/261008102721.htm",
+  "fuente": "ScienceDaily (Universidad de Texas en Austin)",
+  "consultado": "2026-10-17",
+  "gancho_es": "Diez minutos de ejercicio y duermes mejor",
+  "numeros": [
+   {
+    "valor": 10,
+    "unidad": "min",
+    "que": "actividad diaria asociada a mejor sueño"
+   }
+  ],
+  "visual": "LTezla corre 10 minutos (reloj de Minecraft) y luego se duerme en una cama con Zzz grandes.",
+  "potencial": 3,
+  "no_afirmar": "Es una ASOCIACIÓN observacional: 'does not establish that exercising more frequently directly causes improvements in sleep'. No decir 'hace que duermas mejor'. No es consejo médico. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "sueno_hormona_crecimiento",
+  "categoria": "salud",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-17",
+  "caduca": "2026-10-31",
+  "dato_es": "En el sueño profundo liberamos hormona de crecimiento, que ayuda a crear músculo; Berkeley halló el circuito cerebral que la controla.",
+  "cita": "During deep sleep, the body releases growth hormone, a powerful chemical messenger that helps build muscle",
+  "url": "https://www.sciencedaily.com/releases/2026/10/261016081140.htm",
+  "fuente": "ScienceDaily (UC Berkeley, revista Cell)",
+  "consultado": "2026-10-17",
+  "gancho_es": "Tus músculos crecen mientras duermes",
+  "numeros": [],
+  "visual": "LTezla duerme y una barra de 'músculo' se llena; un circuito de redstone en su cabeza se enciende.",
+  "potencial": 3,
+  "no_afirmar": "El descubrimiento del circuito se hizo en RATONES ('the experiments were conducted in mice'). Que el sueño profundo libera hormona de crecimiento es conocimiento general; lo nuevo es el circuito. 'Tus músculos crecen mientras duermes' es simplificación: decir 'el sueño ayuda a construir músculo'. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "burj_khalifa",
+  "categoria": "records",
+  "tipo": "curiosidad",
+  "dato_es": "El Burj Khalifa, en Dubái, es el edificio más alto del mundo: mide 828 metros.",
+  "cita": "The tallest building is the Burj Khalifa (Khalifa Tower) which measures 828 m (2,716 ft 6 in) tall.",
+  "url": "https://www.guinnessworldrecords.com/world-records/tallest-building",
+  "fuente": "Guinness World Records",
+  "consultado": "2026-10-17",
+  "gancho_es": "Este edificio mide 828 bloques",
+  "numeros": [
+   {
+    "valor": 828,
+    "unidad": "m",
+    "que": "altura del Burj Khalifa"
+   }
+  ],
+  "visual": "Torre de 828 bloques (más que el límite de altura de Minecraft de 384 desde -64: hay que escalar o mostrar dos mundos apilados); LTezla abajo diminuto.",
+  "potencial": 4,
+  "no_afirmar": "Un mundo de Minecraft sólo tiene 384 bloques de alto (de -64 a 320): el Burj no cabe a escala 1:1; decirlo es un gancho extra. Torre Jeddah (Arabia Saudita) en construcción, diseñada para 1000 m, sin fecha. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "everest",
+  "categoria": "naturaleza",
+  "tipo": "curiosidad",
+  "dato_es": "El monte Everest mide 8849 metros: es el punto más alto de la Tierra.",
+  "cita": "At 8,849 meters (29,032 feet), it is considered the tallest point on Earth.",
+  "url": "https://education.nationalgeographic.org/resource/mount-everest/",
+  "fuente": "National Geographic Education",
+  "consultado": "2026-10-17",
+  "gancho_es": "Diez Burj Khalifa apilados no llegan al Everest",
+  "numeros": [
+   {
+    "valor": 8849,
+    "unidad": "m",
+    "que": "altura del Everest"
+   },
+   {
+    "valor": 10.7,
+    "unidad": "Burj Khalifa",
+    "que": "Everest / 828 m (cálculo propio)"
+   }
+  ],
+  "visual": "Torres de Burj Khalifa de bloques apiladas una sobre otra junto a una montaña nevada; harían falta casi 11.",
+  "potencial": 4,
+  "no_afirmar": "El gancho es correcto: 10 × 828 = 8280 m < 8849 m. La misma página de NatGeo también da 8850 m en otra frase; China y Nepal fijaron 8848,86 m en 2020. Hay debate por nieve y refracción. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "ballena_azul",
+  "categoria": "naturaleza",
+  "tipo": "curiosidad",
+  "dato_es": "La ballena azul es el animal más grande que ha existido: puede medir unos 33 metros y pesar más de 150 toneladas.",
+  "cita": "can reach up to about 110 feet and weigh more than 330,000 pounds",
+  "url": "https://www.fisheries.noaa.gov/species/blue-whale",
+  "fuente": "NOAA Fisheries",
+  "consultado": "2026-10-17",
+  "gancho_es": "Más grande que cualquier dinosaurio",
+  "numeros": [
+   {
+    "valor": 33.5,
+    "unidad": "m",
+    "que": "largo máximo aprox. (110 pies, ballena azul antártica)"
+   },
+   {
+    "valor": 150,
+    "unidad": "t",
+    "que": "peso (más de 330 000 libras)"
+   }
+  ],
+  "visual": "Ballena de bloques de 33 bloques de largo nadando junto a LTezla en un bote; al lado un autobús de 12 bloques para comparar.",
+  "potencial": 5,
+  "no_afirmar": "Las cifras máximas son de la subespecie antártica; en el Atlántico Norte y Pacífico Norte rondan 27 m. NOAA dice 'the largest animals ever to live on our planet'. Conversiones a metros/toneladas son nuestras. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "guepardo",
+  "categoria": "naturaleza",
+  "tipo": "curiosidad",
+  "dato_es": "El guepardo es el mamífero terrestre más rápido: alcanza unos 100 km/h, pero sólo en carreras cortas.",
+  "cita": "this wild cat can maintain a peak speed of approximately 100 km/h (62 mph) on level ground",
+  "url": "https://www.guinnessworldrecords.com/world-records/70463-fastest-mammal-on-land-over-short-distances",
+  "fuente": "Guinness World Records",
+  "consultado": "2026-10-17",
+  "gancho_es": "Este gato corre como un auto en autopista",
+  "numeros": [
+   {
+    "valor": 100,
+    "unidad": "km/h",
+    "que": "velocidad punta aproximada"
+   },
+   {
+    "valor": 103.5,
+    "unidad": "km/h",
+    "que": "medición precisa de 1965"
+   },
+   {
+    "valor": 6.19,
+    "unidad": "s",
+    "que": "100 m de un guepardo medido"
+   }
+  ],
+  "visual": "Ocelote (guepardo) vs. Usain Bolt de bloques en 100 m: el guepardo llega en 6,19 s y Bolt en 9,58 s.",
+  "potencial": 4,
+  "no_afirmar": "Las cifras varían por fuente (Britannica da hasta ~114 km/h; el Zoo Nacional 96-112 km/h). Sólo mantiene la velocidad unos cientos de metros. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "halcon_peregrino",
+  "categoria": "naturaleza",
+  "tipo": "curiosidad",
+  "dato_es": "Un halcón peregrino en picada puede llegar a unos 320 km/h; una halcona llamada Frightful fue medida a 389 km/h.",
+  "cita": "was reportedly clocked at 242 mph (389.46 km/h)",
+  "url": "https://www.guinnessworldrecords.com/world-records/70929-fastest-bird-diving",
+  "fuente": "Guinness World Records",
+  "consultado": "2026-10-17",
+  "gancho_es": "Un pájaro más rápido que un auto de Fórmula 1",
+  "numeros": [
+   {
+    "valor": 320,
+    "unidad": "km/h",
+    "que": "velocidad terminal estimada en picada"
+   },
+   {
+    "valor": 389.46,
+    "unidad": "km/h",
+    "que": "medición de 1999 (halcona 'Frightful')"
+   }
+  ],
+  "visual": "Halcón de bloques cayendo en picada desde una nube, dejando estela; al lado un auto de carreras de bloques que se queda atrás.",
+  "potencial": 4,
+  "no_afirmar": "El 389 km/h fue en un experimento (soltada desde una avioneta) y ornitólogos lo han cuestionado. La comparación con F1 es nuestra: la velocidad máxima de un F1 ronda 350 km/h y cambia por circuito; mejor decir 'más rápido que un auto en autopista' o quitar la comparación. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "luz_vueltas_tierra",
+  "categoria": "ciencia",
+  "tipo": "curiosidad",
+  "dato_es": "La luz es tan rápida que en un segundo podría dar unas siete vueltas y media a la Tierra por el ecuador.",
+  "cita": "A traveler, moving at the speed of light, would circum-navigate the equator approximately 7.5 times in one second.",
+  "url": "https://www.grc.nasa.gov/www/k-12/Numbers/Math/Mathematical_Thinking/how_fast_is_the_speed.htm",
+  "fuente": "NASA Glenn Research Center",
+  "consultado": "2026-10-17",
+  "gancho_es": "Siete vueltas a la Tierra en un segundo",
+  "numeros": [
+   {
+    "valor": 7.5,
+    "unidad": "vueltas",
+    "que": "vueltas al ecuador en 1 segundo"
+   },
+   {
+    "valor": 300000,
+    "unidad": "km/s",
+    "que": "velocidad de la luz (186 000 mi/s)"
+   }
+  ],
+  "visual": "Planeta de bloques con un rayo de luz (beacon) que lo rodea 7 veces y media mientras un reloj marca 1 segundo.",
+  "potencial": 5,
+  "no_afirmar": "Es teórico: la luz no 'da vueltas' sola, viaja en línea recta. 300 000 km/s es redondeo de 299 792 km/s. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "luna_30_tierras",
+  "categoria": "espacio",
+  "tipo": "curiosidad",
+  "dato_es": "La Luna está a unos 384 400 km: entre la Tierra y la Luna caben 30 planetas del tamaño de la Tierra.",
+  "cita": "That means 30 Earth-sized planets could fit in between Earth and the Moon.",
+  "url": "https://science.nasa.gov/moon/facts/",
+  "fuente": "NASA",
+  "consultado": "2026-10-17",
+  "gancho_es": "Entre la Tierra y la Luna caben 30 Tierras",
+  "numeros": [
+   {
+    "valor": 384400,
+    "unidad": "km",
+    "que": "distancia media Tierra-Luna"
+   },
+   {
+    "valor": 30,
+    "unidad": "Tierras",
+    "que": "planetas que caben en medio"
+   }
+  ],
+  "visual": "Fila de 30 esferas de bloques azules/verdes entre una Tierra y una Luna; LTezla volando con élitros por la fila.",
+  "potencial": 5,
+  "no_afirmar": "Es distancia MEDIA; varía a lo largo de la órbita. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "sol_millon_tierras",
+  "categoria": "espacio",
+  "tipo": "curiosidad",
+  "dato_es": "Dentro del Sol cabrían 1,3 millones de Tierras.",
+  "cita": "it would take 1.3 million Earths to fill the Sun's volume",
+  "url": "https://science.nasa.gov/sun/facts/",
+  "fuente": "NASA",
+  "consultado": "2026-10-17",
+  "gancho_es": "Un millón de Tierras caben dentro del Sol",
+  "numeros": [
+   {
+    "valor": 1300000,
+    "unidad": "Tierras",
+    "que": "Tierras que llenan el volumen del Sol"
+   },
+   {
+    "valor": 100,
+    "unidad": "veces",
+    "que": "el Sol es ~100 veces más ancho que la Tierra"
+   },
+   {
+    "valor": 150000000,
+    "unidad": "km",
+    "que": "distancia Sol-Tierra"
+   }
+  ],
+  "visual": "Esfera de glowstone de 100 bloques de diámetro junto a un solo bloque azul (la Tierra).",
+  "potencial": 4,
+  "no_afirmar": "Es por volumen (no 'en fila'). NASA dice 'about 100 times wider'. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "estacion_espacial",
+  "categoria": "espacio",
+  "tipo": "curiosidad",
+  "dato_es": "La Estación Espacial Internacional da 16 vueltas a la Tierra cada día: ve 16 amaneceres y 16 atardeceres.",
+  "cita": "In 24 hours, the space station makes 16 orbits of Earth, traveling through 16 sunrises and sunsets.",
+  "url": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+  "fuente": "NASA",
+  "consultado": "2026-10-17",
+  "gancho_es": "Los astronautas ven 16 amaneceres al día",
+  "numeros": [
+   {
+    "valor": 16,
+    "unidad": "vueltas",
+    "que": "órbitas por día"
+   },
+   {
+    "valor": 8,
+    "unidad": "km/s",
+    "que": "velocidad (cinco millas por segundo)"
+   },
+   {
+    "valor": 109,
+    "unidad": "m",
+    "que": "largo de punta a punta"
+   },
+   {
+    "valor": 419725,
+    "unidad": "kg",
+    "que": "masa"
+   }
+  ],
+  "visual": "Estación de bloques de 109 bloques de largo girando alrededor de una Tierra; el cielo pasa de día a noche rapidísimo (ciclo acelerado).",
+  "potencial": 4,
+  "no_afirmar": "Velocidad: NASA dice 'five miles per second' (~8 km/s, ~28 000 km/h; conversión nuestra). Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "fosa_marianas",
+  "categoria": "naturaleza",
+  "tipo": "curiosidad",
+  "dato_es": "El punto más profundo del océano, el abismo Challenger, está a 10 935 metros: más hondo que alto es el Everest.",
+  "cita": "The deepest place in the ocean measures 10,935 meters (35,876 feet)",
+  "url": "https://oceanexplorer.noaa.gov/ocean-fact/ocean-depth/",
+  "fuente": "NOAA Ocean Exploration",
+  "consultado": "2026-10-17",
+  "gancho_es": "Si hundes el Everest aquí, no asoma",
+  "numeros": [
+   {
+    "valor": 10935,
+    "unidad": "m",
+    "que": "profundidad del abismo Challenger"
+   },
+   {
+    "valor": 2086,
+    "unidad": "m",
+    "que": "agua que quedaría sobre el Everest (cálculo propio con 8849 m)"
+   }
+  ],
+  "visual": "Cámara bajando por una columna de agua de bloques; el Everest de bloques se hunde y le sobran ~2000 bloques de agua encima.",
+  "potencial": 5,
+  "no_afirmar": "La comparación con el Everest es cálculo nuestro (NOAA no la hace en esta página). Otras mediciones dan 10 924 a 10 994 m. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "olympus_mons",
+  "categoria": "espacio",
+  "tipo": "curiosidad",
+  "dato_es": "En Marte está el volcán más alto del sistema solar, Olympus Mons: 25 km sobre la llanura, casi tres Everest.",
+  "cita": "rises 25 kilometres above the surrounding plain",
+  "url": "https://www.esa.int/ESA_Multimedia/Images/2003/04/Olympus_Mons_25_kilometres_high_is_the_highest_volcano_in_the_Solar_System",
+  "fuente": "ESA",
+  "consultado": "2026-10-17",
+  "gancho_es": "En Marte hay un volcán de tres Everest",
+  "numeros": [
+   {
+    "valor": 25,
+    "unidad": "km",
+    "que": "altura sobre la llanura"
+   },
+   {
+    "valor": 3,
+    "unidad": "Everest",
+    "que": "'Mount Everest is only one third as high'"
+   }
+  ],
+  "visual": "Volcán de bloques rojos gigantesco con tres Everest apilados al lado; LTezla con traje espacial en la base.",
+  "potencial": 4,
+  "no_afirmar": "Las cifras varían por cómo se mida: NASA da 24-27 km sobre la llanura y 'more than 25 miles ... 40 kilometers' desde la base. Usar 25 km 'sobre la llanura'. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "saturno_v",
+  "categoria": "espacio",
+  "tipo": "curiosidad",
+  "dato_es": "El cohete Saturno V, que llevó astronautas a la Luna, medía 111 metros: como un edificio de 36 pisos.",
+  "cita": "The Saturn V rocket was 111 meters (363 feet) tall",
+  "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-was-the-saturn-v-grades-5-8/",
+  "fuente": "NASA",
+  "consultado": "2026-10-17",
+  "gancho_es": "Un cohete tan alto como un edificio de 36 pisos",
+  "numeros": [
+   {
+    "valor": 111,
+    "unidad": "m",
+    "que": "altura"
+   },
+   {
+    "valor": 2800000,
+    "unidad": "kg",
+    "que": "peso cargado de combustible"
+   },
+   {
+    "valor": 400,
+    "unidad": "elefantes",
+    "que": "equivalencia de peso según NASA"
+   }
+  ],
+  "visual": "Cohete de bloques blanco y negro de 111 bloques en una plataforma; al lado 400 elefantes... o una fila de bloques de hierro para el peso.",
+  "potencial": 4,
+  "no_afirmar": "'36 pisos' y '400 elefantes' son comparaciones de NASA (resumidas por WebFetch); la de elefantes no está en la cita literal."
+ },
+ {
+  "id": "usain_bolt",
+  "categoria": "deportes",
+  "tipo": "curiosidad",
+  "dato_es": "Usain Bolt corrió los 100 metros en 9,58 segundos en Berlín, en 2009, y el récord sigue en pie.",
+  "cita": "in a time of 9.58 seconds.",
+  "url": "https://www.guinnessworldrecords.com/world-records/fastest-run-100-metres-(male)",
+  "fuente": "Guinness World Records",
+  "consultado": "2026-10-17",
+  "gancho_es": "100 bloques en menos de 10 segundos",
+  "numeros": [
+   {
+    "valor": 9.58,
+    "unidad": "s",
+    "que": "100 m"
+   },
+   {
+    "valor": 37.6,
+    "unidad": "km/h",
+    "que": "velocidad media (cálculo propio)"
+   }
+  ],
+  "visual": "Pista de 100 bloques; LTezla corre con Speed II contra un Bolt de bloques; cronómetro arriba.",
+  "potencial": 4,
+  "no_afirmar": "Verificar antes de publicar que el récord sigue vigente (la página de Guinness lo mostraba al 17 oct 2026). Fecha: 16 ago 2009, Mundial de Berlín. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "arbol_hyperion",
+  "categoria": "naturaleza",
+  "tipo": "curiosidad",
+  "dato_es": "El árbol vivo más alto del mundo es una secuoya roja apodada Hyperion: medía 116 metros en 2019.",
+  "cita": "By 2019, the height had grown to 116.07 m (380 ft 9.7 in).",
+  "url": "https://www.guinnessworldrecords.com/world-records/tallest-tree-living",
+  "fuente": "Guinness World Records",
+  "consultado": "2026-10-17",
+  "gancho_es": "Un árbol más alto que un cohete a la Luna",
+  "numeros": [
+   {
+    "valor": 116.07,
+    "unidad": "m",
+    "que": "altura de Hyperion (2019)"
+   },
+   {
+    "valor": 111,
+    "unidad": "m",
+    "que": "Saturno V, para comparar"
+   }
+  ],
+  "visual": "Árbol de troncos de abeto de 116 bloques junto al cohete Saturno V de 111 bloques; LTezla en la copa.",
+  "potencial": 4,
+  "no_afirmar": "Está en el Parque Nacional Redwood (California); su ubicación exacta es secreta para protegerlo. La comparación con el Saturno V es nuestra (116 > 111). Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "piramide_giza",
+  "categoria": "historia",
+  "tipo": "curiosidad",
+  "dato_es": "La Gran Pirámide de Guiza medía 146,7 metros al terminarse hace unos 4500 años; hoy mide 137,5.",
+  "cita": "it was 146.7 m (481 ft 3 in) high when completed around 4,500 years ago",
+  "url": "https://www.guinnessworldrecords.com/world-records/tallest-pyramid",
+  "fuente": "Guinness World Records",
+  "consultado": "2026-10-17",
+  "gancho_es": "La pirámide de Egipto se encogió nueve metros",
+  "numeros": [
+   {
+    "valor": 146.7,
+    "unidad": "m",
+    "que": "altura original"
+   },
+   {
+    "valor": 137.5,
+    "unidad": "m",
+    "que": "altura actual"
+   },
+   {
+    "valor": 4500,
+    "unidad": "años",
+    "que": "antigüedad aproximada"
+   }
+  ],
+  "visual": "Pirámide de arenisca de 147 bloques; la punta (9 bloques) se desmorona con partículas; LTezla mira desde un camello (llama).",
+  "potencial": 4,
+  "no_afirmar": "Perdió altura por 'erosion and vandalism' (y pérdida del revestimiento). Smithsonian dice que fue la estructura más alta del mundo durante 3800 años; no lo afirmamos aquí sin abrir esa página. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "jirafa_altura",
+  "categoria": "naturaleza",
+  "tipo": "curiosidad",
+  "dato_es": "La jirafa es el animal vivo más alto: un macho adulto mide entre 4,6 y 5,5 metros.",
+  "cita": "An adult male giraffe typically measures between 4.6 and 5.5 metres (15–18 feet) tall.",
+  "url": "https://www.guinnessworldrecords.com/world-records/542207-tallest-living-animal",
+  "fuente": "Guinness World Records",
+  "consultado": "2026-10-17",
+  "gancho_es": "Una jirafa podría mirar por la ventana del segundo piso",
+  "numeros": [
+   {
+    "valor": 5.5,
+    "unidad": "m",
+    "que": "altura máxima típica de un macho"
+   },
+   {
+    "valor": 4.6,
+    "unidad": "m",
+    "que": "altura mínima típica de un macho"
+   }
+  ],
+  "visual": "Jirafa de bloques de 5 bloques junto a una casa de dos pisos de Minecraft y LTezla de 2 bloques.",
+  "potencial": 3,
+  "no_afirmar": "El gancho es aproximado (un segundo piso suele estar a 3-6 m). Altura medida desde la pezuña hasta los osiconos. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "colibri_abeja",
+  "categoria": "naturaleza",
+  "tipo": "curiosidad",
+  "dato_es": "El ave más pequeña del mundo es el colibrí abeja de Cuba: mide 5,7 centímetros y pesa 1,6 gramos.",
+  "cita": "Males measure 57 mm (2.24 in) in total length, half of which is taken up by the bill and tail, and weigh 1.6 g (0.056 oz)",
+  "url": "https://www.guinnessworldrecords.com/world-records/smallest-bird",
+  "fuente": "Guinness World Records",
+  "consultado": "2026-10-17",
+  "gancho_es": "Un pájaro que pesa menos que una moneda",
+  "numeros": [
+   {
+    "valor": 5.7,
+    "unidad": "cm",
+    "que": "largo total (macho)"
+   },
+   {
+    "valor": 1.6,
+    "unidad": "g",
+    "que": "peso (macho)"
+   }
+  ],
+  "visual": "Abeja de Minecraft al lado de un colibrí casi del mismo tamaño; LTezla con lupa.",
+  "potencial": 4,
+  "no_afirmar": "Vive en Cuba e Isla de la Juventud. 'Menos que una moneda': depende de la moneda (muchas pesan 2-8 g); comparación nuestra, verificar con una moneda concreta o cambiarla. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "colibri_alas",
+  "categoria": "naturaleza",
+  "tipo": "curiosidad",
+  "dato_es": "El colibrí garganta de rubí puede batir las alas 200 veces por segundo durante el cortejo.",
+  "cita": "the ruby-throated hummingbird (Archilochus colubris) can produce a wingbeat rate of 200 beats per second",
+  "url": "https://www.guinnessworldrecords.com/world-records/fastest-wing-beat-of-a-bird",
+  "fuente": "Guinness World Records",
+  "consultado": "2026-10-17",
+  "gancho_es": "200 aleteos en un segundo",
+  "numeros": [
+   {
+    "valor": 200,
+    "unidad": "aleteos/s",
+    "que": "batidos de ala por segundo en cortejo"
+   }
+  ],
+  "visual": "Colibrí de bloques con alas borrosas; contador que llega a 200 en un segundo; LTezla intentando aletear y cansándose.",
+  "potencial": 3,
+  "no_afirmar": "Es durante el cortejo, no su aleteo normal. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "corazon_100mil",
+  "categoria": "salud",
+  "tipo": "curiosidad",
+  "dato_es": "Tu corazón late unas 100 000 veces al día y bombea sangre por unos 96 000 km de vasos sanguíneos.",
+  "cita": "Your heart beats about 100,000 times per day.",
+  "url": "https://health.clevelandclinic.org/fun-facts-about-your-heart",
+  "fuente": "Cleveland Clinic",
+  "consultado": "2026-10-17",
+  "gancho_es": "Tus venas darían más de dos vueltas a la Tierra",
+  "numeros": [
+   {
+    "valor": 100000,
+    "unidad": "latidos",
+    "que": "latidos por día"
+   },
+   {
+    "valor": 96000,
+    "unidad": "km",
+    "que": "largo total de vasos sanguíneos (60 000 millas)"
+   },
+   {
+    "valor": 5.7,
+    "unidad": "L/min",
+    "que": "sangre bombeada por minuto"
+   }
+  ],
+  "visual": "Corazón de bloques rojos latiendo con contador; un tubo rojo de bloques que envuelve un planeta dos veces.",
+  "potencial": 4,
+  "no_afirmar": "El gancho es cálculo nuestro: la circunferencia de la Tierra es ~40 075 km, 96 000/40 075 ≈ 2,4 vueltas. Son 'vasos sanguíneos' (arterias, venas y capilares), no sólo venas: mejor decir 'tus vasos sanguíneos'. Cifras promedio de un adulto en reposo. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "hombre_mas_alto",
+  "categoria": "records",
+  "tipo": "curiosidad",
+  "dato_es": "Robert Wadlow es el hombre más alto registrado: medía 2,72 metros en 1940.",
+  "cita": "who when last measured on 27 June 1940, was found to be 2.72 m (8 ft 11.1 in) tall.",
+  "url": "https://www.guinnessworldrecords.com/world-records/tallest-man-ever",
+  "fuente": "Guinness World Records",
+  "consultado": "2026-10-17",
+  "gancho_es": "Un hombre más alto que una puerta de Minecraft",
+  "numeros": [
+   {
+    "valor": 2.72,
+    "unidad": "m",
+    "que": "altura de Robert Wadlow"
+   }
+  ],
+  "visual": "Personaje de 2,7 bloques junto a una puerta de Minecraft (2 bloques) y LTezla.",
+  "potencial": 3,
+  "no_afirmar": "Su altura se debió a una condición médica (gigantismo) y murió joven: no hacer burla ni dramatizar; no mencionar su muerte. Es 'el más alto de la historia médica con evidencia verificada'. Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "argentinosaurio",
+  "categoria": "historia",
+  "tipo": "curiosidad",
+  "dato_es": "Los saurópodos gigantes como el Argentinosaurus medían entre 30 y 40 metros y pesaban al menos 50 a 75 toneladas.",
+  "cita": "these gargantuan reptiles reached between 30 and 40 m (98–131 ft) long",
+  "url": "https://www.guinnessworldrecords.com/world-records/506376-largest-land-based-animal",
+  "fuente": "Guinness World Records",
+  "consultado": "2026-10-17",
+  "gancho_es": "El dinosaurio argentino del largo de tres autobuses",
+  "numeros": [
+   {
+    "valor": 40,
+    "unidad": "m",
+    "que": "largo máximo estimado de saurópodos"
+   },
+   {
+    "valor": 75,
+    "unidad": "t",
+    "que": "peso estimado (al menos 50-75 t)"
+   },
+   {
+    "valor": 25,
+    "unidad": "m",
+    "que": "largo medio de una ballena azul, para comparar"
+   }
+  ],
+  "visual": "Dinosaurio de cuello largo de 35 bloques caminando junto a tres autobuses de bloques en fila; LTezla le llega al tobillo.",
+  "potencial": 4,
+  "no_afirmar": "Son ESTIMACIONES a partir de fósiles incompletos; la cifra es para el grupo (titanosaurios como Argentinosaurus, Patagotitan), no medida de un individuo. 'Tres autobuses' asume autobús de ~12 m (comparación nuestra). La ballena azul sigue siendo más pesada (unas 160 t de media). Cita obtenida vía el resumidor de WebFetch: puede diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "nube_marte_arsia",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-07",
+  "caduca": "2026-10-31",
+  "dato_es": "En Marte, junto al volcán Arsia Mons, cada mañana se forma una nube que crece hasta 1.800 km y desaparece el mismo día; los científicos dicen que se forma por un proceso nunca visto en la atmósfera de un planeta.",
+  "cita": "The Arsia Mons Elongated Cloud can stretch for up to 1,800 kilometers (1,120 miles).",
+  "url": "https://www.iflscience.com/weird-physics-causes-this-lonely-martian-cloud-to-reappear-and-grow-longer-than-california-every-day-84893",
+  "fuente": "IFLScience (9 oct 2026)",
+  "fuente2": {
+   "url": "https://sci.news/space/arsia-mons-elongated-cloud-formation-15115.html",
+   "cita": "we've never seen it before in a planetary atmosphere",
+   "fuente": "Sci.News (7 oct 2026), sobre Hernández-Bernal et al., Nature Geoscience"
+  },
+  "consultado": "2026-10-17",
+  "gancho_es": "En Marte hay una nube de 1.800 km que nace cada mañana",
+  "numeros": [
+   {
+    "valor": 1800,
+    "unidad": "km",
+    "que": "largo máximo de la nube"
+   },
+   {
+    "valor": 1,
+    "unidad": "día marciano",
+    "que": "se forma, se estira y se desvanece en un solo día"
+   }
+  ],
+  "visual": "Volcán de bloques (Arsia Mons) con una nube blanca que se estira de lado a lado del cuadro; LTezla mirando hacia arriba con cara de sorpresa.",
+  "potencial": 4,
+  "no_afirmar": "No es una nube de tormenta ni peligrosa. El estudio es de simulaciones (Nature Geoscience); 'nunca visto en una atmósfera planetaria' es lo que dicen los autores. No decir que es nueva: la fotografió Mars Express desde 2018. Aparece en primavera y verano del hemisferio sur de Marte, no todo el año."
+ },
+ {
+  "id": "dodo_genoma_95",
+  "categoria": "ciencia",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-14",
+  "caduca": "2026-10-28",
+  "dato_es": "La empresa Colossal dice que ya tiene casi el 95 % del genoma del dodo, un ave extinta en el siglo XVII, y que aumentó a 36 sus palomas de Nicobar, su pariente vivo más cercano; no dio fecha para que nazca un dodo.",
+  "cita": "The company said it is in the final stages of its analysis of the dodo genome, now filled to 95%.",
+  "url": "https://dailymaverick.co.za/article/2026-10-15-us-company-announces-progress-toward-resurrecting-the-extinct-dodo",
+  "fuente": "Reuters (vía Daily Maverick, 15 oct 2026)",
+  "fuente2": {
+   "url": "https://thedebrief.org/?p=53486",
+   "cita": "significantly expanded its Nicobar pigeon colony to three dozen birds",
+   "fuente": "The Debrief (15 oct 2026)"
+  },
+  "cita_extra": [
+   "expanded its colony of Nicobar pigeons in Texas to 36 birds",
+   "The company did not announce a timeframe for hatching a dodo."
+  ],
+  "consultado": "2026-10-17",
+  "gancho_es": "Quieren revivir al dodo, y ya van en 95 %",
+  "numeros": [
+   {
+    "valor": 95,
+    "unidad": "%",
+    "que": "genoma del dodo completado (según la empresa)"
+   },
+   {
+    "valor": 36,
+    "unidad": "palomas",
+    "que": "colonia de palomas de Nicobar"
+   },
+   {
+    "valor": 1662,
+    "unidad": "año",
+    "que": "último dodo visto"
+   }
+  ],
+  "visual": "Un dodo de bloques (pollo gris grande) aparece con barra de carga al 95 %; 36 palomas alrededor; LTezla con bata.",
+  "potencial": 4,
+  "no_afirmar": "No decir que ya revivieron al dodo ni que nacerá pronto: NO hay fecha. Lo del 95 % es lo que dice la empresa. Lo que harían es editar palomas de Nicobar: sería un ave parecida, no un dodo idéntico (críticos lo señalan). No mencionar inversionistas ni dinero."
+ },
+ {
+  "id": "tatuaje_luz_phototat",
+  "categoria": "tecnologia",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-09",
+  "caduca": "2026-10-30",
+  "dato_es": "Químicos de la Universidad de Colorado en Boulder crearon una tinta de tatuaje invisible que aparece con luz ultravioleta en segundos y se apaga con una luz LED brillante; todavía es experimental.",
+  "cita": "But when illuminated by ultraviolet light, they change color in a matter of seconds.",
+  "url": "https://optics.org/news/invisible-tattoos-that-appear-when-illuminated",
+  "fuente": "Optics.org (15 oct 2026), sobre el estudio en Matter & Light",
+  "fuente2": {
+   "url": "https://newatlas.com/technology/tattoos-switched-on-with-light/",
+   "cita": "the colours gradually fade over hours",
+   "fuente": "New Atlas (9 oct 2026)"
+  },
+  "cita_extra": [
+   "Normally, these dyes are completely invisible to the human eye.",
+   "The colors fade over several hours, but they can also be switched off faster by exposing them to a bright LED light."
+  ],
+  "consultado": "2026-10-17",
+  "gancho_es": "Un tatuaje que se prende y se apaga con luz",
+  "numeros": [
+   {
+    "valor": 3,
+    "unidad": "colores",
+    "que": "azul, magenta y amarillo"
+   }
+  ],
+  "visual": "El brazo de LTezla sin nada; luz morada (UV) y aparece un creeper tatuado; luz blanca y desaparece.",
+  "potencial": 4,
+  "no_afirmar": "No está a la venta ni en estudios de tatuaje. No se ha comprobado que sea segura en personas: falta probar toxicidad. No decir 'para siempre' ni que lo usan médicos ya. No mostrar agujas."
+ },
+ {
+  "id": "luz_luna",
+  "categoria": "espacio",
+  "tipo": "curiosidad",
+  "dato_es": "La luz tarda un segundo y un tercio en llegar de la Luna a la Tierra.",
+  "cita": "light from the Moon takes (240,000 miles divided by 186.000) 1 and 1/3 seconds to get from the Moon to Earth.",
+  "url": "https://pbs.org/seeinginthedark/astronomy-topics/light-as-a-cosmic-time-machine.html",
+  "fuente": "PBS (Andrew Fraknoi)",
+  "url2": "https://science.nasa.gov/moon/facts/",
+  "cita2": "The Moon is an average of 238,855 miles (384,400 kilometers) away.",
+  "consultado": "2026-10-17",
+  "gancho_es": "La luz tarda 1.3 s en llegar de la Luna",
+  "numeros": [
+   {
+    "valor": 1.3,
+    "unidad": "s",
+    "que": "luz de la Luna a la Tierra"
+   },
+   {
+    "valor": 384400,
+    "unidad": "km",
+    "que": "distancia media Tierra-Luna"
+   }
+  ],
+  "visual": "planeta_tierra y luna (modelos nuevos)",
+  "potencial": 4,
+  "no_afirmar": "Usado como dato B en rotativo-luz-vueltas-tierra (2026-10-17)."
+ },
+ {
+  "id": "orionidas_2026",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-17",
+  "caduca": "2026-10-31",
+  "dato_es": "Esta semana llega el máximo de las Oriónidas: la noche del 21 al 22 de octubre caen unos 10 a 20 meteoros por hora, a 66 km por segundo, y son polvo del cometa Halley.",
+  "cita": "Active: Oct. 2 - Nov. 7, 2026 (Peak night: Oct. 21-22)",
+  "url": "https://science.nasa.gov/solar-system/meteors-meteorites/orionids/",
+  "fuente": "NASA Science",
+  "cita_velocidad": "41 miles (66 kilometers) per second",
+  "cita_tasa": "About 10 to 20 meteors per hour",
+  "cita_origen": "The pieces of space debris that interact with our atmosphere to create the Orionids originate from comet 1P/Halley.",
+  "url2": "https://starwalk.space/es/news/orionid-meteor-shower-how-and-when-to-see",
+  "fuente2": "Star Walk",
+  "cita2": "Las Oriónidas alcanzarán su máximo la noche del 21 al 22 de octubre.",
+  "cita2_luna": "coincidirá con una Luna gibosa creciente, que iluminará el cielo durante buena parte de la noche.",
+  "consultado": "2026-10-18",
+  "gancho_es": "Esta semana llueven estrellas del cometa Halley",
+  "numeros": [
+   {
+    "valor": 66,
+    "unidad": "km/s",
+    "que": "velocidad de los meteoros"
+   },
+   {
+    "valor": 20,
+    "unidad": "meteoros/h",
+    "que": "tasa máxima (10–20 con cielo oscuro)"
+   },
+   {
+    "valor": 21,
+    "unidad": "oct",
+    "que": "noche del máximo (21–22 oct)"
+   }
+  ],
+  "visual": "Cielo nocturno con meteoros (fx) sobre LTezla acostado en el pasto; un cometa de bloques soltando polvo.",
+  "potencial": 5,
+  "no_afirmar": "La Luna gibosa creciente estorba parte de la noche: no prometer que se verán 20. Mejor después de medianoche, lejos de la luz de la ciudad. No decir que 'caen' a la Tierra: se queman en la atmósfera. Citas obtenidas vía el resumidor de WebFetch: pueden diferir en signos o mayúsculas del original."
+ },
+ {
+  "id": "xbox_nano_control",
+  "categoria": "tecnologia",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-14",
+  "caduca": "2026-11-15",
+  "dato_es": "Xbox presentó el Nano, su control más chico: mide poco más de 5 pulgadas (unos 13 cm), pesa 99 g, tiene los 18 botones de siempre y cuesta 49,99 dólares; sale en noviembre.",
+  "cita": "at a little over 5 inches in length and just 3.5 ounces",
+  "cita_precio": "$49.99 USD",
+  "cita_fecha": "It will be available beginning in November.",
+  "cita_botones": "all 18 standard gameplay inputs",
+  "url": "https://news.xbox.com/en-us/2026/10/14/xbox-nano-controller/",
+  "fuente": "Xbox Wire",
+  "url2": "https://www.dexerto.com/gaming/xbox-reveals-tiny-50-nano-controller-thats-smaller-than-most-smartphones-3418941/",
+  "fuente2": "Dexerto",
+  "cita2": "The Xbox Nano Controller costs $49.99",
+  "consultado": "2026-10-18",
+  "gancho_es": "Este control de Xbox cabe en tu bolsillo",
+  "numeros": [
+   {
+    "valor": 13,
+    "unidad": "cm",
+    "que": "largo (poco más de 5 pulgadas)"
+   },
+   {
+    "valor": 99,
+    "unidad": "g",
+    "que": "peso (3,5 onzas)"
+   },
+   {
+    "valor": 18,
+    "unidad": "botones",
+    "que": "entradas de juego estándar"
+   },
+   {
+    "valor": 49.99,
+    "unidad": "USD",
+    "que": "precio en EE. UU."
+   }
+  ],
+  "visual": "Control de bloques diminuto en la mano de LTezla junto a uno normal; nunca el logotipo de Xbox.",
+  "potencial": 5,
+  "no_afirmar": "Precio de EE. UU.; no dar precio en México sin fuente oficial. Es un control, no una consola. Sin logotipo. Citas obtenidas vía el resumidor de WebFetch."
+ },
+ {
+  "id": "flechas_hielo_noruega",
+  "categoria": "historia",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-09",
+  "caduca": "2026-10-30",
+  "dato_es": "En las montañas de Jotunheimen, en Noruega, el hielo que se derrite dejó salir 48 puntas de flecha prehistóricas; una de pizarra podría tener unos 6.000 años.",
+  "cita": "the recovery of 48 arrow heads and shafts from different eras and made from different materials",
+  "cita_materiales": "Arrowheads, crafted from slate, bone, and even a freshwater mussel shell",
+  "url": "https://goodnewsnetwork.org/worlds-largest-glacial-archeology-expedition-recovers-48-stone-age-arrowheads-and-shafts",
+  "fuente": "Good News Network (proyecto Secrets of the Ice)",
+  "url2": "https://www.elsol.com.ar/de-revista/hallazgo-en-noruega-el-deshielo-dejo-al-descubierto-48-armas-prehistoricas/",
+  "fuente2": "El Sol (Mendoza)",
+  "cita2": "48 flechas prehistóricas en una sola temporada, algunas de ellas con una antigüedad estimada de hasta 6.000 años",
+  "consultado": "2026-10-18",
+  "gancho_es": "El hielo escupió 48 flechas de la edad de piedra",
+  "numeros": [
+   {
+    "valor": 48,
+    "unidad": "flechas",
+    "que": "puntas y astiles recuperados"
+   },
+   {
+    "valor": 6000,
+    "unidad": "años",
+    "que": "edad estimada de la más antigua (pizarra)"
+   }
+  ],
+  "visual": "Bloques de hielo que se derriten (fx) y dejan ver flechas de Minecraft; LTezla con pico de arqueólogo y cepillo.",
+  "potencial": 4,
+  "no_afirmar": "Las edades van de ~2.000 a ~5.000 años; sólo una 'podría' tener ~6.000. Lo causa el deshielo; no dramatizar el clima. No confundir con el hallazgo de Langfonne de 2020 (68 flechas)."
+ },
+ {
+  "id": "segundo_intercalar_fin",
+  "categoria": "ciencia",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-15",
+  "caduca": "2026-11-02",
+  "dato_es": "La Conferencia General de Pesas y Medidas decidió acabar con el segundo intercalar: desde el 20 de mayo de 2027 el tiempo universal (UTC) correrá sin cortes. Desde 1972 se agregaron 27.",
+  "cita": "The General Conference on Weights and Measures (CGPM) decided to end the practice on Thursday 15 October 2026.",
+  "cita_fecha": "But from 20 May 2027, Coordinated Universal Time (UTC) will run continuously, with no interruptions.",
+  "cita_27": "To keep the gap between the two time scales small, 27 leap seconds have been added since 1972.",
+  "cita_hora": "the gap between UTC and astronomical time will be allowed to grow, potentially reaching 3,600 seconds, or one hour.",
+  "url": "https://www.euronews.com/2026/10/16/global-timekeeping-rules-change-leap-second-scrapped-from-2027",
+  "fuente": "Euronews",
+  "consultado": "2026-10-19",
+  "url2": "https://www.cp24.com/news/world/2026/10/16/international-timekeepers-vote-to-abolish-the-leap-second-from-our-clocks-what-does-it-mean/",
+  "fuente2": "CP24 (CTV News)",
+  "cita2": "Since then, the leap second has been added 27 times.",
+  "url3": "https://www.nippon.com/en/news/yjj2026101600154/",
+  "fuente3": "Jiji Press (vía Nippon.com)",
+  "cita3": "can disrupt computer and communications systems",
+  "gancho_es": "El reloj del mundo ya no tendrá segundos extra",
+  "numeros": [
+   {
+    "valor": 27,
+    "unidad": "segundos",
+    "que": "segundos intercalares agregados desde 1972"
+   },
+   {
+    "valor": 2027,
+    "unidad": "año",
+    "que": "desde el 20 de mayo de 2027 ya no se agregan"
+   },
+   {
+    "valor": 3600,
+    "unidad": "s",
+    "que": "la diferencia podrá crecer hasta una hora"
+   }
+  ],
+  "visual": "LTezla frente a un reloj gigante de bloques; 27 bloques de 'segundo' apilados (uno por cada segundo agregado desde 1972) que se caen; la Tierra de bloques girando un pelín lenta.",
+  "potencial": 5,
+  "no_afirmar": "No es que 'se borre' un segundo: se deja de AGREGAR. La decisión fue el 15 oct (Euronews; Jiji dice 16 por zona horaria); entra en vigor el 20 may 2027. No decir que la Tierra 'se está frenando' sin matiz: la rotación varía. No decir que habrá una 'hora intercalar' segura: es una posibilidad lejana. Citas obtenidas vía el resumidor de WebFetch: pueden diferir en signos del original."
+ },
+ {
+  "id": "voyager1_dia_luz",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-16",
+  "caduca": "2026-11-19",
+  "dato_es": "La Voyager 1, lanzada en 1977, llegará el 18 de noviembre de 2026 a un día luz de la Tierra: unos 25.900 millones de km. Ningún objeto humano ha llegado tan lejos.",
+  "cita": "a point that Voyager 1 will reach on Wednesday, Nov. 18, 2026, at 5:16:07 a.m. EST.",
+  "cita_distancia": "A light-day is the distance that light will travel in 24 hours, or 16,094,799,096 miles (25,902,068,356 kilometers).",
+  "cita_marca": "cross a mile marker reached by no other human-made object",
+  "cita_velocidad": "cruising at nearly 38,000 mph (61,000 kph)",
+  "url": "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
+  "fuente": "NASA Science",
+  "consultado": "2026-10-19",
+  "url2": "https://iflscience.com/its-official-voyager-1-will-cross-the-1-light-day-threshold-on-november-18-2026-82733",
+  "fuente2": "IFLScience",
+  "cita2": "Voyager 1 will cross the 1 light day threshold on November 18, 2026",
+  "gancho_es": "Un mensaje a esta nave tarda un día entero",
+  "numeros": [
+   {
+    "valor": 25900000000,
+    "unidad": "km",
+    "que": "un día luz (25.902.068.356 km)"
+   },
+   {
+    "valor": 1977,
+    "unidad": "año",
+    "que": "lanzamiento"
+   },
+   {
+    "valor": 61000,
+    "unidad": "km/h",
+    "que": "velocidad aproximada"
+   },
+   {
+    "valor": 24,
+    "unidad": "h",
+    "que": "lo que tarda la señal en llegar"
+   }
+  ],
+  "visual": "LTezla manda un mensaje con una antena de bloques; un rayo de luz viaja y un reloj marca 24 h; la Voyager de bloques (cohete/antena) muy lejos entre estrellas.",
+  "potencial": 5,
+  "no_afirmar": "Llega el 18 de NOVIEMBRE: aún no llegó. La fecha cambió (antes se decía 15 nov). El 'primer objeto' es implícito en NASA ('no other human-made object'). Velocidad 'casi' 61.000 km/h. La Voyager 1 ya salió de la heliosfera en 2012, no 'del sistema solar' en sentido estricto (la nube de Oort sigue). Citas obtenidas vía el resumidor de WebFetch."
+ },
+ {
+  "id": "andromeda_simple_vista",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-18",
+  "caduca": "2026-10-31",
+  "dato_es": "En octubre la galaxia de Andrómeda se ve desde México a simple vista con cielo oscuro: está a 2,5 millones de años luz y en el cielo mide seis veces lo que la Luna llena.",
+  "cita": "It is easily visible with the unaided eye from a dark sky site.",
+  "cita_distancia": "The target is the vast Andromeda galaxy that is only 2.5 million light-years from Earth.",
+  "cita_tamano": "in angular size it is six times the apparent diameter of the full Moon",
+  "url": "https://science.nasa.gov/mission/hubble/science/explore-the-night-sky/hubble-messier-catalog/messier-31/",
+  "fuente": "NASA Science (catálogo Messier de Hubble)",
+  "consultado": "2026-10-19",
+  "url2": "https://www.cronica.com.mx/tendencias/2026/09/30/eventos-astronomicos-de-octubre-la-galaxia-andromeda-sera-visible-durante-la-noche-fecha-y-como-verla/",
+  "fuente2": "La Crónica de Hoy (con datos de la SECIHTI)",
+  "cita2": "la galaxia Andrómeda está bien posicionada para su observación desde el 1 de octubre durante la primera parte de la noche",
+  "gancho_es": "Esa mancha del cielo es otra galaxia",
+  "numeros": [
+   {
+    "valor": 2500000,
+    "unidad": "años luz",
+    "que": "distancia"
+   },
+   {
+    "valor": 6,
+    "unidad": "lunas",
+    "que": "tamaño aparente: 6 veces la Luna llena"
+   }
+  ],
+  "visual": "LTezla en la noche mira con la mano en la frente; una mancha borrosa en el cielo crece hasta ser una galaxia; seis lunas de bloques en fila al lado para comparar.",
+  "potencial": 4,
+  "no_afirmar": "A simple vista se ve como una mancha tenue, no como en las fotos. Necesita cielo oscuro y 30–40 min de adaptación. La dirección varía con la hora: no dar una sola. La luz que vemos salió hace 2,5 millones de años. Citas obtenidas vía el resumidor de WebFetch."
+ },
+ {
+  "id": "luna_encoge_45m",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-14",
+  "caduca": "2026-10-28",
+  "dato_es": "Un estudio con fotos de la NASA encontró más de 10.000 fallas jóvenes en la Luna: su radio se ha encogido unos 45 metros en 400 a 800 millones de años porque su interior se enfría.",
+  "cita": "identifies more than 10,000 young faults distributed across the moon's surface and estimates that the moon's radius has decreased by approximately 45 meters over the past 400 to 800 million years.",
+  "cita_ritmo": "it suggests the moon has been shrinking about 6 to 11 centimeters per million years or about 0.1 micrometers (0.0001 millimeters) per year. This is much less than the average rate that Earth's plates move, about 1.5 centimeters per year—about the same rate fingernails grow",
+  "cita_sismos": "This means that moonquakes from slip events on existing faults or the formation of new faults",
+  "url": "https://www.si.edu/newsdesk/releases/new-study-reveals-how-much-moon-shrinking",
+  "fuente": "Smithsonian Institution (comunicado, 14 oct 2026; estudio en The Planetary Science Journal)",
+  "consultado": "2026-10-20",
+  "url2": "https://gizmodo.com/nasa-images-reveal-10000-young-faults-on-the-moon-thats-a-problem-2000826463",
+  "fuente2": "Gizmodo",
+  "cita2": "scientists report the identification of more than 10,000 young faults across the lunar surface",
+  "url3": "https://knowridge.com/2026/10/the-moon-is-shrinking-and-thousands-of-faults-show-how/",
+  "fuente3": "Knowridge",
+  "cita3": "The map includes more than 8,900 scarps and over 2,000 small ridges in the dark volcanic plains visible from Earth.",
+  "gancho_es": "La Luna se está encogiendo",
+  "numeros": [
+   {
+    "valor": 10000,
+    "unidad": "fallas",
+    "que": "fallas jóvenes mapeadas"
+   },
+   {
+    "valor": 45,
+    "unidad": "metros",
+    "que": "lo que se encogió el radio (45 bloques)"
+   },
+   {
+    "valor": 0.0001,
+    "unidad": "mm por año",
+    "que": "ritmo promedio, mucho más lento que una uña"
+   }
+  ],
+  "visual": "LTezla junto a una Luna de bloques que se arruga; una torre de 45 bloques al lado para dar la escala; grietas que aparecen en la superficie; temblor (sismo lunar).",
+  "potencial": 5,
+  "no_afirmar": "No decir que se nota ni que es peligroso para la Tierra. 45 m es el RADIO, en 400–800 millones de años (estimación que supone ritmo constante, no medición directa). En español circula desde el 19 oct (SinEmbargo, Google News MX): usar el ángulo '¿por qué se encoge?'. La comparación con las uñas es para las placas de la Tierra (≈1,5 cm/año); la Luna va muchísimo más lento."
+ },
+ {
+  "id": "calao_pico_titanio",
+  "categoria": "naturaleza",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-15",
+  "caduca": "2026-10-29",
+  "dato_es": "En el zoológico Artis de Ámsterdam, un cálao terrestre con el pico roto recibió dos prótesis impresas en 3D, arriba y abajo: según el zoológico, es la primera vez en el mundo. Al día siguiente ya recogía comida del suelo.",
+  "cita": "As far as is known, this is the first time in the world both parts of a bird's beak have been restored in this way",
+  "cita_dia": "He started using the prostheses on the day of the surgery. The following morning, he independently picked up a small mouse from the ground",
+  "cita_titanio": "Amnovis manufactured the titanium components.",
+  "url": "https://nltimes.nl/2026/10/15/world-first-southern-ground-hornbill-gets-3d-printed-beak-prostheses-artis-zoo",
+  "fuente": "NL Times (con el comunicado de Artis)",
+  "consultado": "2026-10-20",
+  "url2": "https://www.upi.com/Odd_News/2026/10/16/netherlands-artis-zoo-hornbill-prosthetic-beak/3041792171720/",
+  "fuente2": "UPI",
+  "cita2": "this is the first time worldwide that a bird gets both an upper and lower beak prosthesis",
+  "url3": "https://www.20minutos.es/ciencia/un-ave-herida-recupera-pico-una-operacion-pionera-gracias-dos-protesis-impresas-3d_7050556_0.html",
+  "fuente3": "20minutos (19 oct 2026)",
+  "cita3": "Un cálao terrestre del sur herido en el zoológico Artis de Ámsterdam ha recibido dos prótesis de titanio impresas en 3D",
+  "gancho_es": "A este pájaro le imprimieron el pico",
+  "numeros": [
+   {
+    "valor": 2,
+    "unidad": "prótesis",
+    "que": "pico de arriba y pico de abajo"
+   },
+   {
+    "valor": 1,
+    "unidad": "día",
+    "que": "lo usó el mismo día de la operación"
+   }
+  ],
+  "visual": "LTezla veterinario con una impresora 3D de bloques que imprime un pico capa por capa; el pájaro (modelo a medida o loro de Minecraft como referencia) lo prueba y picotea.",
+  "potencial": 4,
+  "no_afirmar": "'Primera vez' sólo para AMBAS partes del pico (ya hubo picos de titanio de una pieza, p. ej. 2016). Algunas fuentes dicen piezas de plástico con componentes de titanio: decir 'impresas en 3D con piezas de titanio'. No es un loro: es un cálao terrestre del sur. No mostrar el ratón (comida viva)."
+ },
+ {
+  "id": "waymo_madrid",
+  "categoria": "autos",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-20",
+  "caduca": "2026-11-03",
+  "dato_es": "Waymo, los coches sin conductor de Alphabet, empieza a probar en Madrid, Alcobendas y Getafe: primero con una persona al volante para mapear las calles, y prevé llevar pasajeros en 2027.",
+  "cita": "Waymo ha confirmado su llegada a España y ha elegido la Comunidad de Madrid para iniciar las pruebas de su tecnología de conducción autónoma.",
+  "cita_volante": "los coches comenzarán a circular con una persona al volante para recopilar información sobre las calles y adaptar los mapas y sistemas de conducción a las condiciones locales.",
+  "cita_2027": "La empresa prevé recibir a sus primeros pasajeros en 2027",
+  "cita_eeuu": "la compañía presta viajes comerciales sin conductor en quince ciudades estadounidenses y afirma realizar más de medio millón de trayectos de pago por semana.",
+  "url": "https://www.zonamovilidad.es/waymo-llega-madrid-coches-autonomos-comenzaran-pruebas-pasajeros-2027",
+  "fuente": "Zona Movilidad",
+  "consultado": "2026-10-20",
+  "url2": "https://www.elmundo.es/economia/empresas/2026/10/20/6ad73803e4d4d86e188b4575.html",
+  "fuente2": "El Mundo (20 oct 2026, con el comunicado de Waymo)",
+  "cita2": "Estos primeros coches comienzan a circular con la presencia de un conductor",
+  "url3": "https://www.eleconomista.es/transportes-turismo/noticias/14022321/10/26/waymo-anuncia-su-desembarco-en-espana-y-preve-lanzar-su-servicio-de-robotaxis-en-madrid-en-2027.html",
+  "fuente3": "El Economista",
+  "gancho_es": "Coches sin conductor llegan a Madrid",
+  "numeros": [
+   {
+    "valor": 2027,
+    "unidad": "año",
+    "que": "primeros pasajeros"
+   },
+   {
+    "valor": 15,
+    "unidad": "ciudades",
+    "que": "ciudades de EE. UU. con viajes sin conductor"
+   }
+  ],
+  "visual": "Un coche de bloques blanco con un sensor giratorio en el techo; LTezla al volante con las manos arriba; letrero de calle 'MADRID' genérico.",
+  "potencial": 4,
+  "no_afirmar": "No decir que ya van sin conductor en Madrid: en esta fase llevan a una persona al volante. Sin logotipo de Waymo, Jaguar ni Google. No decir tamaño de flota (no publicado). No usar cifras de seguridad (82 %) sin la fuente primaria."
+ },
+ {
+  "id": "nanodiamantes_laser_pet",
+  "categoria": "ciencia",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-20",
+  "caduca": "2026-11-03",
+  "dato_es": "Científicos alemanes (HZDR y Universidad de Rostock) dispararon un láser de gran potencia contra una lámina de plástico PET, el de las botellas, y cada disparo produjo unos 10 billones de nanodiamantes de unos 3 nanómetros. Sigue siendo experimental.",
+  "cita": "alrededor de 10 billones de nanodiamantes por cada disparo de un láser de gran potencia",
+  "cita_pet": "una película de PET de apenas 100 micrómetros de grosor",
+  "cita_tamano": "los cristales tenían un diámetro promedio de tres nanómetros",
+  "cita_quien": "científicos del Helmholtz-Zentrum Dresden-Rossendorf y la Universidad de Rostock",
+  "cita_100": "Tras unos 100 disparos, el equipo obtuvo varios cientos de microgramos de material.",
+  "url": "https://larepublica.pe/mundo/2026/10/20/disparan-laseres-de-gran-potencia-contra-una-lamina-de-plastico-y-obtienen-10-billones-de-nanodiamantes-por-impacto-en-un-experimento-aleman-1497340",
+  "fuente": "La República (20 oct 2026)",
+  "consultado": "2026-10-21",
+  "url2": "https://www.eltiempo.com/vida/ciencia/del-plastico-al-diamante-asi-producen-cientificos-alemanes-nanodiamantes-con-laseres-10-billones-por-disparo-aunque-sigue-siendo-experimental-3595163",
+  "fuente2": "El Tiempo (21 oct 2026)",
+  "cita2": "Cada disparo genera cerca de 10 billones de partículas, una cifra impresionante",
+  "cita2_botellas": "una lámina de plástico PET, el mismo material de las botellas",
+  "cita2_experimental": "el proceso sigue en etapa experimental",
+  "url3": "https://es.gizmodo.com/unos-cientificos-alemanes-dispararon-un-laser-contra-un-trozo-de-plastico-y-ocurrio-algo-extraordinario-increiblemente-cada-impacto-produjo-10-billones-de-diamantes-2000266187",
+  "fuente3": "Gizmodo en Español",
+  "fuente_primaria": "Diamond and Related Materials (2026), DOI 10.1016/j.diamond.2026.114091",
+  "gancho_es": "Convirtieron plástico de botella en diamantes",
+  "numeros": [
+   {
+    "valor": 10000000000000,
+    "unidad": "nanodiamantes",
+    "que": "por cada disparo (10 billones)"
+   },
+   {
+    "valor": 3,
+    "unidad": "nanómetros",
+    "que": "tamaño de cada diamante"
+   },
+   {
+    "valor": 100,
+    "unidad": "disparos",
+    "que": "para juntar unos cientos de microgramos"
+   }
+  ],
+  "visual": "Una botella de bloques sobre una mesa; un rayo láser rojo la golpea y salen chispas de diamante de Minecraft; LTezla con lentes de seguridad.",
+  "potencial": 5,
+  "no_afirmar": "No decir que sirve para reciclar botellas ni que se pueden hacer anillos: son diamantes de 3 nm, experimentales. No decir 'diamantes de verdad para joyería'. 10 billones = 10 millones de millones (escala larga)."
+ },
+ {
+  "id": "webb_senal_sin_origen",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-17",
+  "caduca": "2026-10-31",
+  "dato_es": "El telescopio James Webb detectó dos veces, con 88 días de diferencia, un destello infrarrojo en un punto del Campo Ultraprofundo de Hubble (constelación de Fornax) donde no se ve ninguna fuente. Los astrónomos aún no saben qué es.",
+  "cita": "the mysterious signal came from a location where JWST detected no visible source.",
+  "cita_88": "It appeared twice, 88 days apart, in a place where earlier observations showed nothing.",
+  "cita_fornax": "The signal comes from the Hubble Ultra Deep Field, a tiny patch of sky in the constellation Fornax.",
+  "cita_autor": "The discovery came from a team led by Mason Huberty, an astrophysicist at the University of Minnesota.",
+  "url": "https://dailygalaxy.com/2026/10/strange-signal-webb-nothing-visible-source/",
+  "fuente": "The Daily Galaxy (18 oct 2026)",
+  "consultado": "2026-10-21",
+  "url2": "https://futurism.com/future-society/scientists-puzzled-james-webb-detects-signal-empty",
+  "fuente2": "Futurism (17 oct 2026)",
+  "cita2": "one stood out because they couldn't match it to a distant galaxy",
+  "cita2_hoyo": "it could've been the result of a black hole devouring a star",
+  "fuente_primaria": "The Astrophysical Journal (2026), Huberty et al.",
+  "gancho_es": "El Webb vio una luz que sale de la nada",
+  "numeros": [
+   {
+    "valor": 88,
+    "unidad": "días",
+    "que": "entre las dos detecciones"
+   },
+   {
+    "valor": 1.6,
+    "unidad": "micrómetros",
+    "que": "longitud de onda del destello (infrarrojo)"
+   }
+  ],
+  "visual": "Cielo negro de bloques con estrellas; un punto que parpadea donde no hay nada; LTezla con un telescopio de bloques se rasca la cabeza; calendario de 88 días.",
+  "potencial": 4,
+  "no_afirmar": "No decir 'extraterrestres' ni 'señal de radio': es una línea de emisión infrarroja. No decir que ya se sabe qué es. Explicaciones propuestas (galaxia muy antigua, supernova, hoyo negro que se come una estrella) son hipótesis. Sin logotipo de NASA."
+ },
+ {
+  "id": "luna_cazador_2026",
+  "categoria": "espacio",
+  "tipo": "noticia",
+  "fecha_evento": "2026-10-25",
+  "caduca": "2026-10-27",
+  "dato_es": "La Luna llena de octubre, la Luna del Cazador, llega el domingo 25 de octubre a las 22:11 (centro de México); se le llama así porque, antes del invierno, su luz ayudaba a los cazadores a ver a los animales.",
+  "cita": "alcanzará su máxima iluminación el domingo 25 a las 22:11 horas",
+  "cita_tarde": "aparecerá prácticamente llena desde la tarde del 25 de octubre",
+  "url": "https://www.foxsports.com.mx/2026/10/04/luna-llena-octubre-2026-fecha-y-hora-para-ver-en-mexico-rituales-y-significado-de-la-luna-del-cazador/",
+  "fuente": "Fox Sports México (4 oct 2026, con Time and Date)",
+  "consultado": "2026-10-21",
+  "url2": "https://www.adn40.mx/ciencia/2026-10-01/calendario-lunar-de-octubre-2026-fecha-para-ver-la-luna-del-cazador-la-mas-bella-del-mes/",
+  "fuente2": "ADN40 (1 oct 2026, con Star Walk)",
+  "cita2": "la Luna llena el 26 de octubre a las 04:12 horas GMT",
+  "cita2_nombre": "los cazadores podían ver con facilidad a los animales que merodeaban en busca de alimento antes del invierno",
+  "cita2_cosecha": "La Luna del Cazador es la primera Luna Llena después de la de Cosecha.",
+  "gancho_es": "Este domingo sale la Luna del Cazador",
+  "numeros": [
+   {
+    "valor": 25,
+    "unidad": "de octubre",
+    "que": "día de la Luna llena (22:11, centro de México)"
+   }
+  ],
+  "visual": "Luna llena enorme de bloques sobre un bosque de noche; LTezla con arco mira a un zorro y a un conejo bajo la luz.",
+  "potencial": 3,
+  "no_afirmar": "No decir superluna ni que se ve más grande o más roja. Hora: 22:11 centro de México = 04:12 GMT del 26. Se publica antes del 25."
+ }
+]

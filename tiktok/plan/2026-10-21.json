@@ -1,0 +1,79 @@
+{
+ "fecha": "2026-10-21",
+ "rondas": 1,
+ "pedidos": 5,
+ "videos": [
+  {
+   "hora": "12:30",
+   "ronda": 1,
+   "pilar": "lo_nuevo",
+   "pilar_nombre": "Lo nuevo",
+   "formato": "noticia",
+   "hecho": "nanodiamantes_laser_pet",
+   "slug": "lo-nuevo-nanodiamantes-laser-pet",
+   "gancho": "Convirtieron plástico de botella en diamantes",
+   "categoria": "ciencia",
+   "mobs": [],
+   "motivo": "potencial 5 · 2026-10-20 (a mano: más fresca que la Luna del Cazador, que repetía el ángulo \"mira el cielo\" de las Oriónidas)",
+   "musica": "noticia"
+  },
+  {
+   "hora": "14:30",
+   "ronda": 1,
+   "pilar": "latam",
+   "pilar_nombre": "Latam en bloques",
+   "formato": "sketch",
+   "hecho": "vamos_a_comprar",
+   "slug": "latam-vamos-a-comprar",
+   "gancho": "'Vamos rápido al súper': la mamá se encuentra a 5 conocidas y la 'visita rápida' dura 3 horas (contador en pantalla).",
+   "categoria": "latam",
+   "mobs": [],
+   "motivo": "potencial 5",
+   "musica": "comedia"
+  },
+  {
+   "hora": "17:00",
+   "ronda": 1,
+   "pilar": "rotativo",
+   "pilar_nombre": "Curiosidad a escala / Debate",
+   "formato": "curiosidad",
+   "hecho": "jirafa_altura",
+   "slug": "rotativo-jirafa-altura",
+   "gancho": "Una jirafa podría mirar por la ventana del segundo piso",
+   "categoria": "naturaleza",
+   "mobs": [],
+   "motivo": "a mano: usain_bolt pedía caricatura de persona real; jirafa a escala",
+   "musica": "misterio"
+  },
+  {
+   "hora": "19:00",
+   "ronda": 1,
+   "pilar": "meme",
+   "pilar_nombre": "Meme del momento",
+   "formato": "meme",
+   "hecho": "black_cat_clapping",
+   "slug": "meme-black-cat-clapping",
+   "gancho": "Black Cat Clapping (gato negro aplaudiendo)",
+   "categoria": "meme",
+   "mobs": [],
+   "motivo": "potencial 5 · subiendo (evidencia 2026-10-21: sigue en \"Fresh Entries\" de Know Your Meme)",
+   "musica": "comedia"
+  },
+  {
+   "hora": "20:30",
+   "ronda": 1,
+   "pilar": "novela",
+   "pilar_nombre": "Bloquenovela",
+   "formato": "novela",
+   "hecho": "cap06",
+   "slug": "novela-pasiones-en-la-granja-cap06",
+   "gancho": "Pasiones en la Granja · Capítulo 6",
+   "categoria": "novela",
+   "mobs": [],
+   "motivo": "capítulo 6 (arco: T1: ¿por qué Ramiro quiere irse a la aldea? (cap. 1–5))",
+   "musica": "terror"
+  }
+ ],
+ "faltan": 0,
+ "aviso": ""
+}

@@ -1,0 +1,33 @@
+{
+ "cancion": {
+  "frase": "Rush E 3 — Composed by Andrew Wrangell · Copyright © Sheet Music Boss. You may use the Rush E MIDI file if you are creating an original remix, but any verbatim reuploading of this file, either as MIDI, visualisation (Piano From Above, Synthesia, etc.), or audio recreation without significant creative input is not permitted.",
+  "url": "https://sheetmusicboss.gumroad.com/l/RushEMIDI",
+  "uso": "descripción de la publicación (crédito); el arreglo para bloques musicales y la coreografía son el aporte creativo"
+ },
+ "notas_total": {
+  "valor": 34961,
+  "fuente": "agente/orquesta/rollo.json (golpes) — partitura.py: 267.580 notas del MIDI → 76.620 fuera del piano (la0–do8) quitadas, la misma nota en el mismo cuadro cuenta una vez",
+  "uso": "contador 'NOTA n DE 34.961', 'FALTAN n', '34.961 NOTAS'"
+ },
+ "cada_nota_en_su_cuadro": {
+  "valor": "98.9 % de las notas a menos de medio cuadro (16.7 ms) del cuadro que les toca; máximo 21.3 ms",
+  "fuente": "agente/orquesta/rush_e3_comprobacion.json (librosa, pista por pista)",
+  "uso": "descripción de la publicación"
+ },
+ "sonido_real": {
+  "valor": "los sonidos son los .ogg de los bloques musicales de Minecraft Java (texturas_mc/sonidos/note/), afinados como en el juego (pitch 0.5–2.0)",
+  "fuente": "agente/orquesta/partitura.py",
+  "uso": "descripción"
+ },
+ "semanas_a_mano": {
+  "valor": "42 A 56",
+  "frase": "Today it's not uncommon for feature animation (in 3D) to go at the pace of about 3-4 seconds of animation per week.",
+  "url": "https://www.animatorisland.com/how-fast-should-you-animate/",
+  "calculo": "169.47 s de video ÷ 4 s/semana = 42.4 · ÷ 3 s/semana = 56.5",
+  "uso": "NO SE USA (Leo, 19 oct: el video no debe decir que es mejor que hacerlo a mano)"
+ },
+ "no_se_afirma": [
+  "que el video tenga la calidad de un largometraje: el ritmo de 3–4 s/semana es de animación de personajes de cine; se usa como orden de magnitud de animar a mano, no como equivalencia",
+  "que Sheet Music Boss avale el video"
+ ]
+}

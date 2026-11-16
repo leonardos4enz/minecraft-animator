@@ -1,0 +1,249 @@
+{
+ "_nota": "Reglas medibles que aplica y revisa la máquina. Fuentes en tiktok/investigacion.md. Cambia los números aquí cuando TikTok Studio dé datos propios (tras ~20 videos).",
+ "video": {
+  "ancho": 1080,
+  "alto": 1920,
+  "fps": 30
+ },
+ "duracion": {
+  "crecer": [
+   22,
+   40
+  ],
+  "monetizar": [
+   61,
+   75
+  ],
+  "minimo": 15
+ },
+ "gancho": {
+  "voz_empieza_antes_s": 0.5,
+  "primera_frase_termina_antes_s": 3.2,
+  "texto_hasta_s": 2.6,
+  "texto_max_palabras": 7,
+  "clave_en_voz_antes_s": 5.0
+ },
+ "ritmo": {
+  "max_toma_s": 3.6,
+  "palabras_por_min": [
+   140,
+   185
+  ],
+  "pausa_entre_lineas_s": 0.1
+ },
+ "zona_segura": {
+  "x": [
+   120,
+   900
+  ],
+  "y": [
+   240,
+   1260
+  ]
+ },
+ "subtitulos": {
+  "centro_x": 510,
+  "base_y": 1200,
+  "alto_letra_px": 70,
+  "max_caracteres": 13,
+  "max_palabras": 3,
+  "color": "&H00FFFFFF",
+  "activa": "&H004DE1FF",
+  "borde_px": 7
+ },
+ "texto_gancho": {
+  "centro_y": 0.25,
+  "max_caracteres_linea": 11
+ },
+ "audio": {
+  "lufs": -14,
+  "true_peak_max": -1.0,
+  "musica_bajo_voz_db": -20
+ },
+ "descripcion": {
+  "max_caracteres": 150,
+  "hashtags": [
+   2,
+   4
+  ],
+  "prohibidos": [
+   "#fyp",
+   "#foryou",
+   "#parati",
+   "#viral",
+   "#xyzbca"
+  ]
+ },
+ "publicacion": {
+  "por_dia": 5,
+  "ventana_dia": [
+   "08:00",
+   "23:30"
+  ],
+  "min_minutos_entre": 75,
+  "_nota_volumen": "Leo eligió 5 al día, uno por pilar (17 oct 2026). Alarma en `metricas`: si la mediana de vistas por video de los últimos 7 días cae > 30 % frente a la semana anterior, revisar pilares.",
+  "por_semana_investigacion": [
+   3,
+   5
+  ],
+  "horarios": {
+   "Mexico": [
+    "12:00-13:00",
+    "19:00-21:00"
+   ],
+   "Espana": [
+    "18:00-21:00"
+   ]
+  },
+  "etiqueta_ia_si_voz_sintetica": true,
+  "cuenta": "personal (Creator Rewards excluye las de empresa)"
+ },
+ "voz": {
+  "defecto": {
+   "motor": "eleven",
+   "id": "qRUgOhnxGASxirG4fKjv",
+   "modelo": "eleven_multilingual_v2",
+   "nombre": "David C - Viral Storytelling (elegida por Leo)"
+  },
+  "personajes": {
+   "hombre": {
+    "motor": "eleven",
+    "id": "qRUgOhnxGASxirG4fKjv",
+    "modelo": "eleven_multilingual_v2",
+    "nombre": "David C"
+   },
+   "mujer_jugueton": {
+    "motor": "eleven",
+    "id": "2CGcaXd1E04jesxY7nfq",
+    "modelo": "eleven_multilingual_v2",
+    "nombre": "Fruna (biblioteca de ElevenLabs, se usa directo por id)"
+   },
+   "mujer_vibrante": {
+    "motor": "eleven",
+    "id": "G5fUGgDJhRU7jqXTv65B",
+    "modelo": "eleven_multilingual_v2",
+    "nombre": "Icónica (biblioteca de ElevenLabs, se usa directo por id)"
+   },
+   "ltezla_antes": {
+    "motor": "eleven",
+    "id": "wXojZ3FhzsE0AumH6Oym",
+    "modelo": "eleven_multilingual_v2",
+    "nombre": "Leo (la de los cortos anteriores)"
+   },
+   "hombre2": {
+    "motor": "eleven",
+    "id": "lRf3yb6jZby4fn3q3Q7M",
+    "modelo": "eleven_multilingual_v2",
+    "nombre": "MexiTony (galán de la novela)"
+   },
+   "hombre3": {
+    "motor": "eleven",
+    "id": "Ea3eYxXujQVVwq2KhqGC",
+    "modelo": "eleven_multilingual_v2",
+    "nombre": "Miguel Zermeño (padre / villano grave)"
+   }
+  },
+  "borrador": {
+   "motor": "edge",
+   "id": "es-MX-JorgeNeural",
+   "velocidad": "+12%"
+  },
+  "_nota": "La voz de TikTok no tiene API oficial (pedir la cookie sessionid arriesga la cuenta): para usarla, modo 'app' (ver TIKTOK.md). edge-tts sólo para borradores: su uso comercial sin Azure no está claro."
+ },
+ "variedad": {
+  "dias_sin_repetir_categoria_por_pilar": 2,
+  "max_misma_plantilla_dia": 2,
+  "lista_negra": [
+   "elecciones",
+   "partidos",
+   "políticos",
+   "guerra",
+   "atentado",
+   "muerte",
+   "accidente con víctimas",
+   "desastre en curso"
+  ]
+ },
+ "almacenamiento": {
+  "borrar_intermedios_al_entregar": true,
+  "dias_tras_publicar_para_dejar_solo_final": 14,
+  "_nota": "Los intermedios (tramos, wav, imagen con subtítulos, copias de salida) se pueden regenerar desde el proyecto tt-<slug>: se borran al entregar. Tras publicar, las versiones 'sin musica' y 'solo musica' y el mudo se borran a los 14 días; queda el video final, el guion, los datos y las métricas."
+ },
+ "iteracion": {
+  "medir_a_las_h": 72,
+  "parte2_si_percentil": 90,
+  "cambiar_gancho_si_completo_menor": 0.3
+ },
+ "pilares": [
+  {
+   "id": "lo_nuevo",
+   "nombre": "Lo nuevo",
+   "hora": "12:30",
+   "formato": "noticia",
+   "fuente": "banco_mundo.json",
+   "filtro": {
+    "tipo": "noticia"
+   },
+   "frescura_h": 48,
+   "musica": [
+    "noticia",
+    "epico"
+   ],
+   "nota": "tecnología, ciencia, autos, espacio, récords. Siempre con un ángulo '¿por qué?' que dure días"
+  },
+  {
+   "id": "latam",
+   "nombre": "Latam en bloques",
+   "hora": "14:30",
+   "formato": "sketch",
+   "fuente": "latam.json",
+   "musica": [
+    "comedia"
+   ],
+   "nota": "humor de la vida diaria latina, sin estereotipos que ofendan"
+  },
+  {
+   "id": "rotativo",
+   "nombre": "Curiosidad a escala / Debate",
+   "hora": "17:00",
+   "formato": [
+    "curiosidad",
+    "debate"
+   ],
+   "fuente": "banco_mundo.json",
+   "filtro": {
+    "tipo": "curiosidad"
+   },
+   "musica": [
+    "misterio",
+    "epico"
+   ],
+   "nota": "días pares curiosidad (1 bloque = 1 m), impares debate ('¿quién ganaría?', encuesta en comentarios)"
+  },
+  {
+   "id": "meme",
+   "nombre": "Meme del momento",
+   "hora": "19:00",
+   "formato": "meme",
+   "fuente": "memes.json",
+   "repetir_meme_dias": 7,
+   "musica": [
+    "comedia",
+    "noticia"
+   ],
+   "nota": "sólo memes 'subiendo' o 'en su pico' y sin riesgo; el audio del meme se pone en la app, nunca incrustado"
+  },
+  {
+   "id": "novela",
+   "nombre": "Bloquenovela",
+   "hora": "20:30",
+   "formato": "novela",
+   "fuente": "../novela/biblia.json",
+   "musica": [
+    "terror",
+    "misterio"
+   ],
+   "nota": "un capítulo al día, siempre a la misma hora (cita fija); cliffhanger"
+  }
+ ]
+}

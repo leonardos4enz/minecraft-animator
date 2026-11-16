@@ -1,0 +1,79 @@
+{
+ "fecha": "2026-10-19",
+ "rondas": 1,
+ "pedidos": 5,
+ "videos": [
+  {
+   "hora": "12:30",
+   "ronda": 1,
+   "pilar": "lo_nuevo",
+   "pilar_nombre": "Lo nuevo",
+   "formato": "noticia",
+   "hecho": "segundo_intercalar_fin",
+   "slug": "lo-nuevo-segundo-intercalar-fin",
+   "gancho": "El reloj del mundo ya no tendrá segundos extra",
+   "categoria": "ciencia",
+   "mobs": [],
+   "motivo": "potencial 5 · 2026-10-15 · cambio a mano en la rutina: se prefirió a sueno_hormona_crecimiento (potencial 3, hallazgo en ratones); va con ángulo '¿por qué?' porque tiene 4 días",
+   "musica": "noticia"
+  },
+  {
+   "hora": "14:30",
+   "ronda": 1,
+   "pilar": "latam",
+   "pilar_nombre": "Latam en bloques",
+   "formato": "sketch",
+   "hecho": "tio_fiesta",
+   "slug": "latam-tio-fiesta",
+   "gancho": "El tío en la fiesta: '¿y la novia?', '¿y cuándo te casas?', y la cámara gira como en una película de terror.",
+   "categoria": "latam",
+   "mobs": [],
+   "motivo": "potencial 5",
+   "musica": "comedia"
+  },
+  {
+   "hora": "17:00",
+   "ronda": 1,
+   "pilar": "rotativo",
+   "pilar_nombre": "Curiosidad a escala / Debate",
+   "formato": "curiosidad",
+   "hecho": "colibri_abeja",
+   "slug": "rotativo-colibri-abeja",
+   "gancho": "Un pájaro que pesa menos que una moneda",
+   "categoria": "naturaleza",
+   "mobs": [],
+   "motivo": "potencial 4 · cambio a mano en la rutina: luna_30_tierras repetía el ángulo distancia Tierra-Luna de rotativo-luz-vueltas-tierra (17 oct)",
+   "musica": "misterio"
+  },
+  {
+   "hora": "19:00",
+   "ronda": 1,
+   "pilar": "meme",
+   "pilar_nombre": "Meme del momento",
+   "formato": "meme",
+   "hecho": "cabeza_calabaza",
+   "slug": "meme-cabeza-calabaza",
+   "gancho": "Pumpkin Head Illusion (cabeza de calabaza)",
+   "categoria": "meme",
+   "mobs": [],
+   "motivo": "potencial 5 · en su pico (evidencia 2026-10-14: en la lista semanal de New Engen; dura hasta el 31 oct)",
+   "musica": "comedia"
+  },
+  {
+   "hora": "20:30",
+   "ronda": 1,
+   "pilar": "novela",
+   "pilar_nombre": "Bloquenovela",
+   "formato": "novela",
+   "hecho": "cap04",
+   "slug": "novela-pasiones-en-la-granja-cap04",
+   "gancho": "Pasiones en la Granja · Capítulo 4",
+   "categoria": "novela",
+   "mobs": [],
+   "motivo": "capítulo 4 (arco: T1: ¿por qué Ramiro quiere irse a la aldea? (cap. 1–5))",
+   "musica": "terror"
+  }
+ ],
+ "faltan": 0,
+ "aviso": ""
+}

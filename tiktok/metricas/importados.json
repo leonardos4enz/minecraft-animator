@@ -1,0 +1,19 @@
+{
+ "Overview_2026-09-19_1792196179_ltezla.zip|1224": {
+  "importado": "2026-10-17T18:27",
+  "csv": {
+   "Overview.csv": {
+    "tipo": "resumen",
+    "filas": 28,
+    "columnas": [
+     "Date",
+     "Video Views",
+     "Profile Views",
+     "Likes",
+     "Comments",
+     "Shares"
+    ]
+   }
+  }
+ }
+}

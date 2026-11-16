@@ -1,0 +1,120 @@
+{
+ "titulo": "Pasiones en la Granja",
+ "tono": "telenovela clásica en clave de comedia: zoom dramático, secretos, giros absurdos, todo apto para todo público. Cada capítulo termina en cliffhanger.",
+ "formato_capitulo": [
+  "GANCHO: la frase más dramática del capítulo en el cuadro 0 (zoom)",
+  "3–5 intercambios cortos (≤ 2.5 s cada uno)",
+  "un giro absurdo",
+  "cliffhanger: pregunta sin responder",
+  "cierre de LTezla (narrador): '¿…? Descúbrelo en el próximo capítulo de Pasiones en la Granja.'"
+ ],
+ "duracion_s": [
+  28,
+  45
+ ],
+ "escenario": "pradera",
+ "personajes": {
+  "Clotilde": {
+   "mob": "vaca",
+   "variante": "templada",
+   "voz": "mujer_vibrante",
+   "rol": "protagonista, la vaca más querida de la granja; romántica e impulsiva"
+  },
+  "Ramiro": {
+   "mob": "cerdo",
+   "variante": "templada",
+   "voz": "hombre2",
+   "rol": "galán humilde con un secreto: quiere irse a la aldea"
+  },
+  "Fiona": {
+   "mob": "gato",
+   "variante": "siames",
+   "voz": "mujer_jugueton",
+   "rol": "villana elegante y chismosa, sabe todo de todos"
+  },
+  "Don Hierro": {
+   "mob": "golem_hierro",
+   "voz": "hombre3",
+   "rol": "padre adoptivo de Clotilde, estricto, regala flores cuando se emociona"
+  },
+  "LTezla": {
+   "ltezla": true,
+   "voz": "hombre",
+   "rol": "el granjero; narra el cierre y a veces se mete sin querer en el drama"
+  },
+  "Clotilde Fría": {
+   "mob": "vaca",
+   "variante": "fria",
+   "voz": "mujer_vibrante",
+   "rol": "gemela de Clotilde (vaca de clima frío, misma voz); fría y elegante, llegó al concurso de baile invitada por una carta de Don Hierro"
+  }
+ },
+ "arcos": [
+  "T1: ¿por qué Ramiro quiere irse a la aldea? (cap. 1–5)",
+  "La gemela malvada: Clotilde fría (variante 'fria') aparece (cap. 6)",
+  "La boda interrumpida (cap. 10)"
+ ],
+ "capitulos": [
+  {
+   "n": 1,
+   "slug": "novela-granja-cap01",
+   "resumen": "Clotilde se entera de que Ramiro se quiere ir a trabajar a la aldea; Fiona insinúa que hay algo más y Ramiro la calla.",
+   "cliffhanger": "¿Qué esconde Ramiro? (Clotilde: ¿Decir qué, Ramiro?)",
+   "fecha": "2026-10-17"
+  },
+  {
+   "n": 2,
+   "slug": "novela-pasiones-en-la-granja-cap02",
+   "resumen": "Fiona revela que Ramiro recibió una carta de la aldea; Ramiro dice que no es lo que Clotilde piensa, y Don Hierro llega: él trajo la carta, y además le trae una flor a Clotilde.",
+   "cliffhanger": "¿Qué dice la carta? ¿Y por qué Don Hierro trae flores?",
+   "fecha": "2026-10-17"
+  },
+  {
+   "n": 3,
+   "slug": "novela-pasiones-en-la-granja-cap03",
+   "resumen": "Clotilde lee la carta: 'Te esperamos el sábado en la aldea. Firma: F.' Sospecha de Fiona, que lo niega con elegancia; Don Hierro confiesa que la flor era de Ramiro, que quería darle una sorpresa.",
+   "cliffhanger": "¿Quién firma con F? ¿Y qué pasa el sábado?",
+   "fecha": "2026-10-18"
+  },
+  {
+   "n": 4,
+   "slug": "novela-pasiones-en-la-granja-cap04",
+   "resumen": "Clotilde exige saber quién es F; Ramiro dice que F no es una persona y Fiona lo revela: es la Feria de la aldea. Don Hierro cuenta que el sábado hay concurso, y Ramiro confiesa que se inscribió con una pareja.",
+   "cliffhanger": "¿Quién es la pareja de Ramiro? ¿Y de qué es el concurso?",
+   "fecha": "2026-10-19"
+  },
+  {
+   "n": 5,
+   "slug": "novela-pasiones-en-la-granja-cap05",
+   "resumen": "Clotilde exige saber quién es la pareja de Ramiro; Fiona presume que es ella, pero Ramiro revela que el concurso es de baile y su pareja es Clotilde (por eso la flor y la carta). Clotilde acepta. Cierra el arco T1.",
+   "cliffhanger": "Fiona: '¿Y ya le avisaron a tu gemela?' → ¿Clotilde tiene una gemela? (abre el arco del cap. 6: Clotilde fría)",
+   "fecha": "2026-10-20"
+  },
+  {
+   "n": 6,
+   "slug": "novela-pasiones-en-la-granja-cap06",
+   "resumen": "Llega Clotilde Fría, la gemela de Clotilde (vaca de clima frío): dice que vino al concurso de baile y que su pareja es Ramiro, que jura no conocerla. Ella enseña la carta que la invitó; Fiona reconoce la letra y Don Hierro confiesa: «Yo escribí esa invitación».",
+   "cliffhanger": "¿Por qué Don Hierro invitó a la gemela?",
+   "fecha": "2026-10-21"
+  }
+ ],
+ "aprendido_de_frutinovelas": {
+  "fuentes": [
+   "https://knowyourmeme.com/memes/ai-fruit-love-island",
+   "https://www.infobae.com/tendencias/2026/04/03/frutinovelas-con-ia-el-fenomeno-viral-que-acumula-millones-de-vistas-y-generan-polemica-en-redes/",
+   "https://www.razon.com.mx/entretenimiento/2026/09/26/las-frutinovelas-son-canceladas-por-mostrar-historias-canibales-en-tiktok/?outputType=amp-type"
+  ],
+  "copiar": [
+   "reparto pequeño de arquetipos reconocibles",
+   "'Capítulo N' grande y 'Continuará…' sobre zoom dramático",
+   "narrador melodramático",
+   "un capítulo al día a hora fija",
+   "cada capítulo termina en suspenso"
+  ],
+  "evitar (tumbó cuentas)": [
+   "nada sexual",
+   "nada de violencia a bebés ni 'canibalismo' (aquí: nadie se come a nadie, ni comida-personaje)",
+   "nada de roles misóginos ni burla del cuerpo"
+  ]
+ }
+}

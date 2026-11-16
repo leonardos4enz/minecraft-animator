@@ -1,0 +1,44 @@
+# Secretos y configuración local
+.env*
+*.key
+*.pem
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+agente/mundo_real/servidor/
+
+# Navegador del agente (perfil con cookies)
+agente/navegador/
+
+# Entregables, proyectos y renders (pesados)
+Videos/
+proyectos/
+agente/proyectos/
+agente/salida/
+tiktok/videos/
+tiktok/papelera/
+
+# Assets de Minecraft (Mojang) y audio: no se redistribuyen
+texturas_mc/
+audio/
+
+# Archivos multimedia y binarios
+*.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.mid
+*.jar
+*.mca
+*.bin
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# Cuadros renderizados y logs
+**/salida/
+*.log

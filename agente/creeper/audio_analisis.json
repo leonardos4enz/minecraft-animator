@@ -1,0 +1,317 @@
+{
+ "lineas": {
+  "L1": {
+   "tomas": {
+    "A": {
+     "archivo": "audio/voz_eb69ff0ef9c4.mp3",
+     "oido": "Este cerdo esconde un secreto.",
+     "parecido": 1.0,
+     "voz_in": 0.08,
+     "voz_out": 3.819,
+     "dur": 3.84,
+     "ppm": 80.2
+    },
+    "B": {
+     "archivo": "audio/voz_e11dcf87c46e.mp3",
+     "oido": "Este cerdo esconde un secreto.",
+     "parecido": 1.0,
+     "voz_in": 0.06,
+     "voz_out": 2.008,
+     "dur": 2.322,
+     "ppm": 154.0
+    }
+   },
+   "elegida": "A"
+  },
+  "L2": {
+   "tomas": {
+    "A": {
+     "archivo": "audio/voz_94297bde7ba4.mp3",
+     "oido": "Cuando Minecraft era nuevo, Notch quiso programar un cerdo.",
+     "parecido": 1.0,
+     "voz_in": 0.134,
+     "voz_out": 3.2,
+     "dur": 3.2,
+     "ppm": 176.1
+    },
+    "B": {
+     "archivo": "audio/voz_44721d0db480.mp3",
+     "oido": "Cuando Minecraft era nuevo, Notch quiso programar un cerdo.",
+     "parecido": 1.0,
+     "voz_in": 0.004,
+     "voz_out": 3.277,
+     "dur": 3.669,
+     "ppm": 165.0
+    }
+   },
+   "elegida": "B"
+  },
+  "L3": {
+   "tomas": {
+    "A": {
+     "archivo": "audio/voz_1e964d274b14.mp3",
+     "oido": "pero confundió el alto con el ancho.",
+     "parecido": 1.0,
+     "voz_in": 0.1,
+     "voz_out": 3.418,
+     "dur": 3.44,
+     "ppm": 126.6
+    },
+    "B": {
+     "archivo": "audio/voz_134313918499.mp3",
+     "oido": "pero confundió el alto y con el ancho.",
+     "parecido": 0.933,
+     "voz_in": 0.104,
+     "voz_out": 2.2,
+     "dur": 2.368,
+     "ppm": 200.4
+    }
+   },
+   "elegida": "A"
+  },
+  "L4": {
+   "tomas": {
+    "A": {
+     "archivo": "audio/voz_9d6bbc08ae5a.mp3",
+     "oido": "¡Y el cuerpo quedó parado!",
+     "parecido": 1.0,
+     "voz_in": 0.141,
+     "voz_out": 2.307,
+     "dur": 2.32,
+     "ppm": 138.5
+    },
+    "B": {
+     "archivo": "audio/voz_16dab5753d69.mp3",
+     "oido": "y el cuerpo quedó parado.",
+     "parecido": 1.0,
+     "voz_in": 0.162,
+     "voz_out": 1.504,
+     "dur": 1.672,
+     "ppm": 223.6
+    }
+   },
+   "elegida": "A"
+  },
+  "L5": {
+   "tomas": {
+    "A": {
+     "archivo": "audio/voz_961d885789f7.mp3",
+     "oido": "y como te seguía con la mirada, le pareció super creepy y se lo quedó.",
+     "parecido": 1.0,
+     "voz_in": 0.114,
+     "voz_out": 7.2,
+     "dur": 7.2,
+     "ppm": 127.0
+    },
+    "B": {
+     "archivo": "audio/voz_7d6df1c5fe1d.mp3",
+     "oido": "y como te seguía con la mirada le pareció super creepy y se lo quedó.",
+     "parecido": 1.0,
+     "voz_in": 0.062,
+     "voz_out": 4.443,
+     "dur": 4.69,
+     "ppm": 205.5
+    }
+   },
+   "elegida": "A"
+  },
+  "L6": {
+   "tomas": {
+    "A": {
+     "archivo": "audio/voz_caf0b65f514d.mp3",
+     "oido": "Y el verde, quizás, camuflaje.",
+     "parecido": 1.0,
+     "voz_in": 0.077,
+     "voz_out": 4.32,
+     "dur": 4.32,
+     "ppm": 70.7
+    },
+    "B": {
+     "archivo": "audio/voz_29c4d65414bc.mp3",
+     "oido": "y el verde quizás camuflaje.",
+     "parecido": 1.0,
+     "voz_in": 0.012,
+     "voz_out": 2.327,
+     "dur": 2.368,
+     "ppm": 129.6
+    }
+   },
+   "elegida": "A"
+  },
+  "L7": {
+   "tomas": {
+    "A": {
+     "archivo": "audio/voz_c49a910e64e1.mp3",
+     "oido": "¿Aún amigo se le ocurrió y si explota?",
+     "parecido": 0.824,
+     "voz_in": 0.101,
+     "voz_out": 3.734,
+     "dur": 3.76,
+     "ppm": 148.7
+    },
+    "B": {
+     "archivo": "audio/voz_8218d7e1a30b.mp3",
+     "oido": "A un amigo se le ocurrió y se explota.",
+     "parecido": 0.889,
+     "voz_in": 0.023,
+     "voz_out": 2.41,
+     "dur": 2.74,
+     "ppm": 226.2
+    }
+   },
+   "elegida": "B"
+  },
+  "L8": {
+   "tomas": {
+    "A": {
+     "archivo": "audio/voz_3867d353bcef.mp3",
+     "oido": "Así nació el creeper de un error.",
+     "parecido": 1.0,
+     "voz_in": 0.116,
+     "voz_out": 4.64,
+     "dur": 4.8,
+     "ppm": 92.8
+    },
+    "B": {
+     "archivo": "audio/voz_3332fe59f944.mp3",
+     "oido": "así nació el creeper de un error.",
+     "parecido": 1.0,
+     "voz_in": 0.061,
+     "voz_out": 2.262,
+     "dur": 2.601,
+     "ppm": 190.8
+    }
+   },
+   "elegida": "A"
+  }
+ },
+ "musica": {
+  "archivo": "audio/musica_4ede319f80ba.mp3",
+  "dur": 40.072,
+  "bpm": 92.29,
+  "beats": [
+   0.697,
+   1.347,
+   1.974,
+   2.624,
+   3.274,
+   4.133,
+   4.783,
+   5.41,
+   6.06,
+   6.711,
+   7.546,
+   8.197,
+   8.847,
+   9.497,
+   10.124,
+   10.983,
+   11.633,
+   12.283,
+   12.91,
+   13.56,
+   14.42,
+   15.07,
+   15.697,
+   16.347,
+   16.997,
+   17.833,
+   18.483,
+   19.133,
+   19.783,
+   20.434,
+   21.269,
+   21.92,
+   22.547,
+   23.197,
+   23.94,
+   24.706,
+   25.356,
+   25.983,
+   26.633,
+   27.283,
+   27.934,
+   28.584,
+   29.211,
+   29.838,
+   30.488,
+   31.138,
+   31.811,
+   32.554,
+   33.274,
+   33.924,
+   34.575,
+   35.201,
+   35.852
+  ],
+  "rms_por_segundo": [
+   0.0279,
+   0.0432,
+   0.0421,
+   0.0049,
+   0.0687,
+   0.0195,
+   0.0214,
+   0.0681,
+   0.0688,
+   0.0403,
+   0.0159,
+   0.0688,
+   0.0566,
+   0.0401,
+   0.0685,
+   0.0754,
+   0.0558,
+   0.0373,
+   0.0521,
+   0.037,
+   0.0531,
+   0.0774,
+   0.0788,
+   0.0505,
+   0.059,
+   0.0661,
+   0.0834,
+   0.1443,
+   0.1032,
+   0.0587,
+   0.0596,
+   0.0635,
+   0.0943,
+   0.1244,
+   0.0892,
+   0.0686,
+   0.1335,
+   0.0269,
+   0.0007,
+   0.0
+  ],
+  "golpes_fuertes": [
+   1.347,
+   1.974,
+   4.133,
+   4.783,
+   5.41,
+   6.06,
+   6.711,
+   7.129,
+   8.197,
+   8.847,
+   10.983,
+   11.633,
+   12.91,
+   13.56,
+   13.978,
+   15.697,
+   16.347,
+   17.833,
+   18.483,
+   20.41,
+   22.547,
+   24.706,
+   29.838,
+   31.556,
+   32.206
+  ]
+ }
+}

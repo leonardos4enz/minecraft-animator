@@ -1,0 +1,79 @@
+{
+ "fecha": "2026-10-20",
+ "rondas": 1,
+ "pedidos": 5,
+ "videos": [
+  {
+   "hora": "12:30",
+   "ronda": 1,
+   "pilar": "lo_nuevo",
+   "pilar_nombre": "Lo nuevo",
+   "formato": "noticia",
+   "hecho": "waymo_madrid",
+   "slug": "lo-nuevo-waymo-madrid",
+   "gancho": "Coches sin conductor llegan a Madrid",
+   "categoria": "autos",
+   "mobs": [],
+   "motivo": "potencial 4 · 2026-10-20",
+   "musica": "epico"
+  },
+  {
+   "hora": "14:30",
+   "ronda": 1,
+   "pilar": "latam",
+   "pilar_nombre": "Latam en bloques",
+   "formato": "sketch",
+   "hecho": "como_se_dice",
+   "slug": "latam-como-se-dice",
+   "gancho": "Cómo se dice 'popote / pajita / pitillo / bombilla / sorbete' en cada país: un aldeano por país que discute.",
+   "categoria": "latam",
+   "mobs": [],
+   "motivo": "potencial 5",
+   "musica": "comedia"
+  },
+  {
+   "hora": "17:00",
+   "ronda": 1,
+   "pilar": "rotativo",
+   "pilar_nombre": "Curiosidad a escala / Debate",
+   "formato": "debate",
+   "hecho": "olympus_mons",
+   "slug": "rotativo-olympus-mons",
+   "gancho": "En Marte hay un volcán de tres Everest",
+   "categoria": "espacio",
+   "mobs": [],
+   "motivo": "potencial 4 · cambio a mano: luna_30_tierras repetía el ángulo de rotativo-luz-vueltas-tierra (17 oct)",
+   "musica": "epico"
+  },
+  {
+   "hora": "19:00",
+   "ronda": 1,
+   "pilar": "meme",
+   "pilar_nombre": "Meme del momento",
+   "formato": "meme",
+   "hecho": "cientificos_revelan",
+   "slug": "meme-cientificos-revelan",
+   "gancho": "Scientists Reveal the Hi (\"Los científicos revelan el…\")",
+   "categoria": "meme",
+   "mobs": [],
+   "motivo": "potencial 5 · cambio a mano: n.º 1 de \"Popular right now\" de Know Your Meme (2026-10-20) y encaja con el canal de noticias",
+   "musica": "noticia"
+  },
+  {
+   "hora": "20:30",
+   "ronda": 1,
+   "pilar": "novela",
+   "pilar_nombre": "Bloquenovela",
+   "formato": "novela",
+   "hecho": "cap05",
+   "slug": "novela-pasiones-en-la-granja-cap05",
+   "gancho": "Pasiones en la Granja · Capítulo 5",
+   "categoria": "novela",
+   "mobs": [],
+   "motivo": "capítulo 5 (arco: T1: ¿por qué Ramiro quiere irse a la aldea? (cap. 1–5))",
+   "musica": "misterio"
+  }
+ ],
+ "faltan": 0,
+ "aviso": ""
+}

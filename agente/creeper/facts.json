@@ -1,0 +1,20 @@
+{
+ "fuente_principal": {
+  "titulo": "Meet the Creeper (minecraft.net, Tom Stone, 15 de mayo de 2017), citado en minecraft.wiki",
+  "url": "https://minecraft.wiki/w/Creeper",
+  "url_original": "https://www.minecraft.net/en-us/article/meet-creeper",
+  "quien_habla": "Jens Bergensten (Jeb), citado en la sección Development de minecraft.wiki"
+ },
+ "hechos": [
+  {"id": "F1", "afirmacion": "El creeper iba a ser un cerdo.", "fuente": "it was supposed to be the pig", "url": "https://minecraft.wiki/w/Creeper", "usado_en": ["L2: Notch quiso programar un cerdo"]},
+  {"id": "F2", "afirmacion": "Notch confundió el alto con el ancho (o la rotación) del modelo y el cuerpo quedó de pie.", "fuente": "Notch mixed the height and the width values, or the rotation of it", "url": "https://minecraft.wiki/w/Creeper", "usado_en": ["L3", "L4", "flechas ALTO / ANCHO que se intercambian", "el cuerpo que se pone de pie"]},
+  {"id": "F3", "afirmacion": "Un error en el modelo del cerdo dio un cuerpo vertical, que se usó para el creeper.", "fuente": "A mistake in creating the model for pigs lead to an upright body, which was then used for creepers.", "url": "https://minecraft.wiki/w/Creeper", "usado_en": ["L4", "L8: así nació el creeper, de un error", "título ERA UN CERDO"]},
+  {"id": "F4", "afirmacion": "Como te miraba (lo heredó del cerdo), a Notch le pareció muy creepy y se lo quedó.", "fuente": "So he just thought it was extremely creepy, with this weird thing walking around, looking at you.", "url": "https://minecraft.wiki/w/Creeper", "usado_en": ["L5", "la cabeza que sigue a LTezla"]},
+  {"id": "F5", "afirmacion": "El verde quizás es camuflaje (opinión de Jeb; el equipo todavía lo discute).", "fuente": "I think the green colour is supposed to be camouflage.", "url": "https://minecraft.wiki/w/Creeper", "usado_en": ["L6 (con 'quizás', porque es una opinión)", "se esconde entre hojas"]},
+  {"id": "F6", "afirmacion": "La textura original del creeper tenía hojas.", "fuente": "Original texture file of the creeper; notice the leaves", "url": "https://minecraft.wiki/w/Creeper", "usado_en": ["se esconde en un arbusto de hojas (imagen, sin texto)"]},
+  {"id": "F7", "afirmacion": "Un amigo dijo que sería genial que explotara.", "fuente": "He wrote that a friend said it would be cool if it exploded", "url": "https://minecraft.wiki/w/Creeper", "usado_en": ["L7"]},
+  {"id": "F8", "afirmacion": "El creeper se infla y parpadea en blanco antes de explotar, con un siseo (comportamiento del juego).", "fuente": "explodes after 1.5 seconds (30 ticks)", "url": "https://minecraft.wiki/w/Creeper", "usado_en": ["la mecha de 1.5 s antes de la explosión (solo imagen)"]},
+  {"id": "F9", "afirmacion": "Los creepers se agregaron en la Java Edition Classic 0.24_SURVIVAL_TEST (cuando Minecraft era nuevo).", "fuente": "Added creepers.", "url": "https://minecraft.wiki/w/Creeper", "usado_en": ["L2: cuando Minecraft era nuevo"]}
+ ],
+ "no_se_afirma": ["fechas exactas", "medidas en pixeles del modelo", "que Notch lo pintara de verde", "quién era el amigo"]
+}

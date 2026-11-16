@@ -1,0 +1,20 @@
+{
+ "cancion": {
+  "frase": "In the Hall of the Mountain King — Edvard Grieg, Op. 46, No. 4 (1874). Source: The University Society, 1918. Copyright: Public Domain.",
+  "url": "https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=1888",
+  "midi": "https://www.mutopiaproject.org/ftp/GriegE/O46/Dans_l_antre_du_roi_de_la_montagne/Dans_l_antre_du_roi_de_la_montagne.mid",
+  "id": "Mutopia-2013/12/07-1888",
+  "descargado": "2026-10-19, 15.156 bytes → agente/rey_montana/rey_montana.mid",
+  "uso": "crédito en la descripción: \"En la gruta del rey de la montaña\", Edvard Grieg (dominio público, MIDI de Mutopia Project)"
+ },
+ "midi_datos": {
+  "valor": "1.453 notas, 145,2 s, 2 pistas (mano derecha/izquierda), tempo 138 → 154 negras/min, rango si0–la#6 (MIDI 23–99), 0 notas fuera del piano",
+  "fuente": "agente/orquesta/midi.py leer() sobre rey_montana.mid",
+  "uso": "interno; el total de notas en pantalla sale de rollo.json cuando exista"
+ },
+ "arreglo_virtuoso": {
+  "valor": "rey_montana_virtuoso.mid: las 1.453 notas de Grieg sin tocar + 1.782 nuestras (octavas, arpegios del acorde, trémolo del bajo, escalas de si menor armónica, apoyaturas cromáticas en la coda, arpegio y acorde final) = 3.235 notas, 135,4 s, acelerando 112 → 216 negras/min",
+  "fuente": "agente/rey_montana/arreglo.py (escrito por nosotros sobre el MIDI de Mutopia)",
+  "uso": "crédito: \"arreglo de LTezla\"; el total en pantalla sale de rollo.json"
+ }
+}
